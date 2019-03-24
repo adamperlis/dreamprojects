@@ -19,9 +19,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/mcq4oew.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<?php wp_head(); ?>
 </head>

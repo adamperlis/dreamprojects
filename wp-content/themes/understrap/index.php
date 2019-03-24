@@ -51,9 +51,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<p class="white">We created Dream Projects to help change that. We want to empower Product Designers to grow their portfolios by working on meaningful design challenges on a global platform, earning them recognition along the way.</p>
 									</div>
 								</div>
-								<div class="container-fluid">
-									<button class="btn btn-primary">button</button>
-									<button class="btn btn-secondary">button</button>
+								<div class="container-fluid about--buttons">
+									<a href="#"><button class="btn btn-primary">See the winners <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></button></a>
+									<a href="#"><button class="btn btn-secondary">See the nominees <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
 								</div>
 							</div>
 							<div class="col-lg-5 about--image">
@@ -62,35 +62,74 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 				</div>
 
+			<div class="container-fluid projects--section">
 
+				<div class="row">
+
+				<div class="col-lg-12 projects--list">
 				<?php
 					$args = array(
-					'numberposts'=> 2,           // Fetch all posts...
-					'post_type'=> 'brief',      // from the 'release' CPT...
+					'numberposts'=> 2,
+					'post_type'=> 'brief',
+					'orderby' => 'publish_date',
 					);
 					$my_query = new WP_Query($args);
 					if( $my_query->have_posts() ) :
 					echo '<ul>';
 					while ($my_query->have_posts()) : $my_query->the_post();
 					?>
-					<li>
-						<img class="brief_featured_image" src="<?php the_field('brief_featured_image'); ?>" />
-						<div class="container">
-							<div class="row">
-								<div class="col-xs">
-									<p><?php the_field('month'); ?></p>
-									<p><?php the_field('submission_deadline'); ?></p>
-									<h1><?php the_title(); ?></h1>
-									<br />
-									<?php the_content(); ?>
-								</div>
-							</div>
+
+					<li id="item-1" class="projects--project rellax" data-rellax-speed="7" style="background-image:url(<?php the_field('brief_featured_image'); ?>)">
+						<!-- <img class="brief_featured_image" src="<?php the_field('brief_featured_image'); ?>" /> -->
+						<div class="row">
+						<div class="col-lg-3"></div>
+						<div class="col-lg-6 project text-right">
+									<!-- <p class="display-2 white"><?php the_field('month'); ?></p> -->
+									<h2 class="display-2 white"><?php the_title(); ?></h2>
+									<div class="container-fluid">
+										<div class="row">
+										<div class="col-lg-6"></div>
+										<div class="col-lg-6">
+											<div class="project--description"><?php the_content(); ?></div>
+										</div>
+										</div>
+									</div>
+									<a href="#"><button class="btn btn-primary">Submit your project <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></button></a>
+									<h4 class="display-4 white project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></p>
 						</div>
+						</div>
+
 					</li>
+
 
 					<?php
 					endwhile; echo '</ul>';
 					endif; wp_reset_query(); ?>
+					</div>
+				</div>
+			</div>
+
+					<div class="container-fluid submission--section">
+						<div class="row">
+							<div class="col-lg-1"></div>
+							<div class="col-lg-11">
+								<h3 class="display-3 section-title black">Submission /</h3>
+							</div>
+						</div>
+
+						<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-lg-6">
+									<h2 class="display-2 black">How to produce best-in-class work</h2>
+									<div class="container-fluid submission--buttons">
+										<a href="#"><button class="btn btn-tertiary">Submission Guide <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
+									</div>
+								</div>
+								<div class="col-lg-5 submission--image">
+									<img src="/wp-content/themes/understrap/img/Bitmap.png" />
+								</div>
+						</div>
+					</div>
 
 
 			<!-- The pagination component -->
