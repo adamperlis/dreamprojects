@@ -293,7 +293,7 @@ p{
 }
 
 .about--buttons{
-  padding-top:60px;
+  padding-top:30px;
 
   & .btn{
     margin-top:10px;
@@ -309,7 +309,13 @@ p{
 }
 
 .projects--project{
-  height:810px;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  min-height: 910px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,6 +324,7 @@ p{
 
   & .row{
       height: 100%;
+      width: 100%;
   }
 
   & .project{
@@ -348,7 +355,16 @@ p{
 
 .projects--list{
     position: relative;
-    height: 1620px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.swiper-slide {
+  width: 100%;
+  height: 710px;
 }
 
 .submission--section{

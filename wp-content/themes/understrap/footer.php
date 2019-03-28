@@ -48,5 +48,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </body>
 
-</html>
+<script>
+// external js: flickity.pkgd.js
 
+var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -90,
+        depth: 100,
+        modifier: 10,
+        slideShadows : false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+</script>
+
+</html>
