@@ -16,31 +16,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+		<footer class="footer flex-wrap">
+			<div class="mr-auto p-2">
+				<div class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="/wp-content/themes/understrap/img/dream-projects-logo-black.svg" /></a></div>
+				<p class="display-5">Copyright © 2019 Academy. All Rights Reserved</p>
+			</div>
 
-	<div class="<?php echo esc_attr( $container ); ?>">
-
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
-		</div><!-- row end -->
-
-	</div><!-- container end -->
-
-</div><!-- wrapper end -->
+			<a class="p-2" href="#"><p class="display-6">Privacy Policy</p></a>
+			<a class="p-2" href="#"><p class="display-6">Contact Us</p></a>
+			<div class="p-2">
+				<p class="display-5">Sponsored By:</p>
+				<a href="https://academyux.com"><img class="sponsor-footer" src="/wp-content/themes/understrap/img/academy-logo-black.svg" /></a>
+			</div>
+		</footer>
 
 </div><!-- #page we need this extra closing tag here -->
 
@@ -52,20 +40,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 // external js: flickity.pkgd.js
 
 var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 0,
-        stretch: -90,
-        depth: 100,
-        modifier: 10,
-        slideShadows : false,
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: false,
       },
-      pagination: {
-        el: '.swiper-pagination',
-      },
+			navigation: {
+			 nextEl: '.swiper-button-next',
+			 prevEl: '.swiper-button-prev',
+		  },
+			speed:750,
     });
 </script>
 
