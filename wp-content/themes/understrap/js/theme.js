@@ -7046,65 +7046,92 @@
 	}
 })();
 
-let svg = document.getElementById("title");
-let svgTextTwo = document.getElementById("title-two");
-let svgRect = document.getElementById("svgRect");
+///Scroll Library
+var tlFirstScroll = new TimelineMax()
 
-let turbulence = svg.querySelectorAll("#filter feTurbulence")[0];
-let displacement = svg.querySelectorAll("#filter feDisplacementMap")[0];
 
-var tl = new TimelineMax();
+tlFirstScroll
+.staggerFrom('.reveal', 3, {transformOrigin:'center center', autoAlpha:0,  scale: 1, ease: Power4.easeIn}, 0.5)
+.staggerTo('.reveal', 3, {scale: 1.1, opacity:1, ease: Power2.easeOut}, 0.5)
+.set('.reveal', {autoAlpha:1})
+.to('.reveal', 10, {autoAlpha:.15})
+.to('.mission--section', 10, {backgroundColor:'black', delay: 20})
+.from('.reveal-text', 10, {autoAlpha:0})
+.to('.reveal-text', 10, {autoAlpha:1})
+.to('.mission--section', 10, {backgroundColor:'#fffdfa'})
+.to('.reveal-text', 10, {autoAlpha:0}, "-=1")
+.to('.reveal', 5, {autoAlpha:0})
+.from('video', 10, {scale:.25, autoAlpha:0})
+.to('video', 10, {scale:1, autoAlpha:1, y:80})
 
-function animate() {
-  tl
-    .to(svgTextTwo, 4, {
-      strokeDashoffset: 0,
-      ease: Circ.easeIn
-    })
-    .to(svgRect, 10, {
-      attr: {
-        y: "0%"
+//text-animation
+
+$('video').prop('muted',true)[0].play();
+
+
+var controller = new ScrollMagic.Controller();
+
+var scene = new ScrollMagic.Scene({
+		triggerElement:".trigger1",
+		duration: "100%",
+		triggerHook: .5,
+})
+
+.setTween(tlFirstScroll)
+.addIndicators(true)
+.addTo(controller)
+
+///Swiper Library
+var swiper = new Swiper('.swiper-container', {
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: false,
       },
-      ease: Power2.easeOut
-    })
-    .to(
-      {},
-      tl.duration(),
-      {
-        onUpdate: function() {
-          TweenMax.to(turbulence, 2, {
-            attr: {
-              //crazy cinema effect
-            //   baseFrequency:
-            //     (tl.duration() - tl.time()) * 1 +
-            //     " " +
-            //     (tl.duration() - tl.time()) * 1
-            // },
-            //dreamy effect
-            // baseFrequency:
-            //   (tl.duration() - tl.time()) * 1 +
-            //   " " +
-            //   (tl.duration() - tl.time()) * 1
-            // },
+			navigation: {
+			 nextEl: '.swiper-button-next',
+			 prevEl: '.swiper-button-prev',
+		  },
+			speed:750,
+    });
 
-            //normal effect
-            baseFrequency:
-              (tl.duration() - tl.time()) * .003 +
-              " " +
-              (tl.duration() - tl.time()) * .003
-            },
-            ease: Power3.easeOut
-          });
-          TweenMax.to(displacement, 2, {
-            attr: {
-              scale: (tl.time() - tl.duration()) * 10
-            },
-            ease: Power3.easeOut
-          });
-        }
-      },
-      0
-    );
-}
+//Menu
+	var bars = $('.menu-bar');
+  var menu = $('#menu');
+  var menuButton = $('.menu-button');
+  var timeline = new TimelineMax({paused: true});
+  var open = false;
 
-animate();
+  timeline
+  .to(bars[0], .5, {
+    top: '5px',
+    rotation: 45,
+		ease: Power4.easeIn
+  }, 0)
+  .to(bars[1], .5, {
+    top: '-1px',
+    rotation: -45,
+		ease: Power4.easeIn
+  }, 0)
+  .to(menu, 0.4, {
+		visibility: 'visible',
+    top: '0%',
+		height:'100%',
+    ease: Power4.easeIn
+  }, '-=0.2')
+	.staggerTo(menu.find('a'), 1, {scale: 1.1, opacity:1, ease: Power2.easeOut}, 0.1)
+
+
+  menuButton.on('click', function () {
+    $(this).toggleClass('active');
+    if (open) {
+      timeline.reverse();
+      open = false;
+    } else {
+      timeline.play();
+      open = true;
+    }
+  });
+
+  menu.find('a').on('click', function () {
+    timeline.reverse();
+  });

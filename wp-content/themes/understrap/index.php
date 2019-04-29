@@ -33,31 +33,68 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-				<div class="container-fluid about--section">
+				<div class="container-fluid mission--section">
+
+					<div class="trigger1"></div>
+					<div class="row">
+						<ul class="grid">
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/877784/screenshots/4220958/xore___solar_system.gif"/></li>
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/4859/screenshots/6238939/car-polling_4x.png"/></li>
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/1240533/screenshots/6212438/confetti_mobile_all2_1600x1200_4x.jpg"/></li>
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/84550/screenshots/6248648/svgfilterhover01.2019-03-12_17_25_08.gif"/></li>
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/461555/screenshots/6201964/template_-_dribbble_-_shots_copy_77_4x.jpg"/></li>
+							<li class="reveal"><img src="https://cdn.dribbble.com/users/466659/screenshots/6158445/starstuff_4x.png"/></li>
+						</ul>
+					</div>
+
+
+
+					<div class="container mission">
+						<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-12 col-sm-10">
+
+										<h2 class="display-2 white reveal-text"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
+
+								</div>
+								<div class="col-lg-1"></div>
+						</div>
+					</div>
+
 
 					<div class="row">
-							<div class="col-lg-5 about--image">
-								<img src="/wp-content/themes/understrap/img/Bitmap.png" />
-							</div>
-							<div class="col-lg-6">
-								<h3 class="display-3 section-title black">About /</h3>
-								<h2 class="display-2 black">Build your book. Grow your career.</h2>
-								<div class="container-fluid">
-									<div class="col-lg-8 p-0">
-										<p class="black">As aspiring designers, we are often faced with the problem of lacking enough work on our portfolios to present our design skills and process.</p>
-										<p class="black">We created Dream Projects to help change that. We want to empower Product Designers to grow their portfolios by working on meaningful design challenges on a global platform, earning them recognition along the way.</p>
+						<div class="col-12">
+							<video playsinline autoplay loop muted/>
+								<source type="video/mp4" src="https://cdn.dribbble.com/users/4859/videos/49/cuberto_showreel_dribbble_3.mp4">
+							</video>
+						</div>
+					</div>
+
+					</div>
+
+					<div id="about" class="about--section container">
+						<div class="row">
+								<div class="col-lg-5">
+
+								</div>
+								<div class="col-12 col-lg-6">
+									<h3 class="display-3 section-title black">About /</h3>
+									<h2 class="display-2 black">Build your book. <br>Grow your career.</h2>
+									<div class="container-fluid">
+										<div class="col-12 col-sm-10 p-0">
+											<p class="black">We created Dream Projects to empower Product Designers to grow their portfolios by working on meaningful design challenges and earning them recognition along the way.</p>
+										</div>
+									</div>
+									<div class="container-fluid about--buttons">
+										<a href="#"><button class="btn btn-tertiary">See the winners <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
+										<a href="#"><button class="btn btn-quaternary">See the nominees <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></button></a>
 									</div>
 								</div>
-								<div class="container-fluid about--buttons">
-									<a href="#"><button class="btn btn-tertiary">See the winners <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
-									<a href="#"><button class="btn btn-quaternary">See the nominees <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></button></a>
-								</div>
-							</div>
-							<div class="col-lg-1"></div>
+								<div class="col-lg-1"></div>
+						</div>
 					</div>
-				</div>
 
-			<div class="container-fluid projects--section">
+			<div id="projects" class="container projects--section">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-11">
@@ -76,6 +113,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							'orderby' => 'publish_date',
 							);
 							$my_query = new WP_Query($args);
+							$i = 1;
 							if( $my_query->have_posts() ) :
 							while ($my_query->have_posts()) : $my_query->the_post();
 							?>
@@ -83,10 +121,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<li class="projects--project swiper-slide">
 								<!-- <img class="brief_featured_image" src="<?php the_field('brief_featured_image'); ?>" /> -->
 								<div class="row">
-								<div class="col-lg-1"></div>
-								<div class="col-lg-6 text-left">
+								<div class="col-sm-1 d-none d-sm-block"></div>
+								<div class="col-12 col-sm-6 text-left">
 									<h2 class="display-2 black"><?php the_title(); ?></h2>
-									<div class="container-fluid">
+									<div class="container-fluid project-btn">
 										<div class="row">
 										<div class="col-lg-6"></div>
 										<div class="col-lg-6">
@@ -94,7 +132,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</div>
 										</div>
 									</div>
-									<a href="#"><button class="btn btn-tertiary">See Project Brief <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
+
+									<a <?php echo $i == 2 ? 'onclick="return false;"' : '' ?> href="<?php the_permalink(); ?>"><button <?php echo $i == 2 ? 'disabled' : '' ?> class="<?php echo $i == 2 ? 'btn btn-disabled' : 'btn btn-tertiary' ?>"><?php echo $i == 2 ? 'Coming Soon' : 'See Project Brief' ?><?php echo $i == 2 ? '' : '<img src="/wp-content/themes/understrap/img/Arrow-white.svg" />' ?></button></a>
+
 									<h4 class="display-4 black project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></p>
 								</div>
 								</div>
@@ -103,40 +143,38 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 							<?php
+							$i++;
 							endwhile; echo '</ul>';
 							endif; wp_reset_query(); ?>
 
 			    </ul>
 
-					<div class="grey-box"></div>
+					<div class="d-none d-sm-block grey-box"></div>
 			    <!-- Add Scrollbar -->
 
 					<div class="swiper-scrollbar"></div>
-						<div class="swiper-button-next display-4">Next Month <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></div>
-	 					<div class="swiper-button-prev display-4"><img src="/wp-content/themes/understrap/img/Arrow-black.svg" /> This Month</div>
+					<div class="d-none d-sm-block swiper-button-next display-4">Next Month <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></div>
+ 					<div class="d-none d-sm-block swiper-button-prev display-4"><img src="/wp-content/themes/understrap/img/Arrow-black.svg" /> This Month</div>
 					</div>
 			  </div>
 			</div>
 
-					<div class="container-fluid submission--section">
-						<div class="row">
-							<div class="col-lg-5"></div>
-							<div class="col-lg-6">
-								<h3 class="display-3 section-title black">Submission /</h3>
-							</div>
-						</div>
+					<div class="container submission--section">
 
-						<div class="row">
-								<div class="col-lg-5 submission--image">
+						<div id="submission" class="row">
+
+								<div class="col-12 col-sm-6 p submission--image">
 										<img src="/wp-content/themes/understrap/img/Bitmap.png" />
 								</div>
-								<div class="col-lg-6">
+
+								<div class="col-12 col-sm-6">
+									<h3 class="display-3 section-title black">Submission /</h3>
 									<h2 class="display-2 black">How to produce best-in-class work</h2>
 									<div class="container-fluid submission--buttons">
 										<a href="#"><button class="btn btn-tertiary">Submission Guide <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
 									</div>
-
 								</div>
+
 						</div>
 					</div>
 

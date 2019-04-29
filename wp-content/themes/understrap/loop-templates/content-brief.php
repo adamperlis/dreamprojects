@@ -1,6 +1,6 @@
 <?php
 /**
- * Post rendering content according to caller of get_template_part.
+ * Single post partial template.
  *
  * @package understrap
  */
@@ -13,21 +13,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">
+		<h1>Brief</h1>
 
-		<?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-		<?php if ( 'post' == get_post_type() ) : ?>
+		<div class="entry-meta">
 
-			<div class="entry-meta">
-				<?php understrap_posted_on(); ?>
-			</div><!-- .entry-meta -->
+			<?php understrap_posted_on(); ?>
 
-		<?php endif; ?>
+		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
 
@@ -35,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="entry-content">
 
-		<?php the_excerpt(); ?>
+		<?php the_content(); ?>
 
 		<?php
 		wp_link_pages(

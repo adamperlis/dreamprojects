@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="container-fluid">
 					<div class="row flex-row">
 						<div class="col-6">
-							<h3 class="display-3">Monthly Portfolio <br> Building Challenge</h3>
+							<h3 class="hero-subtitle-mobile display-4">Monthly Portfolio <br> Building Challenge</h3>
 						</div>
 						<div class="col-6">
 							<div class="container-fluid d-flex flex-column align-items-end">
@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="col-sm-1 col-md-1 col-lg-1"></div>
 			<div class="col-12 col-sm-4 col-md-7 col-lg-7">
-					<h1 id="projects" class="display-1">Dream Projects</h1>
+					<h1 class="display-1">Dream Projects</h1>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-4"></div>
 		</div>
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="col-sm-1 col-md-1 col-lg-1 hero-component-two"></div>
 			<div class="col-12 col-sm-2 col-md-8 col-lg-6 hero-component-three">
-					<div class="grid">
+					<div class="text-grid">
 						<p>Dream Projects is a screen design, portfolio-building challenge. Every month you’ll have the chance to dream big and re-design digital experiences, from a futuristic app for the Hyperloop One to the interface for Amazon’s autonomous drone delivery service. Learn how to build your portfolio and gain recognition as you take the next leap in your product design career.</p>
 					</div>
 			</div>
