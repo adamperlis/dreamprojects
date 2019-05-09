@@ -12,6 +12,21 @@ a {
   background-color: transparent;
 }
 
+[data-aos] {
+  body[data-aos-easing="custom-easing"] &,
+  &[data-aos][data-aos-easing="custom-easing"] {
+    transition-timing-function: cubic-bezier(.55,0,.1,1);
+  }
+}
+
+.padding-top{
+  padding-top: 60px;
+}
+
+.padding-bottom{
+  padding-bottom: 60px;
+}
+
 .link p{
 margin-bottom:0 !important;
 padding-bottom: 0 !important;
@@ -62,7 +77,7 @@ padding-bottom: 0 !important;
 }
 
 .btn-primary:hover{
-  transform: scale(1.09);
+transform:scale(.95);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
@@ -84,7 +99,7 @@ padding-bottom: 0 !important;
 }
 
 .btn-secondary:hover{
-  transform: scale(1.09);
+transform:scale(.95);
 }
 
 .btn-tertiary{
@@ -95,7 +110,7 @@ padding-bottom: 0 !important;
 }
 
 .btn-tertiary:hover{
-transform: scale(1.09);
+transform:scale(.95);
 }
 
 .btn-quaternary{
@@ -106,7 +121,7 @@ transform: scale(1.09);
 }
 
 .btn-quaternary:hover{
-transform: scale(1.09);
+transform:scale(.95);
 }
 
 .btn-primary img{
@@ -363,7 +378,7 @@ p{
   height: 710px;
   display: flex;
   flex-direction: column;
-  margin-top: 28px;
+  margin-top: 60px;
 
   .winner{
     background: black;
@@ -403,7 +418,20 @@ p{
         }
       }
     }
+
+  .scroll-text {
+    height: 140px;
+    align-items: flex-end;
+    display: flex;
+
+      .scroll-text-alignment{
+        writing-mode: vertical-rl;
+        color:white;
+      }
+    }
   }
+
+
 
   .nominee{
     color:black;
@@ -569,7 +597,7 @@ div span{
 .mission--section{
   height:auto;
   width: 100%;
-  padding-top: 90px;
+  padding-top: 200px;
   padding-bottom: 90px;
 
   @media (max-width: 1024px) {
@@ -581,7 +609,7 @@ div span{
   height:auto;
   width: 100%;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 200px;
 }
 
 
@@ -923,5 +951,23 @@ button:focus {
 .btn:disabled {
   &:hover{
     cursor: not-allowed;
+  }
+}
+
+//custom-animations
+
+[data-aos="opacity10"] {
+  opacity: 1;
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: .1;
+  }
+}
+
+[data-aos="black"] {
+  background-color:#FFFDFA;
+  transition-property: background-color;
+  &.aos-animate {
+    background-color:black;
   }
 }

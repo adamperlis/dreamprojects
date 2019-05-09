@@ -36,14 +36,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="container-fluid mission--section">
 
 					<div class="trigger1"></div>
-					<div class="row">
+					<div data-aos="opacity10" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="500" class="row">
 						<ul class="grid">
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/877784/screenshots/4220958/xore___solar_system.gif"/></li>
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/4859/screenshots/6238939/car-polling_4x.png"/></li>
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/1240533/screenshots/6212438/confetti_mobile_all2_1600x1200_4x.jpg"/></li>
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/84550/screenshots/6248648/svgfilterhover01.2019-03-12_17_25_08.gif"/></li>
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/461555/screenshots/6201964/template_-_dribbble_-_shots_copy_77_4x.jpg"/></li>
-							<li class="reveal"><img src="https://cdn.dribbble.com/users/466659/screenshots/6158445/starstuff_4x.png"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="600" class="reveal"><img src="https://cdn.dribbble.com/users/877784/screenshots/4220958/xore___solar_system.gif"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300" class="reveal"><img src="https://cdn.dribbble.com/users/4859/screenshots/6238939/car-polling_4x.png"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0" class="reveal"><img src="https://cdn.dribbble.com/users/1240533/screenshots/6212438/confetti_mobile_all2_1600x1200_4x.jpg"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600" class="reveal"><img src="https://cdn.dribbble.com/users/84550/screenshots/6248648/svgfilterhover01.2019-03-12_17_25_08.gif"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300" class="reveal"><img src="https://cdn.dribbble.com/users/461555/screenshots/6201964/template_-_dribbble_-_shots_copy_77_4x.jpg"/></li>
+							<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="0" class="reveal"><img src="https://cdn.dribbble.com/users/466659/screenshots/6158445/starstuff_4x.png"/></li>
 						</ul>
 					</div>
 
@@ -54,7 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="col-lg-1"></div>
 								<div class="col-12 col-sm-10">
 
-										<h2 class="display-2 white reveal-text"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
+										<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="300" class="display-2 reveal-text black"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
 
 								</div>
 								<div class="col-lg-1"></div>
@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 
-					<div class="row">
+					<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="100">
 						<div class="col-12">
 							<video playsinline autoplay loop muted/>
 								<source type="video/mp4" src="https://cdn.dribbble.com/users/4859/videos/49/cuberto_showreel_dribbble_3.mp4">
@@ -72,7 +72,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					</div>
 
-					<div id="about" class="about--section container">
+					<div id="about" class="about--section container" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="600">
 						<div class="row">
 								<div class="col-lg-5">
 
@@ -94,7 +94,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div>
 
-			<div id="projects" class="container projects--section">
+			<div id="projects" class="container projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="600">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-11">
@@ -103,7 +103,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 
 				<!-- Swiper -->
-				<div class="row">
+				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="600">
 			  <div class="swiper-container">
 			    <ul class="swiper-wrapper">
 						<?php
@@ -159,7 +159,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			  </div>
 			</div>
 
-					<div class="container submission--section">
+					<div class="container submission--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="600">
 
 						<div id="submission" class="row">
 
