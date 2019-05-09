@@ -50,7 +50,8 @@
     "lodash": ">=4.17.11",
     "run-sequence": "^2.2.1",
     "swiper": "^4.5.0",
-    "undescores-for-npm": "^1.0.0"
+    "undescores-for-npm": "^1.0.0",
+    "tar": ">=4.4.2"
   },
   "devDependencies": {
     "gulp-uglify-es": "^1.0.4",
