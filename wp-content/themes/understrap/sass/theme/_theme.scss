@@ -350,32 +350,31 @@ p{
   .hero-component-description{
     display: flex;
   }
-
-  .text-grid {
-      column-count: 2;
-      column-gap: 40px;
-      height:180px;
-      max-width: 710px;
-
-      @media (max-width: 1024px) {
-        column-count: 2;
-        column-gap: 20px;
-        height:200px;
-      }
-
-      @media (max-width: 768px) {
-        column-count: 1;
-      }
-
-      p {
-        padding-top:0 !important;
-      }
-  }
 }
 
+.text-grid {
+    column-count: 2;
+    column-gap: 40px;
+    max-width: 710px;
+
+    @media (max-width: 1024px) {
+      column-count: 2;
+      column-gap: 20px;
+      height:200px;
+    }
+
+    @media (max-width: 768px) {
+      column-count: 1;
+    }
+
+    p {
+      padding-top:0 !important;
+    }
+}
 
 .hero--winners-nominees{
-  height: 710px;
+  min-height: 710px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 60px;
@@ -386,6 +385,8 @@ p{
     height: 100%;
     display: flex;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     h1 {
       color:white;
@@ -434,10 +435,13 @@ p{
 
 
   .nominee{
+    background:#c8c5bc;
     color:black;
     height: 100%;
     display: flex;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     h1 {
       color:black;
@@ -507,11 +511,17 @@ p{
 }
 
 .scroll-text {
-height: 15%;
+text-align: left;
 align-items: flex-end;
 
 div span{
+  top: 36px;
+  position: relative;
   writing-mode: vertical-rl;
+}
+
+@media (max-width: 768px) {
+  text-align: right;
 }
 
 }
@@ -929,7 +939,7 @@ video{
 
   a {
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     display: block;
     opacity: 0;
     color: white;
@@ -951,6 +961,49 @@ button:focus {
 .btn:disabled {
   &:hover{
     cursor: not-allowed;
+  }
+}
+
+.hero-image{
+  top:-100px;
+  position: relative;
+  width: 100%;
+}
+
+.process-image--section{
+  padding-top:100px;
+  padding-bottom:100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.design-system-image--section{
+  padding-top:100px;
+  padding-bottom:100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.design-grid-image--section{
+  padding-top:100px;
+  padding-bottom:100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.back--section{
+  display: flex;
+  align-items: center;
+  padding-bottom:100px;
+
+  img {
+    transform: rotate(180deg);
   }
 }
 

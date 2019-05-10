@@ -1,9 +1,6 @@
 //start AOS CSS Animation Lib
 AOS.init();
 
-
-$('video').prop('muted',true)[0].play();
-
 ///Swiper Library
 var swiper = new Swiper('.swiper-container', {
       scrollbar: {
@@ -41,7 +38,7 @@ var swiper = new Swiper('.swiper-container', {
 		height:'100%',
     ease: Power4.easeIn
   }, '-=0.2')
-	.staggerTo(menu.find('a'), 1, {scale: 1.1, opacity:1, ease: Power2.easeOut}, 0.1)
+	.staggerTo(menu.find('a'), 1, {y: 10, opacity:1, ease: Power2.easeOut}, 0.1)
 
 
   menuButton.on('click', function () {
@@ -58,3 +55,5 @@ var swiper = new Swiper('.swiper-container', {
   menu.find('a').on('click', function () {
     timeline.reverse();
   });
+
+	$('video').prop('muted',true)[0].play();

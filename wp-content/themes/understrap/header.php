@@ -82,10 +82,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- The Menu goes here -->
 
-					<a class="link p-2 d-none d-sm-block" href="#about"><p class="display-6">About</p></a>
-					<a class="link p-2 d-none d-sm-block" href="#projects"><p class="display-6">Projects</p></a>
-					<a class="link p-2 d-none d-sm-block" href="#"><p class="display-6">Winners & Nominees</p></a>
-					<a class="link p-2 d-none d-sm-block" href="#"><p class="display-6">Submission Guide</p></a>
+					<a class="link p-2 d-none d-sm-block" href="/#about"><p class="display-6">About</p></a>
+					<a class="link p-2 d-none d-sm-block" href="/#projects"><p class="display-6">Projects</p></a>
+					<a class="link p-2 d-none d-sm-block" href="/winners"><p class="display-6">Winners & Nominees</p></a>
+					<a class="link p-2 d-none d-sm-block" href="/submission-guide"><p class="display-6">Submission Guide</p></a>
 
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
@@ -99,10 +99,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<nav id="menu">
 		<ul class="menu-nav">
-			<li><a class="link" href="#about"><p>About</p></a></li>
-			<li><a class="link" href="#projects"><p>Projects</p></a></li>
-			<li><a class="link" href="#"><p>Submission Guide</p></a></li>
-			<li><a class="link" href="#"><p>Rules</p></a></li>
+			<li><a class="link" href="/#about"><p class="display-6 white">About</p></a></li>
+			<li><a class="link" href="/#projects"><p class="display-6 white">Projects</p></a></li>
+			<li><a class="link" href="/winners"><p class="display-6 white">Winners & Nominees</p></a></li>
+			<li><a class="link" href="/submission-guide"><p class="display-6 white">Submission Guide</p></a></li>
+			<li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li>
 		</ul>
 	</nav>
 
