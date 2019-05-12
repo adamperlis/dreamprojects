@@ -16,40 +16,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<article class="container-fluid hero--winners-nominees" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<div class="container-fluid hero--winners-nominees" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<div class="row <?php echo get_field('award_designation') == 'winner' ? 'winner' : 'nominee' ?>">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
-			<div class="container-fluid">
+
 
 				<div class="row">
-					<div class="col-1 col-sm-7 col-md-7 col-lg-7"></div>
-					<div class="col-11 col-sm-4 col-md-4 col-lg-4">
+					<div class="col-12 col-sm-1 col-md-5 col-lg-7"></div>
+					<div class="col-11 col-sm-11 col-md-4 col-lg-4">
 						<h4 class="display-4"><?php echo get_the_date( 'F, Y' );?></h4>
 					</div>
-					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+					<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
 
 				<div class="row">
-					<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
-					<div class="col-11 col-sm-4 col-md-7 col-lg-7 padding-bottom padding-top">
+
+					<div class="col-11 col-sm-11 col-md-5 col-lg-7 padding-bottom padding-top">
 						<h1 class="display-1"><?php echo get_field('award_designation') == 'winner' ? 'Winner' : 'Nominee' ?></h1>
 					</div>
-					<div class="col-1 col-sm-4 col-md-4 col-lg-3"></div>
+
 				</div>
 
 				<div class="row">
-					<div class="col-1 col-sm-7 col-md-7 col-lg-7"></div>
-					<div class="col-11 col-sm-4 col-md-4 col-lg-4 padding-bottom">
+					<div class="col-12 col-sm-1 col-md-5 col-lg-7"></div>
+					<div class="col-11 col-sm-11 col-md-4 col-lg-4 padding-bottom">
 						<h7 class="display-7"><?php the_title(); ?></h7>
 					</div>
-					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+					<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
 
 				<div class="row">
-					<div class="col-1 col-sm-7 col-md-7 col-lg-7"></div>
-					<div class="col-5 col-sm-2 col-md-2 col-lg-2">
+					<div class="col-12 col-sm-1 col-md-5 col-lg-7"></div>
+					<div class="col-6 col-sm-5 col-md-3 col-lg-2">
 						<div class="container-fluid">
 							<h4 class="display-4">Designer</h4>
 							<p class="display-5"><?php the_field('designer_name'); ?></p>
@@ -73,7 +73,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						</div>
 					</div>
 
-					<div class="col-5 col-sm-2 col-md-2 col-lg-2">
+					<div class="col-5 col-sm-5 col-md-3 col-lg-2">
 						<div class="container-fluid">
 							<h4 class="display-4">Skills</h4>
 
@@ -93,17 +93,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 						</div>
 					</div>
-
-					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row scroll-text">
-						<div class="col-12 col-sm-1 col-md-1 col-lg-1"><span class="display-5 scroll-text-alignment">Scroll</span></div>
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1">
+					<div class="scroll-text">
+						<span class="display-5 scroll-text-alignment">Scroll</span>
 					</div>
+					</div>
+
+					<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
 
-			</div>
 		</div>
 		</div>
 
@@ -111,7 +109,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</div> <!-- end of Hero Content-->
 
-</article><!-- #post-## -->
+</div><!-- #post-## -->
 
 
 <div class="container-fluid">
@@ -128,29 +126,29 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 <div class="container-fluid">
-	<div class="row p-i-s--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="600">
+	<div class="row p-i-s--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
-		<div class="col-4 col-sm-4 col-md-4 col-lg-4">
-			<h2 class="display-2">Challenge</h2>
-		</div>
-		<div class="col-12 col-sm-5 col-md-5 col-lg-4">
-			<div class="container-fluid">
-					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-						<h4 class="display-4">Problem</h4>
-						<p><?php the_field('problem'); ?></p>
-						<h4 class="display-4">Insight</h4>
-						<p><?php the_field('insight'); ?></p>
-						<h4 class="display-4">Solution</h4>
-						<p><?php the_field('solution'); ?></p>
-					</div>
+		<div class="col-10">
+			<div class="row">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+				<h2 class="display-2">Challenge</h2>
+			</div>
+				<div class="col-12 col-sm-12 col-md-5 col-lg-4">
+					<h4 class="display-4">Problem</h4>
+					<p><?php the_field('problem'); ?></p>
+					<h4 class="display-4">Insight</h4>
+					<p><?php the_field('insight'); ?></p>
+					<h4 class="display-4">Solution</h4>
+					<p><?php the_field('solution'); ?></p>
 				</div>
+			</div>
 			</div>
 		<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 	</div>
 	</div>
 
 	<div class="container-fluid">
-	<div class="row process-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="300">
+	<div class="row process-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 
 		<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-8">
@@ -162,26 +160,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<div class="container-fluid">
-		<div class="row process--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="100">
+		<div class="row process--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 			<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-				<h3 class="display-3">Process</h3>
-			</div>
-			<div class="col-12 col-sm-7 col-md-7 col-lg-5">
-				<div class="container-fluid">
-						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<div class="text-grid">
-								<p><?php the_field('process'); ?></p>
-							</div>
-						</div>
+			<div class="col-10 col-lg-8">
+				<div class="row">
+				<div class="col-12 col-sm-3 col-md-3 col-lg-3">
+					<h3 class="display-3">Process</h3>
+				</div>
+				<div class="col-12 col-sm-9 col-md-9 col-lg-9">
+					<div class="text-grid">
+						<p><?php the_field('process'); ?></p>
+					</div>
 					</div>
 				</div>
+			</div>
 			<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 		</div>
 		</div>
 
 		<div class="container-fluid">
-		<div class="row design-system-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="300">
+		<div class="row design-system-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 
 			<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 			<div class="col-10 col-sm-10 col-md-10 col-lg-8">
@@ -193,26 +191,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<div class="container-fluid">
-			<div class="row design-system--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="100">
+			<div class="row design-system--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
-				<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-					<h3 class="display-3">Design System</h3>
-				</div>
-				<div class="col-12 col-sm-7 col-md-7 col-lg-5">
-					<div class="container-fluid">
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="text-grid">
-									<p><?php the_field('design_system'); ?></p>
-								</div>
-							</div>
+				<div class="col-10 col-lg-8">
+					<div class="row">
+					<div class="col-12 col-sm-3 col-md-3 col-lg-3">
+						<h3 class="display-3">Design System</h3>
+					</div>
+					<div class="col-12 col-sm-9 col-md-9 col-lg-9">
+						<div class="text-grid">
+							<p><?php the_field('design_system'); ?></p>
+						</div>
 						</div>
 					</div>
+				</div>
 				<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 			</div>
 			</div>
 
 			<div class="container-fluid">
-			<div class="row design-grid-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="300">
+			<div class="row design-grid-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 
 				<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 				<div class="col-10 col-sm-10 col-md-10 col-lg-8">
@@ -225,11 +223,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<div class="container-fluid">
 				<div class="row back--section">
-					<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 					<div class="col-3 col-sm-1 col-md-1 col-lg-1"><img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></div>
 					<div class="col-5 col-sm-4 col-md-4 col-lg-4">
 						<a class="link" href="/<?php echo get_field('award_designation') == 'winner' ? 'winners' : 'nominees' ?>"><span class="display-2 black">Back to <?php echo get_field('award_designation') == 'winner' ? 'Winners' : 'Nominees' ?></span></a>
 					</div>
-					<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
 			</div>
