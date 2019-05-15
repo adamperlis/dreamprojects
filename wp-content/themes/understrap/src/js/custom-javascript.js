@@ -56,4 +56,7 @@ var swiper = new Swiper('.swiper-container', {
     timeline.reverse();
   });
 
-	$('video').prop('muted',true)[0].play();
+
+
+//Video Play
+$('video').prop('muted',true)[0].play();

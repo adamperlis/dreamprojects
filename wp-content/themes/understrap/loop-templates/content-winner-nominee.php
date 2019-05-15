@@ -221,12 +221,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			</div>
 
-			<div class="container-fluid">
+			<div class="container-fluid pt-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="row back--section">
 					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-					<div class="col-3 col-sm-1 col-md-1 col-lg-1"><img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></div>
 					<div class="col-5 col-sm-4 col-md-4 col-lg-4">
-						<a class="link" href="/<?php echo get_field('award_designation') == 'winner' ? 'winners' : 'nominees' ?>"><span class="display-2 black">Back to <?php echo get_field('award_designation') == 'winner' ? 'Winners' : 'Nominees' ?></span></a>
+						<a href="/<?php echo get_field('award_designation') == 'winner' ? 'winners' : 'nominees' ?>" class="display-6 black"><img src="/wp-content/themes/understrap/img/Arrow-black.svg"/> Back to <?php echo get_field('award_designation') == 'winner' ? 'Winners' : 'Nominees' ?></a>
 					</div>
 					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
