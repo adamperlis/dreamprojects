@@ -10,6 +10,7 @@ $term = get_queried_object();
 
 // vars
 $skill = get_field('skill', $term);
+$project_id = get_field('project_id');
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -42,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row">
 					<div class="col-12 col-sm-1 col-md-5 col-lg-7"></div>
 					<div class="col-11 col-sm-11 col-md-4 col-lg-4 padding-bottom">
-						<h7 class="display-7"><?php the_title(); ?></h7>
+						<h7 class="display-7"><?php echo get_field( 'project_name', $project_id) ?></h7>
 					</div>
 					<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>

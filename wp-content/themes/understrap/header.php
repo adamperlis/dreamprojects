@@ -34,10 +34,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-
-
-
 	<?php wp_head(); ?>
 </head>
 

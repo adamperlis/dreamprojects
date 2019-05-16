@@ -55,6 +55,17 @@ padding-bottom: 0 !important;
   }
 }
 
+.btn-sm{
+  border-radius: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  &:hover{
+    background: black;
+    color:white;
+  }
+}
+
 .btn:hover, .wpcf7 input:hover[type=submit] {
     color: darkgray;
     text-decoration: none;
@@ -225,10 +236,18 @@ dl, ol, ul {
   line-height: .8;
   margin-left: -10px;
 
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     font-size: calc(50px + 4vw);
     letter-spacing: -4px;
     margin-left: -5px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: calc(90px + 4vw);
+    font-weight: 700;
+    letter-spacing: -12px;
+    line-height: .8;
+    margin-left: -10px;
   }
 }
 
@@ -367,6 +386,13 @@ p{
     p {
       padding-top:0 !important;
     }
+}
+
+.hero--project-submission{
+  height: calc(var(--vh, 1vh) * 60);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero--brief{
@@ -987,6 +1013,28 @@ button:focus {
 
 :focus {
     outline: none !important;
+}
+
+::-webkit-file-upload-button {
+    font-family: inherit;
+    font-size: 16px;
+    padding:.5rem 40px .5rem 40px ;
+    background-color: transparent;
+    border-radius: 100px;
+    border-color: black;
+    color:black;
+    transition: 1s all cubic-bezier(.55,0,.1,1);
+
+  &:hover{
+    transform:scale(.95);
+    background-color: black;
+    color:white;
+    cursor: pointer;
+  }
+
+  &:focus {
+      outline: none !important;
+  }
 }
 
 .btn:disabled {
