@@ -90,7 +90,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'post_type'		=> 'winner_nominee',
 						'post_status'	=> 'publish'
 					),
-					'post_title'		=> false,
+					'post_title'		=> true,
 					'post_content'  	=> false,
 					'uploader'      	=> 'basic',
 					'return' 					=> '%post_url%',

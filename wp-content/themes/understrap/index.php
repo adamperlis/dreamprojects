@@ -164,25 +164,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 			</div>
 
-					<div class="container submission--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="4s00">
-
-						<div id="submission" class="row">
-
-								<div class="col-12 col-sm-6 p submission--image">
-										<img src="/wp-content/themes/understrap/img/Bitmap.png" />
-								</div>
-
-								<div class="col-12 col-sm-6">
-									<h4 class="display-4 section-title black">Submission /</h4>
-									<h2 class="display-2 black">How to produce best-in-class work</h2>
-									<div class="container-fluid submission--buttons">
-										<a href="#"><button class="btn btn-tertiary">Submission Guide <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
-									</div>
-								</div>
-
-						</div>
-					</div>
-
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 
