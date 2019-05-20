@@ -16,6 +16,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -58,12 +65,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<?php if ( is_front_page() && is_home() ) : ?>
 
 							<h1 class="navbar-brand mb-0 mr-auto"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="/wp-content/themes/understrap/img/dream-projects-logo-black.svg" /></a></h1>
-
-						<?php else : ?>
-
-							<h1 class="navbar-brand mb-0 mr-auto"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="/wp-content/themes/understrap/img/dream-projects-logo-black.svg" /></a></h1>
-
 						<?php endif; ?>
+
+					<?php } else {
+						echo '<div class="navbar-brand mb-0 mr-auto">';
+						the_custom_logo();
+						echo '</div>';
+					} ?><!-- end custom logo -->
 
 						<div class="d-sm-none d-md-none d-lg-none hamburger">
 							<button class="menu-button">
@@ -71,10 +79,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 							  <div class="menu-bar"></div>
 							</button>
 						</div>
-
-					<?php } else {
-						the_custom_logo();
-					} ?><!-- end custom logo -->
 
 				<!-- The Menu goes here -->
 
