@@ -20,13 +20,15 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
-
 <div class="wrapper" id="index-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+
+		<?php if ( is_front_page() && is_home() ) : ?>
+			<?php get_template_part( 'global-templates/hero' ); ?>
+		<?php endif; ?>
+
+
 
 		<div class="row">
 
@@ -102,7 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 				<!-- Swiper -->
-				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="4s00">
+				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 			  <div class="swiper-container">
 			    <ul class="swiper-wrapper">
 						<?php

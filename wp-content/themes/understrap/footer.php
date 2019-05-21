@@ -36,6 +36,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php wp_footer(); ?>
 
+<script>
+//start AOS CSS Animation Lib
+AOS.init();
+</script>
+
 </body>
 
 </html>

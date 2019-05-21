@@ -53,7 +53,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<div class="col-6 col-sm-5 col-md-3 col-lg-2">
 						<div class="container-fluid">
 							<h4 class="display-4">Designer</h4>
-							<p class="display-5"><?php the_field('designer_name'); ?></p>
+							<p class="display-5"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></p>
 							<ul class="social">
 								<?php if( get_field('linkedin') ): ?>
 									<li><a href="<?php echo the_field('linkedin'); ?>"><i class="fa fa-linkedin"></i></a></li>

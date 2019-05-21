@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<!-- ******************* The Hero Canvas Widget Area ******************* -->
 
 <!-- ******************* Show on Mobile only ******************* -->
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-2">
 <div class="row mt-5">
 	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 	<div class="col-10 d-block d-sm-none">

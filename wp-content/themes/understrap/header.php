@@ -19,7 +19,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
@@ -82,7 +81,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- The Menu goes here -->
 
-					<a class="link p-2 d-none d-sm-block" href="/#about"><p class="display-6">About</p></a>
+					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
 					<a class="link p-2 d-none d-sm-block" href="/#projects"><p class="display-6">Projects</p></a>
 					<a class="link p-2 d-none d-sm-block" href="/winners"><p class="display-6">Winners & Nominees</p></a>
 
@@ -98,7 +97,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<nav id="menu">
 		<ul class="menu-nav">
-			<li><a class="link" href="/#about"><p class="display-6 white">About</p></a></li>
+			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
 			<li><a class="link" href="/#projects"><p class="display-6 white">Projects</p></a></li>
 			<li><a class="link" href="/winners"><p class="display-6 white">Winners & Nominees</p></a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->

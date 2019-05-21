@@ -64,7 +64,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php
 				$fields = array(
 					'field_5cdd9e525c9ec',	// project_id
-					'field_5cc6a8e69e101',	// designer_name
+					'field_5cc6a8e69e101',	// first_name
+					'field_5ce330fd34034',	// last_name
+					'field_5ce3310bd92d0',	// email
 					'field_5cc6a8e69e10b',	// skills
 					'field_5cc6aae5dd701',	// instagram
 					'field_5cc6abb893afb',	// linkedin

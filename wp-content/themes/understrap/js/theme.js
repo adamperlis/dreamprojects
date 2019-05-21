@@ -7046,9 +7046,6 @@
 	}
 })();
 
-//start AOS CSS Animation Lib
-AOS.init();
-
 ///Swiper Library
 var swiper = new Swiper('.swiper-container', {
       scrollbar: {
