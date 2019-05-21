@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row">
 
 					<div class="col-11 col-sm-11 col-md-5 col-lg-7 padding-bottom padding-top">
-						<h1 class="display-1"><?php echo get_field('award_designation') == 'winner' ? 'Winner' : 'Nominee' ?></h1>
+						<h1 class="display-0"><?php echo get_field('award_designation') == 'winner' ? 'Winner' : 'Nominee' ?></h1>
 					</div>
 
 				</div>
@@ -43,7 +43,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row">
 					<div class="col-12 col-sm-1 col-md-5 col-lg-7"></div>
 					<div class="col-11 col-sm-11 col-md-4 col-lg-4 padding-bottom">
-						<h7 class="display-7"><?php echo get_field( 'project_name', $project_id) ?></h7>
+
+						<h7 class="display-7"><?php echo $project_id->post_title ?></h7>
 					</div>
 					<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>
@@ -226,7 +227,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row back--section">
 					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 					<div class="col-5 col-sm-4 col-md-4 col-lg-4">
-						<a href="/<?php echo get_field('award_designation') == 'winner' ? 'winners' : 'nominees' ?>" class="display-6 black"><img src="/wp-content/themes/understrap/img/Arrow-black.svg"/> Back to <?php echo get_field('award_designation') == 'winner' ? 'Winners' : 'Nominees' ?></a>
+						<a href="/<?php echo get_field('award_designation') == 'winner' ? 'winners' : 'nominees' ?>" class="display-6 black"><img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg"/> Back to <?php echo get_field('award_designation') == 'winner' ? 'Winners' : 'Nominees' ?></a>
 					</div>
 					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				</div>

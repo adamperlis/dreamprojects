@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<div class="container-fluid hero--project-submission">
+					<div class="container-fluid hero--contact-us">
 
 						<div class="row">
 							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -45,7 +45,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<div class="col-12 col-sm-12 col-md-12 col-lg-6 padding-bottom padding-top">
 											<h2 class="display-1">Contact Us</h2>
 										</div>
-
+										<div class="col-12 col-sm-12 col-md-12 col-lg-6 padding-bottom padding-top">
+											<?php the_content(); ?>
+										</div>
 									</div>
 
 							</div>
@@ -56,16 +58,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 				<?php endwhile; // end of the loop. ?>
-
-				<div class="row">
-					<div class="row">
-						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-						<div class="col-10 col-sm-10 col-md-10 col-lg-6">
-							<?php the_content(); ?>
-						</div>
-					</div>
-				</div>
-
 
 			<!-- Do the right sidebar check -->
 			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>

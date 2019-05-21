@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="col-6">
 					<div class="container-fluid d-flex flex-column align-items-end">
 						<span class="display-5">Sponsored by:</span>
-						<a href="https://academyux.com"><img class="sponsor" src="/wp-content/themes/understrap/img/academy-logo-black.svg" /></a>
+						<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
 					</div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 		<div class="row hero">
 				<div class="col-12 col-sm-4 col-md-7 col-lg-7">
-						<h1 class="display-1">Dream Projects</h1>
+						<h1 class="display-0">Dream Projects</h1>
 				</div>
 		</div>
 
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<div class="col-6 col-md-12 col-lg-12 pb-4 pb-sm-0">
 							<div class="container-fluid d-flex align-items-center sponsor--section">
 								<span class="display-5">Sponsored by:</span>
-								<a href="https://academyux.com"><img class="sponsor" src="/wp-content/themes/understrap/img/academy-logo-black.svg" /></a>
+								<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
 							</div>
 						</div>
 						<div class="col-6 col-md-12 col-lg-12 pb-4">

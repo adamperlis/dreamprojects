@@ -56,7 +56,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 								<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 
-										<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="4s00" class="display-2 reveal-text black"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
+										<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400" class="display-2 reveal-text black"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
 
 								</div>
 										<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -87,8 +87,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</div>
 									</div>
 									<div class="container-fluid about--buttons">
-										<a href="#"><button class="btn btn-tertiary">See the winners <img src="/wp-content/themes/understrap/img/Arrow-white.svg" /></button></a>
-										<a href="#"><button class="btn btn-quaternary">See the nominees <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></button></a>
+										<a href="#"><button class="btn btn-tertiary">See the winners <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg" /></button></a>
+										<a href="#"><button class="btn btn-quaternary">See the nominees <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /></button></a>
 									</div>
 								</div>
 								<div class="col-lg-1"></div>
@@ -134,7 +134,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</div>
 									</div>
 
-									<a <?php echo $i == 2 ? 'onclick="return false;"' : '' ?> href="<?php the_permalink(); ?>"><button <?php echo $i == 2 ? 'disabled' : '' ?> class="<?php echo $i == 2 ? 'btn btn-disabled' : 'btn btn-tertiary' ?>"><?php echo $i == 2 ? 'Coming Soon' : 'See Project Brief' ?><?php echo $i == 2 ? '' : '<img src="/wp-content/themes/understrap/img/Arrow-white.svg" />' ?></button></a>
+									<a <?php echo $i == 2 ? 'onclick="return false;"' : '' ?> href="<?php the_permalink(); ?>"><button <?php echo $i == 2 ? 'disabled' : '' ?> class="<?php echo $i == 2 ? 'btn btn-disabled' : 'btn btn-tertiary' ?>"><?php echo $i == 2 ? 'Coming Soon' : 'See Project Brief' ?></button></a>
 
 									<h5 class="display-5 black project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></h5>
 								</div>
@@ -155,8 +155,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<!-- Add Scrollbar -->
 				<div class="row">
 					<div class="col-12">
-					<div class="d-none d-sm-block swiper-button-next display-4">Next Month <img src="/wp-content/themes/understrap/img/Arrow-black.svg" /></div>
-					<div class="d-none d-sm-block swiper-button-prev display-4"><img src="/wp-content/themes/understrap/img/Arrow-black.svg" /> This Month</div>
+					<div class="d-none d-sm-block swiper-button-next display-4">Next Month <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /></div>
+					<div class="d-none d-sm-block swiper-button-prev display-4"><img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /> This Month</div>
 					</div>
 				</div>
 

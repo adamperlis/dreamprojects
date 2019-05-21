@@ -66,7 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="container-fluid project-brief--section">
 					<h4 class="display-4">Project Brief</h4>
 						<p class="pb-4"><?php the_field('project_brief'); ?></p>
-						<a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="/wp-content/themes/understrap/img/Arrow-white.svg"/></button></a>
+						<a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 				</div>
 			</div>
 			<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
@@ -97,12 +97,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-6">
-									<img class="pb-2" src="/wp-content/themes/understrap/img/image-icon.svg"/>
+									<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/image-icon.svg"/>
 									<p class="display-5 m-0"><strong>High resolution images</strong></p>
 									<p class="display-5">PNG, JPG, GIF</p>
 							</div>
 							<div class="col-6">
-								<img class="pb-2" src="/wp-content/themes/understrap/img/crop-icon.svg"/>
+								<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/crop-icon.svg"/>
 								<p class="display-5 m-0"><strong>Dimensions</strong></p>
 								<p class="display-5">2400px × 1800px</p>
 							</div>
@@ -117,7 +117,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<p class="pb-4">Whether you’re an experienced designer or simply trying to break into the field, your portfolio matters. Your goal is to create a lasting impression on a potential employer with a simple glimpse into your work and brand. Each project has a different story and your portfolio is the place to demonstrate your credibility and understanding of the design process. Express your style, their are <strong>no brand guidelines here.</strong>
 					<br></br>
 					The following <strong>Sketch Template</strong> will serve as a blueprint for how to submit your project. Read through the file carefully as it will give you tips to submitting a successful project.</p>
-					<a href="#"><button class="btn btn-quaternary sketch mb-2 mb-lg-0"><img src="/wp-content/themes/understrap/img/Sketch_logo_frame.svg"/> Sketch Template</button></a>
+					<a href="#"><button class="btn btn-quaternary sketch mb-2 mb-lg-0"><img src="<?php echo get_template_directory_uri() ?>/img/Sketch_logo_frame.svg"/> Sketch Template</button></a>
 				</div>
 			</div>
 			<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
@@ -148,7 +148,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
-									<img class="pb-2" src="/wp-content/themes/understrap/img/image-icon.svg"/>
+									<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/image-icon.svg"/>
 							</div>
 					</div>
 				</div>
@@ -160,25 +160,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="container-fluid">
 				<div class="row">
 				<div class="col-3">
-						<img class="pb-2" src="/wp-content/themes/understrap/img/flowkit.svg"/>
+						<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/flowkit.svg"/>
 						<p class="display-5 m-0"><strong>Flowkit | User Flow Plugin</strong></p>
 						<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
 						<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-3">
-					<img class="pb-2" src="/wp-content/themes/understrap/img/ui8.svg"/>
+					<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/ui8.svg"/>
 					<p class="display-5 m-0"><strong>UI8 | Icons, UI Kits, Fonts, etc</strong></p>
 					<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
 					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-3">
-					<img class="pb-2" src="/wp-content/themes/understrap/img/ui8.svg"/>
+					<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/ui8.svg"/>
 					<p class="display-5 m-0"><strong>UI8 | Icons, UI Kits, Fonts, etc</strong></p>
 					<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
 					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-3">
-					<img class="pb-2" src="/wp-content/themes/understrap/img/ui8.svg"/>
+					<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/ui8.svg"/>
 					<p class="display-5 m-0"><strong>UI8 | Icons, UI Kits, Fonts, etc</strong></p>
 					<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
 					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
@@ -197,7 +197,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="row back--section">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 		<div class="col-5 col-sm-4 col-md-4 col-lg-4">
-			<a href="/#projects" class="display-6 black"><img src="/wp-content/themes/understrap/img/Arrow-black.svg"/> Back to Projects</a>
+			<a href="/#projects" class="display-6 black"><img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg"/> Back to Projects</a>
 		</div>
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 	</div>
