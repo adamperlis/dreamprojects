@@ -84,8 +84,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<!-- The Menu goes here -->
 
 					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
-					<a class="link p-2 d-none d-sm-block" href="/#projects"><p class="display-6">Projects</p></a>
-					<a class="link p-2 d-none d-sm-block" href="/winners"><p class="display-6">Winners & Nominees</p></a>
+					<a class="link p-2 d-none d-sm-block black display-6" href="/#projects">Projects</a>
+					<a class="link p-2 d-none d-sm-block black display-6" href="/winners">Winners</a>
+					<a class="link p-2 d-none d-sm-block black display-6" href="/nominees">Nominees</a>
 
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
@@ -100,8 +101,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<nav id="menu">
 		<ul class="menu-nav">
 			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
-			<li><a class="link" href="/#projects"><p class="display-6 white">Projects</p></a></li>
-			<li><a class="link" href="/winners"><p class="display-6 white">Winners & Nominees</p></a></li>
+			<li><a class="link white display-6" href="/#projects">Projects</a></li>
+			<li><a class="link white display-6" href="/winners">Winners & Nominees</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->
 		</ul>
 	</nav>
