@@ -1524,3 +1524,24 @@ position: absolute;
     opacity: .3;
   }
 }
+
+div.wpcf7-mail-sent-ok {
+    border: 0px solid #398f14;
+    border-radius: 100px;
+    color: #36d2a1;
+}
+div.wpcf7-response-output {
+    margin: 0em 0em 0em;
+    padding: 0em 0em;
+    border: 0px solid #ff0000;
+}
+
+.wpcf7 .wpcf7-validation-errors {
+    color: #dc3545;
+    border: 0px solid #e9ecef !important;
+    background-color: transparent !important;
+}
+
+div.wpcf7-acceptance-missing {
+    border: 0px solid #f7e700;
+}

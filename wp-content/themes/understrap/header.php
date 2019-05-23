@@ -104,6 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<li><a class="link white display-6" href="/#projects">Projects</a></li>
 			<li><a class="link white display-6" href="/winners">Winners</a></li>
 			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
+			<li><a class="link white display-6" href="/contact-us">Contact Us</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->
 		</ul>
 	</nav>
