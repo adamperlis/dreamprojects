@@ -20,7 +20,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper" id="index-wrapper">
+<div class="wrapper" id="index-wrapper" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -64,7 +64,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 
-					<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="4s00">
+					<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 						<div class="col-12">
 							<video playsinline autoplay loop muted/>
 								<source type="video/mp4" src="https://cdn.dribbble.com/users/4859/videos/49/cuberto_showreel_dribbble_3.mp4">
@@ -95,7 +95,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div> -->
 
-			<div id="projects" class="container-fluid projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="4s00">
+			<div id="projects" class="container-fluid projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 				<div class="row">
 				<div class="col-1"></div>
 				<div class="col-10">
@@ -104,7 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 				<!-- Swiper -->
-				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 			  <div class="swiper-container">
 			    <ul class="swiper-wrapper">
 						<?php

@@ -986,7 +986,7 @@ overflow: hidden;
   	display: grid;
   	height: 100%;
   	width: 100%;
-    row-gap: 1%;
+    row-gap: 5%;
   	left: 0;
   	top: 0;
   	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -994,6 +994,7 @@ overflow: hidden;
   	grid-template-areas: 'griditem-left griditem-right';
     transform: skew(0deg, 0deg);
     -webkit-backface-visibility: hidden; // Antialias
+    padding-bottom:200px;
 
     @media screen and (max-width: 1024px) {
       grid-template-columns: 1fr 1fr;
@@ -1301,7 +1302,7 @@ video{
   background-color: transparent;
   border-radius: 50px;
   position: relative;
-  z-index: 999999;
+  z-index: 99999999999999999;
   outline: none;
   cursor: pointer;
 
@@ -1310,7 +1311,9 @@ video{
     cursor: pointer;
     background-color: transparent;
     .menu-bar {
+      position: relative;
       background-color: black;
+      z-index: 99999999999999999;
     }
   }
 

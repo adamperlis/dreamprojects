@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<div class="container-fluid hero--winners-nominees" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<div class="container-fluid hero--winners-nominees" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 	<div class="row <?php echo get_field('award_designation') == 'winner' ? 'winner' : 'nominee' ?>">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>

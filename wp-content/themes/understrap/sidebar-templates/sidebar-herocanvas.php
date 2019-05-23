@@ -43,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="row">
 	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 	<div class="col-10 col-sm-10 col-md-10 col-lg-10">
-		<div class="row hero">
+		<div class="row hero pt-4">
 				<div class="col-12 col-sm-4 col-md-7 col-lg-7">
 						<h1 class="display-0">Dream Projects</h1>
 				</div>

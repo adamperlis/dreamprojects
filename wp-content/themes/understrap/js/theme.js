@@ -7083,7 +7083,7 @@ var swiper = new Swiper('.swiper-container', {
 		height:'100%',
     ease: Power4.easeIn
   }, '-=0.2')
-	.staggerTo(menu.find('a'), 1, {y: 10, opacity:1, ease: Power2.easeOut}, 0.1)
+	.staggerTo(menu.find('a'), .5, {y: 10, opacity:1, ease: Power2.easeOut}, 0.1)
 
 
   menuButton.on('click', function () {

@@ -73,19 +73,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									?>
 									<?php if( $the_query->have_posts() ): ?>
-										<ul>
+										<div class="container-fluid nominees--section">
+											<div class="row">
+												<div class="col-12 col-lg-1"></div>
+												<div class="col-12 col-lg-10">
+												<ul class="grid padding-bottom">
+
 										<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 											<?php $project_id = get_field('project_id'); ?>
-											<li class="d-flex winner--project">
-												<div class="flex-item">
 
-												<div class="container-fluid nominees--section">
-													<div class="row">
-														<div class="col-12 col-lg-1"></div>
-														<div class="col-12 col-lg-10">
-														<ul class="grid">
-															<li data-rellax-speed="1" data-rellax-percentage="0.1">
-															<div class="col-10 nominees--project">
+
+
+														<li class="rellax" data-rellax-speed="1" data-rellax-percentage="0.1">
+															<div class="col-12 nominees--project">
 																<a href="<?php the_permalink(); ?>">
 																	<div class="reveal pb-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><img class="img-fluid" src="<?php the_field('hero_image'); ?>" /></div>
 																	<h2 class="display-4 black" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50"><span><?php echo $project_id->post_title ?></span></h2>
@@ -93,17 +93,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 																</a>
 															</div>
 														</li>
-														</ul>
-													</div>
-													<div class="col-12 col-lg-1"></div>
-													</div>
 
-												</div>
-												</div>
 
-											</li>
+
+
 										<?php endwhile; ?>
 										</ul>
+									</div>
+									<div class="col-12 col-lg-1"></div>
+									</div>
+
+								</div>
+
 									<?php endif; ?>
 
 									<?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>

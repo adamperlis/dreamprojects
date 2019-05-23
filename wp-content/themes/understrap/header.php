@@ -102,7 +102,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<ul class="menu-nav">
 			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
 			<li><a class="link white display-6" href="/#projects">Projects</a></li>
-			<li><a class="link white display-6" href="/winners">Winners & Nominees</a></li>
+			<li><a class="link white display-6" href="/winners">Winners</a></li>
+			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->
 		</ul>
 	</nav>
