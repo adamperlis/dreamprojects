@@ -58,16 +58,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<p class="display-5"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></p>
 							<ul class="social">
 								<?php if( get_field('linkedin') ): ?>
-									<li><a href="<?php echo the_field('linkedin'); ?>"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/<?php echo the_field('linkedin'); ?>"><i class="fa fa-linkedin"></i></a></li>
 								<?php endif; ?>
 								<?php if( get_field('instagram') ): ?>
-									<li><a href="<?php echo the_field('instagram'); ?>"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://www.instagram.com/<?php echo the_field('instagram'); ?>"><i class="fa fa-instagram"></i></a></li>
 								<?php endif; ?>
 								<?php if( get_field('dribbble') ): ?>
-									<li><a href="<?php echo the_field('dribbble'); ?>"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="https://dribbble.com/<?php echo the_field('dribbble'); ?>"><i class="fa fa-dribbble"></i></a></li>
 								<?php endif; ?>
 								<?php if( get_field('behance') ): ?>
-									<li><a href="<?php echo the_field('behance'); ?>"><i class="fa fa-behance"></i></a></li>
+									<li><a href="https://www.behance.net/<?php echo the_field('behance'); ?>"><i class="fa fa-behance"></i></a></li>
 								<?php endif; ?>
 								<?php if( get_field('portfolio_url') ): ?>
 									<li><a href="<?php echo the_field('portfolio_url'); ?>"><i class="fa fa-link"></i></a></li>

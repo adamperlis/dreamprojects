@@ -504,10 +504,15 @@ p{
 }
 
 .hero--contact-us{
-  height: calc(var(--vh, 1vh) * 85);
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.wpcf7 .wpcf7-form textarea {
+    min-height: 100px !important;
+    height:100px;
 }
 
 .hero--winner{
@@ -690,10 +695,15 @@ p{
 }
 
 .hero--project-submission{
-  height: calc(var(--vh, 1vh) * 60);
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.af-field-award-designation{
+  display:none;
+  visibility:hidden;
 }
 
 .hero--brief{
