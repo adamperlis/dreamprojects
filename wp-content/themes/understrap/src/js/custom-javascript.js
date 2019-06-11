@@ -55,5 +55,6 @@ var swiper = new Swiper('.swiper-container', {
 
 
 
+
 //Video Play
 $('video').prop('muted',true)[0].play();

@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 							<div class="col-12 col-sm-12 col-md-12 col-lg-12 padding-bottom padding-top text-center">
 								<h2 class="display-1" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500"><?php the_title(); ?></h2>
-								<p class="display-6 nominees-subtitle" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500">WHERE DREAMS ARE BORN</p>
+								<!-- <p class="display-6 nominees-subtitle" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500">WHERE DREAMS ARE BORN</p> -->
 							</div>
 							<div class="scroll-text-hero-nominees" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100" >
 									<span class="display-5 scroll-text-alignment">Scroll</span>

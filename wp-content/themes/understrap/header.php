@@ -86,6 +86,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
 					<a class="link p-2 d-none d-sm-block black display-6" href="/#projects">Projects</a>
 					<a class="link p-2 d-none d-sm-block black display-6" href="/winners">Winners</a>
+					<a class="link p-2 d-none d-sm-block black display-6" href="/runners-up">Runners Up</a>
 					<a class="link p-2 d-none d-sm-block black display-6" href="/nominees">Nominees</a>
 
 			<?php if ( 'container' == $container ) : ?>
@@ -103,6 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
 			<li><a class="link white display-6" href="/#projects">Projects</a></li>
 			<li><a class="link white display-6" href="/winners">Winners</a></li>
+			<li><a class="link white display-6" href="/runners-up">Runners Up</a></li>
 			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
 			<li><a class="link white display-6" href="/contact-us">Contact Us</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->

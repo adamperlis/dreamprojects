@@ -23,6 +23,17 @@ require( ABSPATH . WPINC . '/option.php' );
  * @param bool   $translate Whether the return date should be translated. Default true.
  * @return string|int|bool Formatted date string or Unix timestamp. False if $date is empty.
  */
+
+add_filter('remove_hube2_nag', '__return_true');
+
+add_filter('acf/validate_value/name=skill', 'only_allow_4', 20, 5);
+function only_allow_4($valid, $value, $field, $input) {
+ if (count($value) > 4) {
+   $valid = 'Only Select 4';
+ }
+ return $valid;
+};
+
 function mysql2date( $format, $date, $translate = true ) {
 	if ( empty( $date ) ) {
 		return false;

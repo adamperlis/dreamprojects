@@ -11,6 +11,7 @@ $term = get_queried_object();
 // vars
 $skill = get_field('skill', $term);
 $project_id = get_field('project_id');
+$award = get_field('award_designation');
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -19,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div class="container-fluid hero--winners-nominees" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
-	<div class="row <?php echo get_field('award_designation') == 'winner' ? 'winner' : 'nominee' ?>">
+	<div class="row <?php echo $award['value']; ?>">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 
@@ -35,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row">
 
 					<div class="col-11 col-sm-11 col-md-5 col-lg-7 padding-bottom padding-top">
-						<h1 class="display-0"><?php echo get_field('award_designation') == 'winner' ? 'Winner' : 'Nominee' ?></h1>
+						<h1 class="display-0"><?php echo $award['label']; ?></h1>
 					</div>
 
 				</div>
@@ -115,7 +116,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 <div class="container-fluid">
-	<div class="row hero-image--section">
+	<div class="row hero-image--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-400" data-aos-delay="100">
 
 		<div class="col-1 col-sm-1 col-md-1 col-lg-2"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-8">

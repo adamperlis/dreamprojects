@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Winners Page Template
+ * Template Name: Runner Up Page Template
  *
  * Template for displaying a Project Submission Form Template.
  *
@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php get_template_part( 'global-templates/hero', 'none' ); ?>
 <?php endif; ?>
 
-<div class="wrapper winners-page" id="page-wrapper">
+<div class="wrapper runners-up-page" id="page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -35,15 +35,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php echo $project_id ?>
-					<div class="container-fluid hero--winner">
+					<div class="container-fluid hero--runner-up">
 
 						<div class="row">
 
 							<div class="col-12 col-sm-12 col-md-12 col-lg-12 padding-bottom padding-top text-center">
 								<h2 class="display-1" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><?php the_title(); ?></h2>
-								<!-- <p class="display-6 winners-subtitle" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50">WHERE DREAMS ARE MADE</p> -->
+								<!-- <p class="display-6 winners-subtitle" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50">RUNNERS UP</p> -->
 							</div>
-							<div class="scroll-text-hero-winners" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100" >
+							<div class="scroll-text-hero-runners-up" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100" >
 								<span class="display-5 scroll-text-alignment">Scroll</span>
 								<hr></hr>
 							</div>
@@ -63,7 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										'numberposts'	=> -1,
 										'post_type'		=> 'winner_nominee',
 										'meta_key'		=> 'award_designation',
-										'meta_value'	=> 'winner'
+										'meta_value'	=> 'runner_up'
 									);
 
 
@@ -82,8 +82,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 															<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 															<div class="col-10 col-sm-10 col-md-10 col-lg-10" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500">
 																<a href="<?php the_permalink(); ?>">
-																	<h2 class="display-2 white text-center"><span><?php echo $project_id->post_title ?></span></h2>
-																	<button class="btn btn-secondary mx-auto d-block mt-5">See Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg" /></button>
+																	<h2 class="display-2 black text-center"><span><?php echo $project_id->post_title ?></span></h2>
+																	<button class="btn btn-quaternary mx-auto d-block mt-5">See Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /></button>
 																</a>
 															</div>
 																	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
