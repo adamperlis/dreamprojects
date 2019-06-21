@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="display-1">', '</h1>' ); ?>
+		<?php the_title( '<h2 class="display-2">', '</h2>' ); ?>
 
 	</header><!-- .entry-header -->
 
@@ -23,15 +23,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="entry-content">
 
 		<?php the_content(); ?>
-
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
 
 	</div><!-- .entry-content -->
 

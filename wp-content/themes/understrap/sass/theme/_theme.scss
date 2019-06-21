@@ -17,6 +17,10 @@ html, body {
     background-color: #FFFDFA;
 }
 
+.site{
+  overflow:hidden;
+}
+
 a {
   color: transparent;
   text-decoration: none;
@@ -267,7 +271,7 @@ transform:scale(.95);
 }
 
 .container-fluid {
-    padding: 0px;
+  padding:0;
 }
 
 
@@ -414,13 +418,26 @@ dl, ol, ul {
 }
 
 .display-7 {
-  font-size: calc(11px + 1.5vw);
+  font-size: calc(10px + 1vw);
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1.1;
+  color:black;
+
+  @media (max-width: 1024px) {
+    font-size:  calc(16px + 1vw);
+  }
+}
+
+.display-8 {
+  font-size: calc(10px + 1.25vw);
   font-weight: 400;
   letter-spacing: 0px;
   line-height: 1.1;
+  color:#707070;
 
   @media (max-width: 1024px) {
-    font-size:  calc(16px + 1.5vw);
+    font-size:  calc(12px + 1.5vw);
   }
 }
 
@@ -504,7 +521,7 @@ p{
 }
 
 .hero--contact-us{
-  height: 710px;
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -516,7 +533,7 @@ p{
 }
 
 .hero--winner{
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -546,7 +563,7 @@ p{
 
 
 .hero--runner-up{
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -578,7 +595,7 @@ p{
 }
 
 .hero--nominee{
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -592,7 +609,7 @@ p{
       color:lightgrey;
 
       @media screen and (max-width: 1024px) {
-        font-size: 90px;
+        font-size: 70px;
         letter-spacing: -4px;
         margin-left: -5px;
       }
@@ -701,19 +718,44 @@ p{
   justify-content: center;
 }
 
+.pagination{
+  display: none;
+}
+
+.acf-button, .af-submit-button{
+
+  background-color: black;
+  border-color: black;
+  color: white;
+  border-radius: 100px;
+  border: 2px solid;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 55px;
+  min-width: 250px;
+  transition: 1s all cubic-bezier(.55,0,.1,1);
+
+    &:hover {
+      color: black !important;
+      background-color: transparent;
+      border-color: black;
+      transform:scale(.95);
+    }
+}
+
 .af-field-award-designation{
   display:none;
   visibility:hidden;
 }
 
 .hero--brief{
-  height: calc(var(--vh, 1vh) * 80);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   @media screen and (min-width: 1440px) {
-    height: calc(var(--vh, 1vh) * 70);
+    height: 810px;
   }
 }
 
@@ -746,12 +788,12 @@ p{
 }
 
 .winner--project{
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   margin-bottom: 25%;
 }
 
 .hero--winners-nominees{
-  height: calc(var(--vh,1vh) * 100);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -875,7 +917,7 @@ p{
     }
 
     .display-7 {
-      color:#707070;
+
     }
 
     .social{
@@ -918,7 +960,7 @@ p{
 }
 
 #wrapper-hero{
-  height: calc(var(--vh, 1vh) * 90);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1013,7 +1055,6 @@ span{
 
 .about--section{
   height:auto;
-  width: 100%;
   padding-bottom: 300px;
   padding-top: 100px;
 
@@ -1025,8 +1066,6 @@ span{
 
 .mission--section{
   height:auto;
-  width: 100%;
-  overflow: hidden;
 
   @media screen and (max-width: 1440px) {
     padding-top: 35%;
@@ -1064,6 +1103,21 @@ span{
 
 .overflow-none{
 overflow: hidden;
+}
+
+.logo-grid{
+  	position: relative;
+  	display: grid;
+  	height: 100%;
+  	width: 100%;
+    row-gap: 50%;
+  	top: 0;
+  	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+  	grid-column-gap: 10%;
+  	grid-template-areas: 'griditem-left griditem-right';
+    -webkit-backface-visibility: hidden; // Antialias
+
 }
 
 .winners--section{
@@ -1164,7 +1218,7 @@ overflow: hidden;
 }
 
 .projects--section{
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   width: 100%;
   background: #F8F8F8;
   padding-top:190px;
@@ -1177,8 +1231,7 @@ overflow: hidden;
 }
 
 .projects--project{
-  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh, 1vh) * 100);
+  height: 810px;
   min-height: 610px;
   width: 100%;
   display: flex;
@@ -1350,7 +1403,7 @@ overflow: hidden;
 
 .submission--section{
   width: 100%;
-  height: calc(var(--vh, 1vh) * 80);
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;

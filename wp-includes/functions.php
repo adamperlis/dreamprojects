@@ -24,7 +24,6 @@ require( ABSPATH . WPINC . '/option.php' );
  * @return string|int|bool Formatted date string or Unix timestamp. False if $date is empty.
  */
 
-
  function generate_post_from_form_submission() {
 
  	// Set up a form using the values for post title and content
@@ -65,7 +64,7 @@ require( ABSPATH . WPINC . '/option.php' );
 
  }
 
-add_action( 'af/form/submission/key=form_5cffc9babfd09', 'generate_post_from_form_submission', 10 );
+add_action( 'af/form/submission/key=form_5cffc572cf4d7', 'generate_post_from_form_submission', 10 );
 
 add_filter('remove_hube2_nag', '__return_true');
 

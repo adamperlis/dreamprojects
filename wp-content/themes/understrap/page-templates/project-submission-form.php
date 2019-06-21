@@ -22,23 +22,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php get_template_part( 'global-templates/hero', 'none' ); ?>
 <?php endif; ?>
 
-<div class="wrapper" id="page-wrapper" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
-
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
-		<div class="row">
-
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<div class="container-fluid hero--project-submission">
+					<div class="hero--project-submission">
 
 						<div class="row">
 							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-							<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+							<div class="col-10 col-sm-10 col-md-10 col-lg-10" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 									<div class="row">
 
@@ -89,7 +83,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										    'honeypot' => true,
 										);
 
-											advanced_form( 'form_5cffc9babfd09', $args );
+											advanced_form( 'form_5cffc572cf4d7', $args );
 
 											?>
 										</div>
@@ -120,11 +114,5 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the right sidebar check -->
 			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
-		</div><!-- .row -->
-
-	</div><!-- #content -->
-
-</div><!-- #page-wrapper -->
 
 <?php get_footer(); ?>
