@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="9px" viewBox="0 0 59 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" id="Line-2">
+        <g transform="translate(-185.000000, -23.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g>
+                <g transform="translate(48.000000, 18.000000)">
+                    <g>
+                        <g transform="translate(137.000000, 8.000000)">
+                            <path d="M49.5,2 L0.5,2 L-7.72715225e-14,2 L-7.70494779e-14,1 L0.5,1 L49.5,1 L49.5,-3 L58.5,1.5 L49.5,6 L49.5,2 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

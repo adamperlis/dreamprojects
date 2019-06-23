@@ -533,7 +533,7 @@ p{
 }
 
 .hero--winner{
-  height: 810px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -563,7 +563,7 @@ p{
 
 
 .hero--runner-up{
-  height: 810px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -579,7 +579,7 @@ p{
 
 
       @media screen and (max-width: 1024px) {
-        font-size: 90px;
+        font-size: 60px;
         letter-spacing: -4px;
         margin-left: -5px;
       }
@@ -595,7 +595,7 @@ p{
 }
 
 .hero--nominee{
-  height: 810px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -627,11 +627,11 @@ p{
 .scroll-text-hero-winners{
   align-items: flex-end;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   span{
-    left:-50%;
-    right:0;
-    top: 50%;
     color:white;
     position: relative;
     writing-mode: vertical-rl;
@@ -648,19 +648,17 @@ p{
     transform: rotate(90deg);
     border-top: 1px solid rgba(255,255,255,1);
     position: relative;
-    left: -17px;
-    top: 180px;
   }
 }
 
 .scroll-text-hero-nominees{
   align-items: flex-end;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   span{
-    left:-50%;
-    right:0;
-    top: 50%;
     color:black;
     position: relative;
     writing-mode: vertical-rl;
@@ -677,19 +675,17 @@ p{
     transform: rotate(90deg);
     border-top: 1px solid rgba(0,0,0,.25);
     position: relative;
-    left: -17px;
-    top: 180px;
   }
 }
 
 .scroll-text-hero-runners-up{
   align-items: flex-end;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   span{
-    left:-50%;
-    right:0;
-    top: 50%;
     color:black;
     position: relative;
     writing-mode: vertical-rl;
@@ -706,8 +702,6 @@ p{
     transform: rotate(90deg);
     border-top: 1px solid rgba(0,0,0,1);
     position: relative;
-    left: -17px;
-    top: 180px;
   }
 }
 
@@ -749,14 +743,7 @@ p{
 }
 
 .hero--brief{
-  height: 810px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  @media screen and (min-width: 1440px) {
-    height: 810px;
-  }
+  height: auto;
 }
 
 .winners-page{
@@ -793,7 +780,7 @@ p{
 }
 
 .hero--winners-nominees{
-  height: 810px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -840,7 +827,7 @@ p{
     }
 
   .scroll-text {
-    height: 140px;
+
     align-items: flex-end;
     display: flex;
 
@@ -1110,7 +1097,7 @@ overflow: hidden;
   	display: grid;
   	height: 100%;
   	width: 100%;
-    row-gap: 50%;
+    grid-row-gap: 50%;
   	top: 0;
   	grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
@@ -1130,7 +1117,7 @@ overflow: hidden;
   	display: grid;
   	height: 100%;
   	width: 100%;
-    row-gap: 1%;
+    grid-row-gap: 1%;
   	left: 25%;
   	top: 0;
   	grid-template-columns: 1fr 1fr;
@@ -1162,7 +1149,7 @@ overflow: hidden;
   	display: grid;
   	height: 100%;
   	width: 100%;
-    row-gap: 5%;
+    grid-row-gap: 5%;
   	left: 0;
   	top: 0;
   	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1429,7 +1416,7 @@ overflow: hidden;
 
 footer {
     padding: .5rem 2rem;
-    height: 90px;
+    height: auto;
     border-top: 1px solid #000;
     background-color: #fffdfa;
     display: flex;
@@ -1450,7 +1437,7 @@ footer {
 	display: grid;
 	height: 100%;
 	width: 100%;
-  row-gap: 10%;
+  grid-row-gap: 10%;
 	left: 0;
 	top: 0;
 	grid-template-columns: 30% 30% 30%;
@@ -1575,6 +1562,10 @@ button:focus {
   top:-150px;
   position: relative;
   width: 100%;
+
+  @media (max-width: 1024px) {
+    top:-200px;
+  }
 }
 
 .images-winner{
@@ -1719,4 +1710,44 @@ div.wpcf7-response-output {
 
 div.wpcf7-acceptance-missing {
     border: 0px solid #f7e700;
+}
+
+.not-found{
+  background: black;
+  height:650px;
+
+  .col-6{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  video{
+    z-index: 0;
+    position: relative;
+  }
+
+  img{
+    transform: rotate(180deg);
+    z-index: 1;
+    position: relative;
+  }
+
+  a{
+    position: relative;
+    z-index: 1;
+  }
+
+  h3{
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (max-width: 600px) {
+    height:710px;
+
+
+  }
 }

@@ -23,15 +23,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-			<div class="row mt-5">
+			<div class="row mt-4 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100"">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				<div class="col-10 d-block d-sm-none">
-					<div class="container-fluid mt-5">
-						<div class="row flex-row mt-5">
-							<div class="col-6">
+					<div class="container-fluid">
+						<div class="row flex-row">
+							<div class="col-7">
 								<h3 class="hero-subtitle-mobile display-4">Monthly Portfolio <br> Building Challenge</h3>
 							</div>
-							<div class="col-6">
+							<div class="col-5">
 								<div class="container-fluid d-flex flex-column align-items-end">
 									<span class="display-5">Sponsored by:</span>
 									<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- ******************* Shows on all other breakpoints ******************* -->
 
 
-				<div class="row hero--section">
+				<div class="row hero--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 					<div class="row hero pt-4">
@@ -125,7 +125,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 						<div class="col-12">
-							<video playsinline autoplay loop muted/>
+							<video id="myvideo" playsinline autoplay loop muted/>
 								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER.mp4">
 							</video>
 
