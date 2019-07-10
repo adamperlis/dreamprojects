@@ -2,10 +2,6 @@
 //   border: 1px solid red;
 // }
 
-html{
-  margin-top: 90px;
-}
-
 html, body {
     max-width: 100%;
     width:100%;
@@ -1105,6 +1101,16 @@ overflow: hidden;
   	grid-template-areas: 'griditem-left griditem-right';
     -webkit-backface-visibility: hidden; // Antialias
 
+}
+
+.how-grid{
+  	position: relative;
+  	display: flex;
+  	height: 100%;
+  	width: 100%;
+    text-align: left;
+  	top: 0;
+    flex-wrap: wrap;
 }
 
 .winners--section{

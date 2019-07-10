@@ -115,7 +115,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 								<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 
-										<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400" class="display-2 reveal-text black"><span>As aspiring designers, we are often faced with the problem of lacking enough work in our portfolios to present our design skills and process.</span></h2>
+										<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400" class="display-2 reveal-text black"><span>
+											Get inspired.
+											<br>
+											Flex your skills.
+											<br>
+											Build your portfolio.
+											<br>
+											Win amazing interviews.
+										</span></h2>
 
 								</div>
 										<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -143,7 +151,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="container pb-5">
 							<div class="row">
 								<div class="col-10 col-lg-4 d-block center-block text-center mx-auto">
-									<p class="black">Dream Projects is meant to prepare you for your next role and those lucky few to be announced as Winner could land an interview with a top tier company.</p>
+									<p class="black">Dream Projects is meant to prepare you for your next role. Winners will receive an interview with a top tier company.</p>
 								</div>
 							</div>
 						</div>
@@ -164,6 +172,41 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div>
 
+					<div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-10 col-sm-8 d-block center-block text-center mx-auto">
+									<h2 class="display-2 black">How It Works</h2>
+								</div>
+							</div>
+						</div>
+						<div class="container pb-5">
+							<div class="row">
+								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
+									<p class="black">Win or lose, just by participating in Dream Projects’ free monthly challenges, you’ll be honing your skills and creating an array of compelling designs that will become centerpieces of your portfolio and bring you closer to landing your next big job.</p>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-10 col-lg-10 d-block center-block mx-auto">
+									<ul class="how-grid">
+
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/storage.svg" /><h2 class="display-4 black">New challenge every month</h2>
+										Each month we create a fictional brief based around the design needs of a major real world company or organization.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/skills.svg" /><h2 class="display-4 black">Skill-building guides</h2>
+										Along with our brief, we give you a guide to help you develop a design that you’ll be proud to show to potential employers.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/judges.svg" /><h2 class="display-4 black">Expert judges</h2>
+										Every submission is carefully reviewed by our panel of leading professionals from the design and UX fields.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/interview.svg" /><h2 class="display-4 black">Career-changing prizes</h2>
+										Winners can receive a one-on-one meeting with a world class company like Google, AirBnB, Nike, and many others.</li>
+									</ul>
+							</div>
+						</div>
+
+					</div>
+					</div>
 
 
 			<div id="projects" class="container projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
