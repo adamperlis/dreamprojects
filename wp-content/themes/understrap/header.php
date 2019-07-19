@@ -74,20 +74,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 						echo '</div>';
 					} ?><!-- end custom logo -->
 
-						<div class="d-sm-none d-md-none d-lg-none hamburger">
+
+						<div class="d-md-none d-lg-none hamburger">
+							<a class="link d-inline-block d-md-none black display-6 sign-up" href="/sign-up"><button class="btn-sm btn-tertiary">Sign Up</button></a>
+
 							<button class="menu-button">
 							  <div class="menu-bar"></div>
 							  <div class="menu-bar"></div>
 							</button>
 						</div>
 
+
 				<!-- The Menu goes here -->
 
 					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
-					<a class="link p-2 d-none d-sm-block black display-6" href="/#projects">Projects</a>
-					<a class="link p-2 d-none d-sm-block black display-6" href="/winners">Winners</a>
-					<a class="link p-2 d-none d-sm-block black display-6" href="/runners-up">Runners Up</a>
-					<a class="link p-2 d-none d-sm-block black display-6" href="/nominees">Nominees</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/#projects">Projects</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/winners">Winners</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/runners-up">Runners Up</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/nominees">Nominees</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/sign-up"><button class="btn-sm btn-tertiary">Sign Up</button></a>
+
 
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
@@ -97,7 +103,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	</div><!-- #wrapper-navbar end -->
 
-	<div class="hamburger-menu d-block d-sm-none d-md-none d-lg-none">
+	<div class="hamburger-menu d-block d-md-none d-lg-none">
 
 	<nav id="menu">
 		<ul class="menu-nav">
@@ -106,6 +112,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<li><a class="link white display-6" href="/winners">Winners</a></li>
 			<li><a class="link white display-6" href="/runners-up">Runners Up</a></li>
 			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
+			<li><a class="link white display-6" href="/sponsors">Sponsors</a></li>
 			<li><a class="link white display-6" href="/contact-us">Contact Us</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->
 		</ul>

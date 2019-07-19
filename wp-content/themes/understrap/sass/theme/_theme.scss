@@ -785,6 +785,18 @@ p{
   letter-spacing: 2px;
 }
 
+.job-post{
+  text-decoration: underline;
+}
+
+.sign-up{
+
+  button{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  }
+}
+
 .nominees-subtitle{
   color: black;
   position: relative;
@@ -1744,7 +1756,7 @@ div.wpcf7-acceptance-missing {
 
 .not-found{
   background: black;
-  height:650px;
+  height:810px;
 
   .col-6{
     justify-content: center;

@@ -185,6 +185,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="row">
 								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
 									<p class="black">Win or lose, just by participating in Dream Projects’ free monthly challenges, you’ll be honing your skills and creating an array of compelling designs that will become centerpieces of your portfolio and bring you closer to landing your next big job.</p>
+									<a href="/rules"><button class="btn btn-tertiary">See Rules <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 								</div>
 							</div>
 						</div>
@@ -208,6 +209,42 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div>
 
+					<div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-10 col-sm-8 d-block center-block text-center mx-auto">
+									<h2 class="display-2 black">Sponsor a Dream Project</h2>
+								</div>
+							</div>
+						</div>
+						<div class="container pb-5">
+							<div class="row">
+								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
+									<p class="black">Struggling to find the right product design talent? Dream Projects' allows you to find great talent by sponsoring hypothetical design briefs to test designers skills. Your customized brief will be given to our community of product designers who will compete for a chance to interview at your company. Our industry expert panel will thoroughly vet candidates, share a curated list and allow you to choose who to interview.</p>
+									<a href="/sponsors"><button class="btn btn-tertiary">See Pricing <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-10 col-lg-10 d-block center-block mx-auto">
+									<ul class="how-grid">
+
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/specialized.svg" /><h2 class="display-4 black">Specialized Talent</h2>
+										You will get access to a highly specialized group of talent to help you refine your search and be more targeted.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/curated-list.svg" /><h2 class="display-4 black">Curated Lists</h2>
+										We will do most of the leg work helping curate lists and sharing them via email.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/vetted.svg" /><h2 class="display-4 black">Vetted Candidates</h2>
+										Each and every submission is vetted by our industry expert panel of judges ensuring high quality candidates.</li>
+										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/storage.svg" /><h2 class="display-4 black">Bespoke Project Briefs</h2>
+										You will have the opportunity to customize a Dream Project to suit your specific needs.</li>
+									</ul>
+							</div>
+						</div>
+
+					</div>
+					</div>
 
 			<div id="projects" class="container projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 				<div class="row">

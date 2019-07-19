@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<p><?php the_field('submission_deadline'); ?></p>
 					<br>
 					<h4 class="display-4 pb-3">Prize</h4>
-						<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img width="100px" src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></span>
+					<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img width="100px" src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></span><a class="black" href="#"><p class="display-5 job-post">View Job</p></a>
 				</div>
 
 					<div class="col-12 col-sm-12 col-md-12 col-lg-7">
@@ -43,11 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<p class="pb-4"><?php the_field('project_brief'); ?></p>
 						</div>
 					</div>
-					<div class="d-sm-block col-md-1 col-lg-1">
-						<div class="scroll-text">
-							<span class="display-5 scroll-text-alignment">Scroll</span>
-						</div>
-					</div>
+					
 			</div>
 
 		</div>

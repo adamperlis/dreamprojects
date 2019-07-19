@@ -22,6 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<p class="display-5">Copyright © 2019 Academy. All Rights Reserved</p>
 			</div>
 
+			<a class="link p-2" href="/sponsors"><p class="display-6">Sponsors</p></a>
 			<a class="link p-2" href="/privacy-policy"><p class="display-6">Privacy Policy</p></a>
 			<a class="link p-2" href="/contact-us"><p class="display-6">Contact Us</p></a>
 			<a class="link p-2" href="/rules"><p class="display-6">Rules</p></a>
