@@ -23,9 +23,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-			<div class="row mt-4 data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100"">
+			<div class="row mt-4 subtitle d-sm-none" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-				<div class="col-10 d-block d-sm-none">
+				<div class="col-10 d-block">
 					<div class="container-fluid">
 						<div class="row flex-row">
 							<div class="col-7">
@@ -47,10 +47,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- ******************* Shows on all other breakpoints ******************* -->
 
 
-				<div class="row hero--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
+				<div class="row hero--section align-items-start align-items-sm-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 				<div class="col-10 col-sm-10 col-md-10 col-lg-10">
-					<div class="row hero pt-4">
+					<div class="row hero pb-sm-5 pt-sm-4">
 							<div class="col-12 col-sm-4 col-md-7 col-lg-7">
 									<h1 class="display-0">Dream Projects</h1>
 							</div>
@@ -75,7 +75,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-6 hero-component-three">
 								<div class="text-grid">
-									<p>Dream Projects is a screen design, portfolio-building challenge. Every month you’ll have the chance to re-design digital experiences you have always dreamed of working on. Learn how to build your portfolio and gain recognition as you take the next leap in your product design career.</p>
+									<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies—all while creating a portfolio that blows employers away.</p>
 								</div>
 						</div>
 						<div class="col-sm-1 col-md-1 hero-component-two">

@@ -451,15 +451,25 @@ p{
   color:black;
 }
 
+.subtitle{
+  margin-top: 7.5rem!important;
+}
+
 .hero--section {
   height: 710px;
+  position: relative;
+  top: 40px;
+
+  @media (max-width: 575px) {
+    top: 40px;
+  }
 }
 
 .hero-subtitle{
   height: 20%;
   align-items: flex-start;
   padding-top:50px;
-  top: 20%;
+  top: 15%;
   position: relative;
 
   @media (max-width: 1024px) {
@@ -468,7 +478,7 @@ p{
   }
 
   @media (min-width: 1440px) {
-    top: 20%;
+    top: 15%;
     position: relative;
   }
 
@@ -504,7 +514,7 @@ p{
     @media (max-width: 1024px) {
       column-count: 2;
       column-gap: 20px;
-      height:200px;
+      height: 230px;
     }
 
     @media (max-width: 768px) {
@@ -518,6 +528,8 @@ p{
 
 .hero--contact-us{
   height: 810px;
+  padding-top:90px;
+  margin-bottom: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -703,6 +715,9 @@ p{
 
 .hero--project-submission{
   height: auto;
+  top: 100px;
+  margin-bottom: 100px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -739,7 +754,15 @@ p{
 }
 
 .hero--brief{
-  height: auto;
+  height: 710px;
+  align-items: center;
+  top: 100px;
+  position: relative;
+
+
+  @media (max-width: 575px) {
+    top: 90px;
+  }
 }
 
 .winners-page{
@@ -777,6 +800,7 @@ p{
 
 .hero--winners-nominees{
   height: 710px;
+  padding-top:90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -956,7 +980,7 @@ width: 100%;
 span{
   left:1%;
   right:0;
-  top: 36px;
+  top: 0px;
   position: relative;
   writing-mode: vertical-rl;
   float:right;
@@ -1570,7 +1594,7 @@ button:focus {
   width: 100%;
 
   @media (max-width: 1024px) {
-    top:-200px;
+    top:-150px;
   }
 }
 

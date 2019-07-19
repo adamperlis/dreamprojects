@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 
-	<div class="row hero--brief pt-5 pt-sm-5 pb-4 pb-sm-4" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+	<div class="row hero--brief pt-5 pt-sm-5 pb-4 pb-sm-4 mb-5" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row pb-5">
 				<div class="col-12 col-sm-5 col-md-3 col-lg-4 pb-2 pb-sm-4">
 					<h4 class="display-4">Submmission Deadline</h4>
 					<p><?php the_field('submission_deadline'); ?></p>
@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<p class="pb-4"><?php the_field('project_brief'); ?></p>
 						</div>
 					</div>
-					<div class="d-none d-sm-block col-md-1 col-lg-1">
+					<div class="d-sm-block col-md-1 col-lg-1">
 						<div class="scroll-text">
 							<span class="display-5 scroll-text-alignment">Scroll</span>
 						</div>
