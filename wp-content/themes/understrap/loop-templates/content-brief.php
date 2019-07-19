@@ -32,10 +32,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="col-12 col-sm-5 col-md-3 col-lg-4 pb-2 pb-sm-4">
 					<h4 class="display-4">Submmission Deadline</h4>
 					<p><?php the_field('submission_deadline'); ?></p>
+					<br>
+					<h4 class="display-4 pb-3">Prize</h4>
+						<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img width="100px" src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></span>
 				</div>
 
 					<div class="col-12 col-sm-12 col-md-12 col-lg-7">
-						<div class="container-fluid project-brief--section">
+						<div class="container-fluid project-brief--section pt-4 pt-sm-0">
 							<h4 class="display-4">Project Brief</h4>
 							<p class="pb-4"><?php the_field('project_brief'); ?></p>
 						</div>
@@ -122,20 +125,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 	<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4">
-				<div class="container-fluid">
-					<h4 class="display-4 pb-3">Paid Advertisement</h4>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-12">
-									<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/image-icon.svg"/>
-							</div>
-					</div>
-				</div>
-			</div>
-			</div>
 
-			<div class="col-12 col-sm-12 col-md-12 col-lg-8 pt-4 pt-lg-0">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-4 pt-lg-0">
 				<h4 class="display-4">Resources</h4>
 				<div class="container-fluid">
 				<div class="row">
