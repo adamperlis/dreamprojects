@@ -89,9 +89,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
 					<a class="link p-2 d-none d-md-block black display-6" href="/#projects">Projects</a>
-					<a class="link p-2 d-none d-md-block black display-6" href="/winners">Winners</a>
+					<!-- <a class="link p-2 d-none d-md-block black display-6" href="/winners">Winners</a>
 					<a class="link p-2 d-none d-md-block black display-6" href="/runners-up">Runners Up</a>
-					<a class="link p-2 d-none d-md-block black display-6" href="/nominees">Nominees</a>
+					<a class="link p-2 d-none d-md-block black display-6" href="/nominees">Nominees</a> -->
 					<a class="link p-2 d-none d-md-block black display-6" href="/sign-up"><button class="btn-sm btn-tertiary">Sign Up</button></a>
 
 
@@ -109,9 +109,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<ul class="menu-nav">
 			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
 			<li><a class="link white display-6" href="/#projects">Projects</a></li>
-			<li><a class="link white display-6" href="/winners">Winners</a></li>
+			<!-- <li><a class="link white display-6" href="/winners">Winners</a></li>
 			<li><a class="link white display-6" href="/runners-up">Runners Up</a></li>
-			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
+			<li><a class="link white display-6" href="/nominees">Nominees</a></li> -->
 			<li><a class="link white display-6" href="/sponsors">Sponsors</a></li>
 			<li><a class="link white display-6" href="/contact-us">Contact Us</a></li>
 			<!-- <li><a class="link" href="/rules"><p class="display-6 white">Rules</p></a></li> -->

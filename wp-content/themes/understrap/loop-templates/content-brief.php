@@ -43,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<p class="pb-4"><?php the_field('project_brief'); ?></p>
 						</div>
 					</div>
-					
+
 			</div>
 
 		</div>
@@ -76,7 +76,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<p class="display-5">PNG, JPG, GIF</p>
 							</div>
 							<div class="col-6">
-								<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/crop-icon.svg"/>
+								<img class="pb-1" src="<?php echo get_template_directory_uri() ?>/img/crop-icon.svg"/>
 								<p class="display-5 m-0"><strong>Dimensions</strong></p>
 								<p class="display-5">2400px × 1800px</p>
 							</div>
@@ -97,7 +97,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<br></br>
 					The following <strong>  Template</strong> will serve as a blueprint for how to submit your project. Read through the file carefully as it will give you tips to submitting a successful project.</p>
 					<a href="<?php echo get_template_directory_uri() ?>/img/DreamProjects_Template.sketch"><button class="btn btn-quaternary sketch mb-2 mb-lg-0"><img src="<?php echo get_template_directory_uri() ?>/img/Sketch_logo_frame.svg"/> Sketch Template</button></a>
-					<a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
+					<a href="/sign-up"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
+					<!-- <a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a> -->
 				</div>
 			</div>
 			<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
