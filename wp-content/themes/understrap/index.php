@@ -95,12 +95,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="trigger1"></div>
 							<div data-aos="opacity10" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="200" class="row">
 								<ul class="grid">
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="600" class="reveal"><img src="https://cdn.dribbble.com/users/877784/screenshots/4220958/xore___solar_system.gif"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300" class="reveal"><img src="https://cdn.dribbble.com/users/4859/screenshots/6238939/car-polling_4x.png"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0" class="reveal"><img src="https://cdn.dribbble.com/users/1240533/screenshots/6212438/confetti_mobile_all2_1600x1200_4x.jpg"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600" class="reveal"><img src="https://cdn.dribbble.com/users/84550/screenshots/6248648/svgfilterhover01.2019-03-12_17_25_08.gif"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300" class="reveal"><img src="https://cdn.dribbble.com/users/461555/screenshots/6201964/template_-_dribbble_-_shots_copy_77_4x.jpg"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="0" class="reveal"><img src="https://cdn.dribbble.com/users/466659/screenshots/6158445/starstuff_4x.png"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="600" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Uber_1.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Amazon_1.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Nike_2.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Amazon_2.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Nike_1.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="0" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Uber_2.jpg"/></li>
 								</ul>
 					</div>
 				</div>
@@ -131,10 +131,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 
-					<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+					<div class="row d-none d-sm-block" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 						<div class="col-12">
 							<video id="myvideo" playsinline autoplay loop muted/>
-								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER.mp4">
+								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER_WEBSITE.mp4">
+							</video>
+
+						</div>
+					</div>
+
+					<div class="row d-block d-sm-none" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+						<div class="col-12">
+							<video id="myvideo" playsinline autoplay loop muted/>
+								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER_WEBSITE_1080x1080.mp4">
 							</video>
 
 						</div>
@@ -183,7 +192,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="container">
 							<div class="row">
-								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto pb-3">
+								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
 									<p class="black pb-3">Win or lose, just by participating in Dream Projects’ free monthly challenges, you’ll be honing your skills and creating an array of compelling designs that will become centerpieces of your portfolio and bring you closer to landing your next big job.</p>
 									<a href="/rules"><button class="btn btn-tertiary">See Rules <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 								</div>
@@ -209,7 +218,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div>
 
-					<div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+					<!-- <div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 						<div class="container">
 							<div class="row">
@@ -220,8 +229,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="container">
 							<div class="row">
-								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto pb-3">
-									<p class="black">Struggling to find the right product design talent? Dream Projects' allows you to find great talent by sponsoring hypothetical design briefs to test designers skills. Your customized brief will be given to our community of product designers who will compete for a chance to interview at your company. Our industry expert panel will thoroughly vet candidates, share a curated list and allow you to choose who to interview.</p>
+								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
+									<p class="black pb-3">Struggling to find the right product design talent? Dream Projects' allows you to find great talent by sponsoring hypothetical design briefs to test designers skills. Your customized brief will be given to our community of product designers who will compete for a chance to interview at your company. Our industry expert panel will thoroughly vet candidates, share a curated list and allow you to choose who to interview.</p>
 									<a href="/sponsors"><button class="btn btn-tertiary">See Pricing <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 								</div>
 							</div>
@@ -244,9 +253,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 
 					</div>
-					</div>
+					</div> -->
 
-			<div id="projects" class="container projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+			<div id="projects" class="projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 				<div class="row">
 				<div class="col-1"></div>
 				<div class="col-10">

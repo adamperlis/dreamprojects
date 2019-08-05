@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 										<div class="col-12 col-sm-12 col-md-12 col-lg-6 pt-sm-0 pt-5 pb-5 pb-sm-0">
 											<h2 class="display-2">Sign Up</h2>
-											<p class="pt-3 black">Looking to sponsor a Dream Project? Click <a class="black" href="/sponsors"><u>here</u></a>.</p>
+											<!-- <p class="pt-3 black">Looking to sponsor a Dream Project? Click <a class="black" href="/sponsors"><u>here</u></a>.</p> -->
 										</div>
 										<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 											<?php the_content(); ?>

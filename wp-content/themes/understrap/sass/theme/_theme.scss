@@ -534,10 +534,33 @@ p{
 }
 
 .hero--rules{
-  height: 510px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (min-width: 1800px) {
+    height: 1200px;
+  }
+}
+
+.judges--section{
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.criteria--section{
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.prizes--section{
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.card-rules {
+  border:1px solid #e5e3e1;
 }
 
 .hero--sponsor{
@@ -1117,7 +1140,7 @@ span{
 .about--section{
   height:auto;
   padding-bottom: 300px;
-  padding-top: 100px;
+  padding-top: 300px;
 
   @media (max-width: 1024px) {
     padding-bottom: 200px;
@@ -1289,16 +1312,23 @@ overflow: hidden;
 }
 
 .projects--section{
-  height: 810px;
+  min-height: 810px;
   width: 100%;
   background: #F8F8F8;
   padding-top:190px;
-  padding-bottom:90px;
+  padding-bottom:190px;
   margin-top: -6px;
 }
 
 .project-btn{
   margin-bottom: 30px;
+}
+
+.placeholder-profile{
+  height: 50px;
+  width: 50px;
+  background: lightgrey;
+  border-radius: 100px;
 }
 
 .projects--project{
