@@ -14,9 +14,12 @@ Child Theme Project: [https://github.com/understrap/understrap-child](https://gi
 - Go to ~/code/dreamprojects/wp-content/themes/understrap
 - Run `gulp dist`
 - Take `zip` and upload through Wordpress Themes.
+- Click `customize` and add the logo, and change the layout settings to be `full-width` `no-sidebar`.
+- Go to WP-Engine > Settings and change the Post Processing rule to match your filepath i.e. `#https://dreamprojects\.co/wp-content/themes/dp-theme-1/img/DreamProjects_Template.sketch# => https://h3jar3vt2hpca9tb3tsy7fir-wpengine.netdna-ssl.com/wp-content/themes/dp-theme-1/img/DreamProjects_Template.sketch`this ensures the .sketch files goes through the CDN.
 
 ## Hosting
 - WPEngine
 
 ## Domain
 - Porkbun
+
