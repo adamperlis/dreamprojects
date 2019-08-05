@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									<div class="row">
 
-										<div class="col-11 col-sm-11 col-md-11 col-lg-11 mt-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+										<div class="col-11 col-sm-11 col-md-11 col-lg-11 mt-5">
 
 												<div class="text-grid">
 													<p>Here you can find the rules and submission criteria for how we select a winning project. New design brief will be released at the beginning of each month. Submit your designs by the 3rd Friday of the month for your chance to win an interview at an incredible company. Winners and Runners Up will be announced on social media by the end of the month.</p>
