@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="col-5">
 								<div class="container-fluid d-flex flex-column align-items-end">
 									<span class="display-5">Sponsored by:</span>
-									<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
+									<a href="https://squarespace.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></a>
 								</div>
 							</div>
 						</div>
@@ -64,10 +64,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="col-6 col-md-12 col-lg-12 pb-4 pb-sm-0">
 										<div class="container-fluid d-flex align-items-center sponsor--section">
 											<span class="display-5">Sponsored by:</span>
-											<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
+											<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></a>
 										</div>
 									</div>
-									<div class="col-6 col-md-12 col-lg-12 pb-4">
+									<div class="col-6 col-md-12 col-lg-12 pb-4 pt-2">
 										<h3 class="display-3">Monthly Portfolio <br> Building Challenge</h3>
 									</div>
 								</div>
@@ -96,7 +96,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div data-aos="opacity10" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="2000" data-aos-offset="200" class="row">
 								<ul class="grid">
 									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="600" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Uber_1.jpg"/></li>
-									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Amazon_1.jpg"/></li>
+									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Cannabis_2.jpg"/></li>
 									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Nike_2.jpg"/></li>
 									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Amazon_2.jpg"/></li>
 									<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300" class="reveal"><img src="<?php echo get_template_directory_uri() ?>/img/Nike_1.jpg"/></li>
@@ -133,7 +133,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="row d-none d-sm-block" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 						<div class="col-12">
-							<video id="myvideo" playsinline autoplay loop muted/>
+							<video id="myvideo" playsinline autoplay loop muted poster="/img/poster.jpg"/>
 								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER_WEBSITE.mp4">
 							</video>
 
@@ -142,7 +142,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="row d-block d-sm-none" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 						<div class="col-12">
-							<video id="myvideo" playsinline autoplay loop muted/>
+							<video id="myvideo" playsinline autoplay loop muted poster="/img/poster.jpg"/>
 								<source type="video/mp4" src="<?php echo get_template_directory_uri() ?>/img/MASTER_WEBSITE_1080x1080.mp4">
 							</video>
 
@@ -168,12 +168,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="row">
 								<div class="col-10 col-lg-4 d-block center-block text-center mx-auto">
 									<ul class="logo-grid">
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img src="<?php echo get_template_directory_uri() ?>/img/Airbnb_Logo.svg" /></li>
+										<li class="d-flex align-items-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></li>
+										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></li>
 										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img src="<?php echo get_template_directory_uri() ?>/img/invision-logo-vector-1.svg" /></li>
 										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img src="<?php echo get_template_directory_uri() ?>/img/Philips_logo_new.svg" /></li>
 										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="400"><img src="<?php echo get_template_directory_uri() ?>/img/Logo_NIKE.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500"><img src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></li>
+										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500"><img src="<?php echo get_template_directory_uri() ?>/img/Airbnb_Logo.svg" /></li>
 									</ul>
 							</div>
 						</div>
@@ -259,9 +259,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row">
 				<div class="col-1"></div>
 				<div class="col-10">
-					<div class="row">
-						<h4 class="display-4 section-title black">Projects</h4>
-					</div>
+
 
 				<!-- Swiper -->
 				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
@@ -279,11 +277,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 							while ($my_query->have_posts()) : $my_query->the_post();
 							?>
 
+
+
 							<li class="projects--project swiper-slide">
 								<!-- <img class="brief_featured_image" src="<?php the_field('brief_featured_image'); ?>" /> -->
+
 								<div class="row">
 
 								<div class="col-10 col-sm-6 text-left p-0">
+									<h5 class="section-title display-5 black">Sponsored by <img class="sponsor-image p-2" src="<?php the_field('sponsor_image'); ?>" /></h5>
 									<h2 class="display-2 black"><?php the_title(); ?></h2>
 									<div class="container-fluid project-btn">
 										<div class="row">

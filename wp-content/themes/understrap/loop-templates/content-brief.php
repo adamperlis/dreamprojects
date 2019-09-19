@@ -17,30 +17,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 
-	<div class="row hero--brief pt-5 pt-sm-5 pb-4 pb-sm-4 mb-5" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+	<div class="row hero--brief pt-5 pt-sm-5 pb-sm-4" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
 
 			<div class="row pb-sm-5">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 pb-4">
+				<div class="col-8 col-sm-8 col-md-8 col-lg-8 pb-4">
 					<h2 class="display-1"><?php the_title(); ?></h2>
 				</div>
 			</div>
 
-			<div class="row pb-5">
+			<div class="row">
 				<div class="col-12 col-sm-5 col-md-3 col-lg-4 pb-2 pb-sm-4">
-					<h4 class="display-4">Submmission Deadline</h4>
+					<h4 class="display-4">Submission Deadline</h4>
 					<p><?php the_field('submission_deadline'); ?></p>
 					<br>
 					<h4 class="display-4 pb-3">Prize</h4>
-					<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img width="100px" src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></span><a class="black" href="/sign-up"><p class="display-5 job-post">View Job</p></a>
+					<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0">
+						<img height="45px" class="pb-3" src="<?php the_field('sponsor_image'); ?>"/>
+					</span>
+					<!-- <a class="black" target="blank" href="<?php the_field('link'); ?>"><p class="display-5 job-post">View Job</p></a> -->
+					<p class="display-5">Interview for a Mobile Product Designer</p>
+
 				</div>
 
-					<div class="col-12 col-sm-12 col-md-12 col-lg-7">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-7 pb-4">
 						<div class="container-fluid project-brief--section pt-4 pt-sm-0">
 							<h4 class="display-4">Project Brief</h4>
-							<p class="pb-4"><?php the_field('project_brief'); ?></p>
+							<?php the_field('project_brief'); ?>
 						</div>
 					</div>
 
@@ -93,12 +98,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="col-12 col-sm-12 col-md-12 col-lg-8 pt-4 pt-lg-0">
 				<h4 class="display-4">Submission Guide</h4>
 				<div class="container-fluid">
-					<p class="pb-4">Whether you’re an experienced designer or simply trying to break into the field, your portfolio matters. Your goal is to create a lasting impression on a potential employer with a simple glimpse into your work and brand. Each project has a different story and your portfolio is the place to demonstrate your credibility and understanding of the design process. Express your style, their are <strong>no brand guidelines here.</strong>
+					<p class="pb-4">Whether you’re an experienced designer or simply trying to break into the field, your portfolio matters. Your goal is to create a lasting impression on a potential employer with a simple glimpse into your work and brand. Each project has a different story and your portfolio is the place to demonstrate your credibility and understanding of the design process.
 					<br></br>
-					The following <strong>  Template</strong> will serve as a blueprint for how to submit your project. Read through the file carefully as it will give you tips to submitting a successful project.</p>
+					The following <strong>  Template</strong> will serve as a blueprint for how to submit your project. Read through the file carefully as it will give you tips to submitting a successful project. <a class="black" href="https://dreamprojects.co/winner_nominee/sample-dream-project/"><span class="display-6 job-post">Here</span></a> is a sample of what your project might look like.</p>
 					<a href="<?php echo get_template_directory_uri() ?>/img/DreamProjects_Template.sketch"><button class="btn btn-quaternary sketch mb-2 mb-lg-0"><img src="<?php echo get_template_directory_uri() ?>/img/Sketch_logo_frame.svg"/> Sketch Template</button></a>
-					<a href="/sign-up"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
-					<!-- <a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a> -->
+					<!-- <a href="/sign-up"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a> -->
+					<a href="/project-submission-form"><button class="btn btn-tertiary">Submit Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 				</div>
 			</div>
 			<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
@@ -140,17 +145,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-6 col-lg-3 pt-4 pt-lg-0">
-					<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/ui8.svg"/>
-					<p class="display-5 m-0"><strong>UI8 | Icons, UI Kits, Fonts, etc</strong></p>
-					<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
-					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
+					<img class="pb-2" height="45px" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-stacked-black.png"/>
+					<p class="display-5 m-0"><strong>Brand Guidelines</strong></p>
+					<p class="display-5 m-0"><span class="display-5">Sponsor Link</span></p>
+					<a target="_blank" href="https://www.squarespace.com/brand-guidelines"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-6 col-lg-3 pt-4 pt-lg-0">
-					<img class="pb-2" src="<?php echo get_template_directory_uri() ?>/img/ui8.svg"/>
-					<p class="display-5 m-0"><strong>UI8 | Icons, UI Kits, Fonts, etc</strong></p>
+					<img class="pb-2" height="45px" src="<?php echo get_template_directory_uri() ?>/img/istock-logo-2015.svg"/>
+					<p class="display-5 m-0"><strong>Stock Imagery</strong></p>
 					<p class="display-5 m-0"><span class="display-5">Paid Affiliate Link</span></p>
-					<a target="_blank" href="https://transactions.sendowl.com/stores/8285/149712"><button class="btn-sm btn-quaternary mt-2">View</button></a>
+					<a target="_blank" href="https://iStockphoto.6q33.net/zmbyr"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
+
+
 			</div>
 			</div>
 			</div>

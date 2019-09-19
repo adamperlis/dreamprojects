@@ -359,7 +359,7 @@ dl, ol, ul {
   @media screen and (min-width: 1440px) {
     font-size: calc(90px + 4vw);
     font-weight: 700;
-    letter-spacing: -12px;
+    letter-spacing: -9px;
     line-height: 1;
     margin-left: -10px;
   }
@@ -527,7 +527,8 @@ p{
 }
 
 .hero--contact-us{
-  height: 810px;
+  min-height: 810px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -789,7 +790,7 @@ p{
 }
 
 .hero--brief{
-  height: 710px;
+  height: auto;
   align-items: center;
   margin-top: 100px;
   position: relative;
@@ -1111,8 +1112,9 @@ span{
 }
 
 .sponsor{
-  width:90px;
-  padding-top:5px;
+  height: 35px;
+  padding-top: 5px;
+  padding-left: 10px;
   transition: 1s all cubic-bezier(.55,0,.1,1);
 
   &:hover{
@@ -1131,6 +1133,12 @@ span{
   &:hover{
     opacity:.25;
   }
+}
+
+.privacy-policy{
+  position: relative;
+  top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title{
@@ -1329,6 +1337,8 @@ overflow: hidden;
   width: 50px;
   background: lightgrey;
   border-radius: 100px;
+  overflow: hidden;
+  border: 1px solid lightgrey;
 }
 
 .projects--project{
@@ -1361,6 +1371,10 @@ overflow: hidden;
   padding-top:60px;
 }
 
+.sponsor-image{
+  height: 45px;
+}
+
 .project--description{
   & p{
     padding-bottom:30px;
@@ -1383,7 +1397,7 @@ overflow: hidden;
   height:510px;
 
   @media screen and (max-width: 1024px) {
-      height: 290px;
+      height: 390px;
   }
 
 
@@ -1828,7 +1842,7 @@ div.wpcf7-acceptance-missing {
 
 .not-found{
   background: black;
-  height:810px;
+  height: auto;
 
   .col-6{
     justify-content: center;

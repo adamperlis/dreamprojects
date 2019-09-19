@@ -25,9 +25,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- <a class="link p-2" href="/sponsors"><p class="display-6">Sponsors</p></a> -->
 			<a class="link p-2" href="/privacy-policy"><p class="display-6">Privacy Policy</p></a>
 			<a class="link p-2" href="/contact-us"><p class="display-6">Contact Us</p></a>
-			<a class="link p-2" href="/rules"><p class="display-6">Rules</p></a>
 			<div class="p-2">
-				<p class="display-5 link">Sponsored By:</p>
+				<p class="display-5 link">Created By:</p>
 				<a href="https://academyux.com"><img class="sponsor-footer" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
 			</div>
 

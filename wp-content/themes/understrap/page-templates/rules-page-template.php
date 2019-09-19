@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<div class="col-11 col-sm-11 col-md-11 col-lg-11 mt-5">
 
 												<div class="text-grid">
-													<p>Here you can find the rules and submission criteria for how we select a winning project. New design brief will be released at the beginning of each month. Submit your designs by the 3rd Friday of the month for your chance to win an interview at an incredible company. Winners and Runners Up will be announced on social media by the end of the month.</p>
+													<p>Here you can find the rules and submission criteria for how we select a winning project. New design briefs will be released at the beginning of each month. Submit your designs by the 3rd Friday of the month for your chance to win an interview at an incredible company. Winners and Runners Up will be announced on social media by the end of the month.</p>
 												</div>
 
 									</div>
@@ -82,15 +82,111 @@ $container = get_theme_mod( 'understrap_container_type' );
 									</div>
 									<div class="col-12 col-lg-6 center-block text-center mx-auto judges-grid d-flex mt-5">
 										<ul class="row">
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>AKQA, Design Director</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>Google, UX Director</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>Airbnb, Sr. Product Designer</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>InVision, Product Manager</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>American Express, UX Research Director</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>Booking.com, Head of Design</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>Verizon, Sr. UX Researcher</small></div></p></li>
-										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3"><div class="placeholder-profile center-block text-center mx-auto"></div><p>Name<div><small>Nike, Sr. Designer</small></div></p></li>
+											<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+												<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/timmcauliffe.jpeg" /></div>
+												<p class="pb-0 mb-0">Timothy McAullife</p>
+												<div><small><strong>Google</strong></small></div>
+												<div><small>Creative Lead</small></div>
+											</li>
+											<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+												<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/ErinLeForce_Headshot.jpg" /></div>
+												<p class="pb-0 mb-0">Erin LeForce</p>
+												<div><small><strong>Work & Co.</strong></small></div>
+												<div><small>Design Lead</small></div>
+											</li>
+											<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/adamperlis.jpeg" /></div>
+											<p class="pb-0 mb-0">Adam Perlis</p>
+											<div><small><strong>Academy</strong></small></div>
+											<div><small>CEO</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/davetupper.jpeg" /></div>
+											<p class="pb-0 mb-0">Dave Tupper</p>
+											<div><small><strong>Airbnb</strong></small></div>
+											<div><small>Design Manager</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/katwong.jpeg" /></div>
+											<p class="pb-0 mb-0">Katherine Wong</p>
+											<div><small><strong>Fantasy Interactive</strong></small></div>
+											<div><small>Sr. UX Designer</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/sergiovilatimo.jpeg" /></div>
+											<p class="pb-0 mb-0">Sergio Vilatimo</p>
+											<div><small><strong>AKQA</strong></small></div>
+											<div><small>Fmr. CD</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/aliya.jpeg" /></div>
+											<p class="pb-0 mb-0">Aliya Maria Baptista</p>
+											<div><small><strong>Interaction Designer</strong></small></div>
+											<div><small>Creative Lead</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/joshwilliams.jpeg" /></div>
+											<p class="pb-0 mb-0">Joshua Williams</p>
+											<div><small><strong>R/GA</strong></small></div>
+											<div><small>ACD</small></div>
+										</li>
+
+
+
 										</ul>
+
+									</div>
+
+									<div class="col-12 col-lg-6 center-block text-center mx-auto judges-grid collapse" id="collapseExample">
+										<ul class="row">
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/stuart.jpg" /></div>
+											<p class="pb-0 mb-0">Stuart Thursby</p>
+											<div><small><strong>Stack Creative</strong></small></div>
+											<div><small>Founder</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/lucascoelho.jpeg" /></div>
+											<p class="pb-0 mb-0">Lucas Coelho</p>
+											<div><small><strong>Roam</strong></small></div>
+											<div><small>Head of Design</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/sadhvu.jpeg" /></div>
+											<p class="pb-0 mb-0">Sadhvu Sharma</p>
+											<div><small><strong>BCG Digital Ventures</strong></small></div>
+											<div><small>Experience Designer</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/ryandonahue.jpeg" /></div>
+											<p class="pb-0 mb-0">Ryan Donahue</p>
+											<div><small><strong>Zendesk</strong></small></div>
+											<div><small>VP Design</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/jamesmoriartyjr.jpeg" /></div>
+											<p class="pb-0 mb-0">James Moriarty</p>
+											<div><small><strong>Draft Kings</strong></small></div>
+											<div><small>Dir. UX</small></div>
+										</li>
+										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
+											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/axeljohnston.jpeg" /></div>
+											<p class="pb-0 mb-0">Axel Johnston</p>
+											<div><small><strong>Air France</strong></small></div>
+											<div><small>Head of Design</small></div>
+										</li>
+
+
+										</ul>
+
+									</div>
+
+
+
+									<div class="col-12 col-lg-6 center-block text-center mx-auto judges-grid mt-2">
+										<a class="btn btn-primary text-center mx-auto" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+											See More
+										</a>
 									</div>
 								</div>
 
@@ -127,22 +223,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<div class="col-12 col-sm-12 col-md-12 col-lg-3 p-5 card-rules rounded-0 text-center">
 
 												<h3 class="display-1">25<span class="display-4">%</span></h3><span class="pb-5"><h2 class="display-4 black">Usability</h2></span>
-												<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-3 p-5 card-rules rounded-0 text-center">
 												<h3 class="display-1">25<span class="display-4">%</span></h3><span class="pb-5"><h2 class="display-4 black">Strategy / Process</h2></span>
-												<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-3 p-5 card-rules rounded-0 text-center">
 												<h3 class="display-1">40<span class="display-4">%</span></h3><span class="pb-5"><h2 class="display-4 black">Visual Design</h2></span>
-												<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-3 p-5 card-rules rounded-0 text-center">
 												<h3 class="display-1">10<span class="display-4">%</span></h3><span class="pb-5"><h2 class="display-4 black">Originality/Creativity</h2></span>
-												<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve.</p>
 											</div>
 
 
@@ -178,17 +270,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<div class="row">
 											<div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-1 mb-1 mb-sm-5 p-5 text-center">
 													<span class="pb-5"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/winner.svg" /><h2 class="display-4 black">Winner</h2></span>
-													<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies—all while creating a portfolio that blows employers away.</p>
+													<p>As the Winner, you will earn recognition in the community for being among the top level talent in the industry. You will be guaranteed an interview with the listed partnering company. Only one winner will be named for each monthly Dream Project.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-1 mb-1 mb-sm-5 p-5 text-center">
 													<span class="pb-5"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/runner-up.svg" /><h2 class="display-4 black">Runner Up</h2></span>
-													<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies—all while creating a portfolio that blows employers away.</p>
+													<p>As a Runner Up, you will earn recognition in the design community for being a rising star in the industry. Your work will be shared with the listed partnering company for consideration for an interview. Only five people will be announced as Runners Up for each monthly Dream Project.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-1 mb-1 mb-sm-5 p-5 text-center">
 													<span class="pb-5"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/nominee.svg" /><h2 class="display-4 black">Nominee</h2></span>
-													<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies—all while creating a portfolio that blows employers away.</p>
+													<p>As a Nominee, you have taken the first step to building a better body of work and have increased your chances of getting hired exponentially. While Nominees do not receive a guaranteed prize, from time to time the Dream Projects team may proactively share their work with partnering companies.</p>
 											</div>
 
 											<div class="col-12 col-sm-12 col-md-12 col-lg-12 mb-5 d-flex mx-auto justify-content-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
