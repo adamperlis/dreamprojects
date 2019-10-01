@@ -145,7 +145,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<a target="_blank" href="https://www.ui8.net/?rel=dream"><button class="btn-sm btn-quaternary mt-2">View</button></a>
 				</div>
 				<div class="col-6 col-lg-3 pt-4 pt-lg-0">
-					<img class="pb-2" height="45px" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-stacked-black.png"/>
+					<img class="pb-2" height="45px" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-tertiary-black.svg"/>
 					<p class="display-5 m-0"><strong>Brand Guidelines</strong></p>
 					<p class="display-5 m-0"><span class="display-5">Sponsor Link</span></p>
 					<a target="_blank" href="https://www.squarespace.com/brand-guidelines"><button class="btn-sm btn-quaternary mt-2">View</button></a>
