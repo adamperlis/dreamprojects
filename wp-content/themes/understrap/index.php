@@ -20,6 +20,43 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+<script>
+	//Modal toggle
+	$(document).ready(function() {
+		$('#myModal').modal('show');
+	});
+</script>
+
+<!-- ******************* TAKEOVER MODAL ******************* -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+
+			<div class="modal-body p-4">
+				<h3 class="display-2 black pb-5 pt-5">Thank You</h3>
+				<p>Dream Projects has completed it's first Beta program. Thank you to all those who participated. Over the next few months, the Dream Projects Team will be working to improve upon the websites functionality and value proposition for our customers. If you would like to stay up to date with our progress, learn about new Dream Projects that will be released or have any feedback you would like to share, please sign up by going to the link below.
+				</p>
+			</div>
+			<div class="container-fluid p-3">
+				<div class="row center-block text-center mx-auto">
+
+						<div class="col-6 nopadding">
+							<a href="/sign-up"><button style="min-width:90%;" type="button" class="btn btn-quaternary mb-3">Explore</button></a>
+						</div>
+						<div class="col-6 nopadding">
+							<a href="/sign-up"><button style="min-width:90%;" type="button" class="btn btn-tertiary white">Sign Up</button></a>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ******************* TAKEOVER MODAL END ******************* -->
+
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
@@ -45,7 +82,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 			<!-- ******************* Shows on all other breakpoints ******************* -->
-
 
 				<div class="row hero--section align-items-start align-items-sm-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 				<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -325,6 +361,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</div>
 			<div class="col-1"></div>
+
 			</div>
 			</div>
 

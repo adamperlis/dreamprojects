@@ -1080,7 +1080,7 @@ span{
       height: 90px;
       border-bottom: 1px solid black;
       background-color: #FFFDFA;
-      z-index: 9999999999999;
+      z-index: 1000;
   }
 
   @media (max-width: 1024px) {
@@ -1896,4 +1896,14 @@ div.wpcf7-acceptance-missing {
 
 
   }
+}
+
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
