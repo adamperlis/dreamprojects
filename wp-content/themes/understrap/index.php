@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row center-block text-center mx-auto">
 
 						<div class="col-6 nopadding">
-							<a href="/sign-up"><button style="min-width:90%;" type="button" class="btn btn-quaternary mb-3">Explore</button></a>
+							<button data-dismiss="modal" aria-label="Close" style="min-width:90%;" type="button" class="btn btn-quaternary mb-3">Explore</button>
 						</div>
 						<div class="col-6 nopadding">
 							<a href="/sign-up"><button style="min-width:90%;" type="button" class="btn btn-tertiary white">Sign Up</button></a>
