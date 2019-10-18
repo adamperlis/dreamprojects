@@ -1250,7 +1250,7 @@ overflow: hidden;
   left: 50%;                        /* horizontal alignment */
   top: 50%;                         /* vertical alignment */
   transform: translate(-50%, -50%); /* precise centering; see link below */
-  z-index: 99999999;
+  z-index: 999;
 }
 
 .nominees--section{
