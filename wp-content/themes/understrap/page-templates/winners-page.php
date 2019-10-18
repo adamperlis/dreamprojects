@@ -82,7 +82,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 															<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 															<div class="col-10 col-sm-10 col-md-10 col-lg-10" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500">
 																<a href="<?php the_permalink(); ?>">
-																	<h2 class="display-2 white text-center"><span><?php echo $project_id->post_title ?></span></h2>
+																	<h2 class="display-2 white text-center"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></h2>
+																	<p class="display-5 white text-center"><span><?php echo $project_id->post_title ?></span></p>
+
 																	<button class="btn btn-secondary mx-auto d-block mt-5">See Project <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg" /></button>
 																</a>
 															</div>

@@ -122,7 +122,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/aliya.jpeg" /></div>
 											<p class="pb-0 mb-0">Aliya Maria Baptista</p>
 											<div><small><strong>Interaction Designer</strong></small></div>
-											<div><small>Creative Lead</small></div>
+											<div><small>Google</small></div>
 										</li>
 										<li class="p-2 center-block text-center mx-auto col-6 col-sm-3 mb-2">
 											<div class="placeholder-profile center-block text-center mx-auto"><img src="<?php echo get_template_directory_uri() ?>/img/joshwilliams.jpeg" /></div>
