@@ -305,6 +305,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							$args = array(
 							'numberposts'=> 2,
 							'post_type'=> 'brief',
+							'posts_per_page'=> 2,
 							'orderby' => 'publish_date',
 							);
 							$my_query = new WP_Query($args);

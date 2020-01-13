@@ -133,6 +133,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<p><?php the_field('insight'); ?></p>
 					<h4 class="display-4">Solution</h4>
 					<p><?php the_field('solution'); ?></p>
+					<a href="<?php the_field('prototype_link'); ?>"><button class="btn btn-tertiary">View Prototype<img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
 				</div>
 			</div>
 			</div>

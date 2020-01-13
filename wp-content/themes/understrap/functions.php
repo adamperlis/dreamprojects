@@ -69,6 +69,11 @@ function generate_post_from_form_submission() {
  af_save_field('design_system_image', $post_id );
  af_save_field('design_system', $post_id );
  af_save_field('design_grid_image', $post_id );
+ af_save_field('design_grid_image', $post_id );
+ af_save_field('design_grid_image', $post_id );
+ af_save_field('design_grid_image', $post_id );
+ af_save_field('location', $post_id );
+ af_save_field('authorization', $post_id );
 
  $url = get_permalink( $post_id );
  wp_redirect($url);
