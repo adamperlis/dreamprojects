@@ -20,17 +20,17 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<script>
+<!-- <script>
 	//Modal toggle
 	$(document).ready(function() {
 		$('#myModal').modal('show');
 	});
-</script>
+</script> -->
 
 <!-- ******************* TAKEOVER MODAL ******************* -->
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 
@@ -53,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- ******************* TAKEOVER MODAL END ******************* -->
 
