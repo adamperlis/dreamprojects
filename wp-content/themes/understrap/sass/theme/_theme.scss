@@ -13,19 +13,29 @@ html, body {
     background-color: #FFFDFA;
 }
 
+a{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-transition: .5s all cubic-bezier(.55,0,.1,1);
+  transition: .5s all cubic-bezier(.55,0,.1,1);
+}
+
+.nav{
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
 .site{
   overflow:hidden;
 }
 
-a {
-  color: transparent;
-  text-decoration: none;
-  background-color: transparent;
-  transition: 1s all cubic-bezier(.55,0,.1,1);
-}
-
 a:hover{
-    text-decoration: none;
+    text-decoration: underline;
     color: grey;
 }
 
@@ -41,6 +51,10 @@ hr{
 #index-wrapper{
   padding:0 !important;
   width:100%;
+}
+
+.post-navigation {
+    display: none;
 }
 
 [data-aos] {
@@ -1371,8 +1385,17 @@ overflow: hidden;
 }
 
 .sponsor-image{
-  height: 45px;
   max-width:30%;
+
+  @media screen and (max-width: 1024px) {
+      max-width: 50%;
+  }
+
+  @media screen and (max-width: 810px) {
+      max-width: 30%;
+  }
+
+
 }
 
 .project--description{
