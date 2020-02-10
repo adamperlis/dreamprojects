@@ -23,3 +23,17 @@ Child Theme Project: [https://github.com/understrap/understrap-child](https://gi
 ## Domain
 - Porkbun
 
+## Update Plugin for Email Links to work incorrectly
+Go to Plugins>Editor and select advanced-forms/core/core-entries.php
+
+Look for this section and add a +1 to entry_id:
+
+`function resolve_entry_id_tag( $output, $tag ) {
+		if ( ! empty( $output ) || 'entry_id' != $tag ) {
+			return $output;
+		}
+
+		$entry_id = isset( AF()->submission['entry'] ) ? AF()->submission['entry'] : '';
+		return $entry_id+1;
+	}
+`
