@@ -64,6 +64,7 @@ function generate_post_from_form_submission() {
  af_save_field('problem', $post_id );
  af_save_field('insight', $post_id );
  af_save_field('solution', $post_id );
+ af_save_field('prototype_link', $post_id );
  af_save_field('process_image', $post_id );
  af_save_field('process', $post_id );
  af_save_field('design_system_image', $post_id );
