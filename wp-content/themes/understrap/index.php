@@ -100,7 +100,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="col-6 col-md-12 col-lg-12 pb-4 pb-sm-0">
 										<div class="container-fluid d-flex align-items-center sponsor--section">
 											<span class="display-5">Sponsored by:</span>
-											<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></a>
+											<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
 										</div>
 									</div>
 									<div class="col-6 col-md-12 col-lg-12 pb-4 pt-2">
