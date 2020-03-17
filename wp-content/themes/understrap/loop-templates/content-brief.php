@@ -78,22 +78,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<div class="col-6">
 
 									<p class="display-5 m-0"><strong>Location</strong></p>
-									<p class="display-5"><?php the_field('eligibility-location'); ?></p>
+									<p class="display-5"><?php the_field('eligibility_location'); ?></p>
 							</div>
 							<div class="col-6">
 
 								<p class="display-5 m-0"><strong>Work Authorization</strong></p>
-								<p class="display-5">Eligible to work in <?php the_field('eligibility-workauthorization'); ?></p>
+								<p class="display-5">Eligible to work in <?php the_field('eligibility_workauthorization'); ?></p>
 							</div>
 							<div class="col-6">
 
 								<p class="display-5 m-0"><strong>Visa Sponsorship</strong></p>
-								<p class="display-5"><?php the_field('eligibility-visa'); ?></p>
+								<p class="display-5"><?php the_field('eligibility_visa'); ?></p>
 							</div>
 							<div class="col-6">
 
 								<p class="display-5 m-0"><strong>Remote</strong></p>
-								<p class="display-5"><?php the_field('eligibility-remote'); ?></p>
+								<p class="display-5"><?php the_field('eligibility_remote'); ?></p>
 							</div>
 					</div>
 				</div>
