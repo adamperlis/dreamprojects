@@ -35,5 +35,4 @@ Look for this section and add a +1 to entry_id:
 
 		$entry_id = isset( AF()->submission['entry'] ) ? AF()->submission['entry'] : '';
 		return $entry_id+1;
-	}
-`
+	}`
