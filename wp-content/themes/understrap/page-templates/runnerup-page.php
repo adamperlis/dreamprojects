@@ -60,7 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 									// args
 									$args = array(
-										'numberposts'	=> -1,
+										'posts_per_page' => -1,
 										'post_type'		=> 'winner_nominee',
 										'meta_key'		=> 'award_designation',
 										'meta_value'	=> 'runner_up'

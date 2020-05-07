@@ -9,6 +9,7 @@ Child Theme Project: [https://github.com/understrap/understrap-child](https://gi
 - Go to ~/code/dreamprojects/wp-content/themes/understrap
 - Run `gulp watch -bs`
 - Load `localhost` in browser.
+- If you encounter a "Primordials Error" its likely because of an incompatability with the latest version of node. Try switching node versions to `nvm use 11.0.0`
 
 ## Deployment
 - Go to ~/code/dreamprojects/wp-content/themes/understrap
@@ -23,7 +24,7 @@ Child Theme Project: [https://github.com/understrap/understrap-child](https://gi
 ## Domain
 - Porkbun
 
-## Update Plugin for Email Links to work incorrectly
+## Update Plugin for Email Links to work correctly
 Go to Plugins>Editor and select advanced-forms/core/core-entries.php
 
 Look for this section and add a +1 to entry_id:

@@ -405,7 +405,7 @@ dl, ol, ul {
  }
 
 .display-4 {
-  font-size: .75rem;
+  font-size: calc(12px + .2vw);
   font-weight: 700;
   letter-spacing: 0px;
   line-height: 1.1;
@@ -564,6 +564,77 @@ p{
   padding-bottom: 190px;
 }
 
+.services--section{
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.services--features{
+  padding-top:200px;
+
+  @media (max-width: 768px) {
+    padding-top:100px;
+  }
+
+}
+
+.card-body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-deck {
+  flex-flow: row wrap;
+
+    @media (max-width: 768px){
+      flex-flow: column !important;
+    }
+}
+
+.card-deck .card {
+    margin-bottom: 15px;
+
+    @media (min-width: 576px){
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 0%;
+        flex: 1 0 0%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-right: 1px;
+        margin-bottom: 0;
+        margin-left: 1px;
+    }
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #262626 !important;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .2rem;
+    -webkit-box-shadow: 0 0 30px -9px rgba(0,0,0,.25);
+    box-shadow: 0 0 30px -9px rgba(0,0,0,.25);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .criteria--section{
   padding-top: 190px;
   padding-bottom: 190px;
@@ -576,6 +647,21 @@ p{
 
 .card-rules {
   border:1px solid #e5e3e1;
+}
+
+.hero--coaching{
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission--coaching{
+  height:810px;
+
+  @media (max-width: 900px) {
+    height: 410px;
+  }
 }
 
 .hero--sponsor{
