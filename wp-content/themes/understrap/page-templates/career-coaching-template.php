@@ -57,8 +57,8 @@ $container = get_theme_mod( 'understrap_container_type' );
               <div class="row">
 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-0 pt-sm-5 pb-5 pb-sm-0 d-flex d-sm-inline-flex d-block flex-wrap align-items-center">
-                    <a class="mr-5 pt-3" href="#"><button class="btn btn-tertiary" style="background:#F1542B">Free Consultation</button></a>
-                    <a class="link white display-6 nav pt-4" href="#pricing"><p>See Pricing <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></p></a>
+                    <a class="mr-5 pt-3" href="#pricing"><button class="btn btn-tertiary" style="background:#F1542B">Free Consultation</button></a>
+                    <a class="link white display-6 nav pt-4" href="#pricing"><p>See Pricing <img src="<?php echo get_template_directory_uri() ?>/img/arrow-down.svg"/></p></a>
                 </div>
 
               </div>
@@ -78,34 +78,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 						</div>
 
-						<div class="clients--coaching row d-flex align-items-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+						<div class="clients--coaching row d-flex align-items-center" style="padding-top:200px; padding-bottom:200px" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 							<div class="d-flex col-10 mt-5 mb-5">
 								<div class="container">
 								<div class="row">
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-sm-8">
-										<h1 class="display-4 white text-center">Where our coaches work, and where our students have gone on to work.</h1>
+										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches work, and where our students have gone on to work</div>
 									</div>
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 								</div>
 
 									<div class="row pt-5">
-										<div class="col-12 d-block center-block text-center mx-auto">
-											<ul class="d-inline-flex align-items-center justify-conent-center flex-wrap">
-												<li class="mr-0 mr-sm-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></li>
-												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></li>
-												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img src="<?php echo get_template_directory_uri() ?>/img/invision-logo-vector-1.svg" /></li>
-												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img src="<?php echo get_template_directory_uri() ?>/img/Philips_logo_new.svg" /></li>
-												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="400"><img src="<?php echo get_template_directory_uri() ?>/img/Logo_NIKE.svg" /></li>
-												<li class="mr-0 mr-sm-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500"><img src="<?php echo get_template_directory_uri() ?>/img/Airbnb_Logo.svg" /></li>
+										<div class="col-12 d-block center-block text-center mx-auto justify-content-center">
+											<ul class="d-inline-flex align-items-start justify-content-center flex-wrap justify-content-around">
+												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></li>
+												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></li>
+												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/invision-logo-vector-1.svg" /></li>
+												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/Philips_logo_new.svg" /></li>
+												<li class="mr-0 mr-sm-5 mb-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="400"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/Logo_NIKE.svg" /></li>
+												<li class="mr-0 mr-sm-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500"><img style="height:30px; filter: invert(1) saturate(0);" src="<?php echo get_template_directory_uri() ?>/img/Airbnb_Logo.svg" /></li>
 											</ul>
 										</div>
 										</div>
 
 								</div>
-							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 						</div>
+						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 						</div>
 
 						<div class="row white services--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
@@ -248,7 +248,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<img src="<?php echo get_template_directory_uri() ?>/img/success-stories.svg" />
 								</div>
 												<div class="col-12 col-lg-12 d-block center-block text-center mx-auto mt-5">
-													<h2 class="display-2 white">“This is what a quote from one of our particpants looks like!”</h2>
+													<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+													  <ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+													  </ol>
+													  <div class="carousel-inner">
+													    <div class="carousel-item active">
+
+																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
+													    </div>
+													    <div class="carousel-item">
+
+																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
+													    </div>
+													    <div class="carousel-item">
+
+																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
+													    </div>
+													  </div>
+													</div>
+
 												</div>
 
 									</div>
@@ -280,144 +301,170 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						</div>
-						<div class="container d-none d-md-block" style="padding-bottom:200px">
+						<div class="container d-none d-xl-block" style="padding-bottom:200px">
 							<div class="card-deck text-center">
 				        <div class="card box-shadow" style="border-radius: 4px 0px 0px 4px;">
 				          <div>
-				            <h4 class="my-0 display-4 mb-4">Free</h4>
+				            <h4 class="my-0 display-4">Consultation</h4>
+										<h1 class="card-title display-3 "><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>0</h1>
 				          </div>
+
 				          <div class="card-body justify-content-center">
-				            <h1 class="card-title display-3 ">$0</h1>
+
 				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-				              <li>10 users included</li>
-				              <li>2 GB of storage</li>
-				              <li>Email support</li>
-				              <li>Help center access</li>
+				              <li>1 session (20 Min)</li>
+				              <li>Career Stage Assessment</li>
+				              <li>Career Advice</li>
 				            </ul>
-				            <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
 				          </div>
+									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
 				        </div>
 
 				        <div class="card box-shadow" style="border-radius: 0px 0px 0px 0px;">
 				          <div>
-				            <h4 class="my-0 display-4">Enterprise</h4>
+				            <h4 class="my-0 display-4">Starter</h4>
+										<h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</h1>
 				          </div>
+
 				          <div class="card-body">
-				            <h1 class="card-title display-3">$29</h1>
 				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-				              <li>30 users included</li>
-				              <li>15 GB of storage</li>
-				              <li>Phone and email support</li>
-				              <li>Help center access</li>
+				              <li>1 session (50 Min)</li>
+											<span class="text-muted display-5" style="padding:10px;">Choose:</span>
+											<li class="circle">Career Advice</li>
+				              <li class="circle">High Level Portfolio Review</li>
+											<li class="circle">Single Project Porfolio Review</li>
+											<li class="circle">Interview Prep</li>
 				            </ul>
-				            <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
+
 				          </div>
+									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
 				        </div>
 
-								<div class="card box-shadow" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
+								<div class="card box-shadow align-items-center" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
 								 <div>
 									 <div class="badge badge-light mb-4">Recommended</div>
 									 <h4 class="my-0 display-4">Pro</h4>
-								 </div>
-								 <div class="card-body">
-									 <h1 class="card-title display-3">$15</h1>
+									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</h1>
 									 <h5 class="my-0 text-muted display-5">10% Discount</h5>
-									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>20 users included</li>
-										 <li>10 GB of storage</li>
-										 <li>Priority email support</li>
-										 <li>Help center access</li>
-									 </ul>
-									 <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
 								 </div>
+
+								 <div class="card-body">
+
+
+									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+										 <li>3 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>High Level Portfolio Review</li>
+										 <li>Interview Prep</li>
+									 </ul>
+
+								 </div>
+								 <div><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+
 							 </div>
 
 								<div class="card box-shadow" style="border-radius: 0px 4px 4px 0px;">
 								 <div>
-									 <h4 class="my-0 display-4">Enterprise</h4>
+									 <h4 class="my-0 display-4">Expert</h4>
+									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>780</h1>
 								 </div>
+
 								 <div class="card-body">
-									 <h1 class="card-title display-3">$29</h1>
+
 									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>30 users included</li>
-										 <li>15 GB of storage</li>
-										 <li>Phone and email support</li>
-										 <li>Help center access</li>
+										 <li>6 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>Detailed Portfolio Review</li>
+										 <li>Interview Prep</li>
 									 </ul>
-									 <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
+
 								 </div>
+								 <div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
 							 </div>
 				      </div>
 						</div>
 
-						<div class="container d-block d-md-none" style="padding-bottom:200px">
+						<div class="container d-block d-xl-none" style="padding-bottom:200px">
 							<div class="card-deck text-center">
-				        <div class="card box-shadow mb-4">
-				          <div>
-				            <h4 class="my-0 display-4 mb-4">Free</h4>
-				          </div>
-				          <div class="card-body justify-content-center">
-				            <h1 class="card-title display-3 ">$0</h1>
-				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-				              <li>10 users included</li>
-				              <li>2 GB of storage</li>
-				              <li>Email support</li>
-				              <li>Help center access</li>
-				            </ul>
-				            <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
-				          </div>
-				        </div>
+								<div class="card box-shadow mb-4" style="border-radius: 4px;">
+									<div>
+										<h4 class="my-0 display-4">Consultation</h4>
+										<h1 class="card-title display-3 "><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>0</h1>
+									</div>
 
-				        <div class="card box-shadow mb-4">
-				          <div>
-				            <h4 class="my-0 display-4">Enterprise</h4>
-				          </div>
-				          <div class="card-body">
-				            <h1 class="card-title display-3">$29</h1>
-				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-				              <li>30 users included</li>
-				              <li>15 GB of storage</li>
-				              <li>Phone and email support</li>
-				              <li>Help center access</li>
-				            </ul>
-				            <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
-				          </div>
-				        </div>
+									<div class="card-body justify-content-center">
 
-								<div class="card box-shadow mb-4 mt-1" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
+										<ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+											<li>1 session (20 Min)</li>
+											<li>Career Stage Assessment</li>
+											<li>Career Advice</li>
+										</ul>
+									</div>
+									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+								</div>
+
+								<div class="card box-shadow mb-4" style="border-radius: 4px;">
+									<div>
+										<h4 class="my-0 display-4">Starter</h4>
+										<h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</h1>
+									</div>
+
+									<div class="card-body">
+										<ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+											<li>1 session (50 Min)</li>
+											<span class="text-muted display-5" style="padding:10px;">Choose:</span>
+											<li class="circle">Career Advice</li>
+											<li class="circle">High Level Portfolio Review</li>
+											<li class="circle">Single Project Porfolio Review</li>
+											<li class="circle">Interview Prep</li>
+										</ul>
+
+									</div>
+									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+								</div>
+
+								<div class="card box-shadow mb-4 mt-2 align-items-center" style="border:1px solid white; border-radius:4px; margin-top:-25px; margin-bottom:-25px;">
 								 <div>
 									 <div class="badge badge-light mb-4">Recommended</div>
 									 <h4 class="my-0 display-4">Pro</h4>
-								 </div>
-								 <div class="card-body">
-									 <h1 class="card-title display-3">$15</h1>
+									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</h1>
 									 <h5 class="my-0 text-muted display-5">10% Discount</h5>
-									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>20 users included</li>
-										 <li>10 GB of storage</li>
-										 <li>Priority email support</li>
-										 <li>Help center access</li>
-									 </ul>
-									 <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
 								 </div>
+
+								 <div class="card-body">
+
+
+									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+										 <li>3 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>High Level Portfolio Review</li>
+										 <li>Interview Prep</li>
+									 </ul>
+
+								 </div>
+								 <div><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+
 							 </div>
 
-								<div class="card box-shadow mb-4">
+								<div class="card box-shadow mb-4" style="border-radius: 0px 4px 4px 0px;">
 								 <div>
-									 <h4 class="my-0 display-4">Enterprise</h4>
+									 <h4 class="my-0 display-4">Expert</h4>
+									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; border-radius:4px; vertical-align: middle;">$</span>780</h1>
 								 </div>
+
 								 <div class="card-body">
-									 <h1 class="card-title display-3">$29</h1>
+
 									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>30 users included</li>
-										 <li>15 GB of storage</li>
-										 <li>Phone and email support</li>
-										 <li>Help center access</li>
+										 <li>6 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>Detailed Portfolio Review</li>
+										 <li>Interview Prep</li>
 									 </ul>
-									 <button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button>
+
 								 </div>
+								 <div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
 							 </div>
-				      </div>
+							</div>
 						</div>
 						</div>
 						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
