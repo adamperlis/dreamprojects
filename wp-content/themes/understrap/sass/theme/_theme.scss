@@ -380,7 +380,7 @@ dl, ol, ul {
 }
 
 .display-2 {
-  font-size: calc(60px + 2vw);
+  font-size: calc(60px + 1vw);
   font-weight: 700;
   letter-spacing: -4px;
   line-height: 1;
@@ -629,17 +629,42 @@ p{
   display: flex;
 }
 
+.card-body{
 
-.card-deck {
-  flex-flow: row wrap;
+}
 
-    @media (max-width: 1200px){
-      flex-flow: column !important;
+.card-deck{
+  flex-flow: column;
+
+    @media (min-width: 768px){
+      flex-flow: row wrap;
     }
 }
 
+
 .card-deck .card {
     margin-bottom: 15px;
+
+
+    li{
+      font-size: 12px;
+    }
+
+    @media (min-width: 768px){
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 0%;
+        flex: 1 0 0%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        margin-right: 1px;
+        margin-bottom: 0;
+        margin-left: 1px;
+
+
+      }
 
     @media (min-width: 1200px){
         display: -webkit-box;
@@ -650,12 +675,11 @@ p{
         flex: 1 0 0%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         margin-right: 1px;
         margin-bottom: 20px;
         margin-left: 1px;
     }
+
 }
 
 .card {
@@ -675,17 +699,39 @@ p{
     border-radius: .2rem;
     -webkit-box-shadow: 0 0 30px -9px rgba(0,0,0,.25);
     box-shadow: 0 0 30px -9px rgba(0,0,0,.25);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .card-title{
-  padding-top:20px;
+  padding-top:10px;
 }
 
 .carousel {
-  min-height: 410px;
+  min-height: 210px;
   padding-bottom: 100px;
+}
+
+.carousel-indicators li {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 48px;
+    height: 3px;
+    border-radius: 7px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .2;
+    -webkit-transition: opacity .6s ease;
+    transition: opacity .6s ease;
 }
 
 .criteria--section{
@@ -703,18 +749,206 @@ p{
 }
 
 .hero--coaching{
-  height: 810px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  .display-1{
+    font-size: 4em;
+    letter-spacing: -4px;
+  }
+
+  @media (min-width: 1441px) {
+
+
+    .display-1{
+      font-size: 5em;
+      letter-spacing: -4px;
+    }
+  }
 }
 
 .mission--coaching{
-  height:810px;
+  height:610px;
 
   @media (max-width: 900px) {
     height: 410px;
   }
+}
+
+.success-stories--coaching{
+  .swiper-two {
+    width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 1024px) {
+        height: auto;
+    }
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    opacity:.5;
+    color:white;
+    transition:1s all cubic-bezier(.55,0,.1,1);
+  }
+
+  .swiper-container-horizontal>.swiper-scrollbar {
+      position: absolute;
+      bottom: 0px;
+      left:0;
+      z-index: 50;
+      height: 5px;
+  }
+  .swiper-scrollbar {
+      border-radius: 10px;
+      position: relative;
+      -ms-touch-action: none;
+      background: rgba(255,255,255,.1);
+      height:5px;
+  }
+
+  .swiper-scrollbar-drag {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background: white;
+      border-radius: 10px;
+      left: 0;
+      top: 0;
+  }
+
+  .swiper-slide-active{
+    opacity: 1;
+  }
+  .swiper-slide-visible{
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active{
+    background: white;
+    border-radius: 100px;
+  }
+
+  .swiper-pagination-bullet{
+    background: white;
+    width: 48px;
+    height: 3px;
+    margin: 0px;
+    border-radius: 0;
+    transition: .25s all ease;
+  }
+
+  .swiper-pagination-two {
+    position: relative;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
+}
+
+.refunds--coaching{
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.howitworks--coaching{
+  padding-top:200px;
+  padding-bottom:200px;
+
+  .swiper-one {
+    width: 100%;
+    height: auto;
+    max-width: 80%;
+
+    @media screen and (max-width: 1024px) {
+        height: 390px;
+
+    }
+  }
+
+  .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    opacity:.5;
+    color:white;
+    background:#262626;
+    transition:1s all cubic-bezier(.55,0,.1,1);
+  }
+
+  .swiper-container-horizontal>.swiper-scrollbar {
+      position: absolute;
+      bottom: 0px;
+      left:0;
+      z-index: 50;
+      height: 5px;
+  }
+  .swiper-scrollbar {
+      border-radius: 10px;
+      position: relative;
+      -ms-touch-action: none;
+      background: rgba(255,255,255,.1);
+      height:5px;
+  }
+
+  .swiper-scrollbar-drag {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background: white;
+      border-radius: 10px;
+      left: 0;
+      top: 0;
+  }
+
+  .swiper-slide-active{
+    opacity: 1;
+  }
+  .swiper-slide-visible{
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active{
+    background: white;
+    border-radius: 100px;
+  }
+
+  .swiper-pagination-bullet{
+    background: white;
+    width: 48px;
+    height: 3px;
+    margin: 0px;
+    border-radius: 0;
+    transition: .25s all ease;
+  }
+
+  .swiper-pagination {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
 }
 
 .hero--sponsor{
@@ -1526,6 +1760,10 @@ overflow: hidden;
 
 .sponsor-image{
   max-width:30%;
+
+  @media screen and (min-width: 1400px) {
+      max-width: 20%;
+  }
 
   @media screen and (max-width: 1024px) {
       max-width: 50%;

@@ -351,13 +351,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="swiper-scrollbar"></div>
 			  </div>
 
-				<!-- Add Scrollbar -->
-				<div class="row">
-					<div class="col-12">
-					<div class="d-none d-sm-block swiper-button-next display-4">Next Month <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /></div>
-					<div class="d-none d-sm-block swiper-button-prev display-4"><img src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg" /> This Month</div>
-					</div>
-				</div>
+
 
 				</div>
 			</div>
@@ -365,6 +359,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			</div>
 			</div>
+
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+			      scrollbar: {
+			        el: '.swiper-scrollbar',
+			        hide: false,
+			      },
+						speed:750,
+			    });
+			</script>
+
 
 
 

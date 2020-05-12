@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="row">
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-sm-8">
-										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches work, and where our students have gone on to work</div>
+										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches and mentors work, and where our students have gone on to work</div>
 									</div>
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 								</div>
@@ -120,7 +120,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<h3 class="display-3 white text-center">Services</h3>
 									</div>
 									<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
-										<p class="white text-center ">See how we can help shape you into a rockstar canidate. These are some of the services we can offer.</p>
+										<p class="white text-center ">These are some of the services we can offer to help shape you into a rockstar candidate.</p>
 									</div>
 
 
@@ -200,7 +200,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 
 							<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
-							<div class="col-12 col-lg-6 text-center d-flex">
+							<div class="col-12 col-lg-6 text-center d-flex align-items-start">
 									<img src="<?php echo get_template_directory_uri() ?>/img/portfolio-reviews.png" />
 							</div>
 					</div>
@@ -209,8 +209,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="container services--features" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 							<div class="row flex-wrap-reverse">
 
-							<div class="col-12 col-lg-6 text-center justify-content-center d-flex">
-									<img style="max-width:50%" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.png" />
+							<div class="col-12 col-lg-6 text-center justify-content-center align-items-start d-flex">
+									<img style="max-width:50%; height:auto; align-items:flex-start" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.png" />
 							</div>
 							<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
 							<div class="col-12 col-lg-4 d-flex mb-5 flex-column justify-content-center text-center text-md-left">
@@ -227,7 +227,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 
 							<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
-							<div class="col-12 col-lg-6 text-center d-flex">
+							<div class="col-12 col-lg-6 text-center d-flex align-items-start">
 									<img src="<?php echo get_template_directory_uri() ?>/img/career-advice.svg" />
 							</div>
 					</div>
@@ -236,50 +236,229 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div>
 
-					<div class="row white quotes--section" style="padding-bottom:10rem; padding-top:10rem" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
-						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-						<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+						<div class="whothisisfor--coaching row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+
 						<div class="container mb-5">
-							<div class="row">
+								<div class="row">
+									<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+									<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+									<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
 
-								<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
+									<div class="col-12 col-sm-6 d-block center-block mx-auto">
+										<h3 class="display-3 white text-center">Who this is for</h3>
+									</div>
+									<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
+										<p class="white text-center ">Our trained staff will work with you to develop your strategy to get you to your next career milestone.</p>
+									</div>
 
-								<div class="col-12 col-sm-6 d-block center-block justify-content-center d-flex mx-auto">
-										<img src="<?php echo get_template_directory_uri() ?>/img/success-stories.svg" />
+
 								</div>
-												<div class="col-12 col-lg-12 d-block center-block text-center mx-auto mt-5">
-													<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-													  <ol class="carousel-indicators">
-													    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-													    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-													    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-													  </ol>
-													  <div class="carousel-inner">
-													    <div class="carousel-item active">
+							</div>
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+							</div>
+							</div>
 
-																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
-													    </div>
-													    <div class="carousel-item">
+						<div class="container">
+							<div class="row">
+								<div class="col-10 col-lg-10 d-block center-block mx-auto pt-5">
+									<ul class="how-grid">
 
-																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
-													    </div>
-													    <div class="carousel-item">
+										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/career-switcher.svg" /><h2 class="display-4 white">Career Switchers</h2>
+										Each month we create a fictional brief based around the design needs of a major real world company or organization.</li>
+										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/recent-grad.svg" /><h2 class="display-4 white">Recent Graduates</h2>
+										Along with our brief, we give you a guide to help you develop a design that you’ll be proud to show to potential employers.</li>
+										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/experienced-practicioner.svg" /><h2 class="display-4 white">Experienced Practicioners</h2>
+										Every submission is carefully reviewed by our panel of leading professionals from the design and UX fields.</li>
+										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/managers.svg" /><h2 class="display-4 white">Managers</h2>
+										Winners can receive a one-on-one meeting with a world class company like Google, AirBnB, Nike, and many others.</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+					</div>
 
-																<h2 class="display-2 white d-block w-100">“This is what a quote from one of our particpants looks like!”</h2>
-													    </div>
-													  </div>
+						<div class="howitworks--coaching row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+							<div class="container mb-5">
+								<div class="row">
+									<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+									<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+									<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
+
+									<div class="col-12 col-sm-6 d-block center-block mx-auto">
+										<h3 class="display-3 white text-center">How it works</h3>
+									</div>
+									<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
+										<p class="white text-center ">Our trained staff will work with you to create a custom program to get you help get you to your next career milestone.</p>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+							</div>
+							</div>
+
+								<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="swiper-container swiper-one">
+										<div class="swiper-wrapper d-flex justify-content-start justify-content-lg-end">
+											<div class="swiper-slide align-items-start p-4 p-md-5">
+												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
+												<div class="row d-flex">
+													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/assesment.svg"/>
+														<span class="display-3 d-block" style="font-size:24px">Assessment</p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12 d-flex flex-column">
+														<p>Some Text</p>
+														<span class="display-5 text-muted d-flex align-items-end">20 Min Session</span>
+													</div>
+												</div>
+
+											</div>
+											</div>
+
+												<div class="swiper-slide align-items-start p-4 p-md-5">
+													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200">
+													<div class="row d-flex">
+														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/planning.svg"/>
+															<span class="display-3 d-block" style="font-size:24px">Planning</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12 d-flex flex-column">
+															<p>Some Text</p>
+															<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
+														</div>
 													</div>
 
 												</div>
 
+											</div>
+
+												<div class="swiper-slide align-items-start p-4 p-md-5">
+													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
+													<div class="row d-flex">
+														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/focus.svg"/>
+															<span class="display-3 d-block" style="font-size:24px">Focus</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12 d-flex flex-column">
+															<p>Some Text</p>
+															<span class="display-5 text-muted d-flex align-items-end">Varies</span>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+												<div class="swiper-slide align-items-start p-4 p-md-5">
+													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="0" data-aos-delay="400">
+													<div class="row d-flex">
+														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/execution.svg"/>
+															<span class="display-3 d-block" style="font-size:24px">Execution</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12 d-flex flex-column">
+															<p>Some Text</p>
+															<span class="display-5 text-muted d-flex align-items-end">Varies</span>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+												<div class="swiper-slide align-items-start p-4 p-md-5">
+													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
+													<div class="row d-flex">
+														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/mentor-matching.svg"/>
+															<span class="display-3 d-block" style="font-size:24px">Mentor Matching</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12 d-flex flex-column">
+															<p>Some Text</p>
+															<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div>
 									</div>
+									<div class="swiper-pagination"></div>
+
+								</div>
+
+						</div>
+
+						<div class="row white success-stories--coaching" style="padding-bottom:10rem; padding-top:10rem" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+							<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+							<div class="container mb-5">
+								<div class="row">
+
+									<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
+
+									<div class="col-12 col-sm-12 d-block center-block justify-content-center d-flex mx-auto">
+											<img src="<?php echo get_template_directory_uri() ?>/img/success-stories.svg" />
+									</div>
+
+									<div class="swiper-container swiper-two">
+										<div class="swiper-wrapper d-flex">
+											<div class="swiper-slide mt-4">
+												<div class="container-fluid">
+												<div class="row d-flex">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<h2 class="display-3 white d-block w-100">“Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths. They provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
+													</div>
+												</div>
+
+											</div>
+											</div>
+											<div class="swiper-slide p-4 p-md-5">
+												<div class="container-fluid">
+												<div class="row d-flex">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<h2 class="display-3 white d-block w-100">“The Dream Projects Team gave me a wonderful guide on how to not only solve a design problem but also explore my creativity in building something I hoped people would enjoy. They challenged me as a designer and as someone pursuing a career transition into UX/UI design and provided me with great, advice, guidance and tasks to hone my skills and represent myself in the most attractive manner possible.”</h2>
+													</div>
+												</div>
+
+											</div>
+											</div>
+											<div class="swiper-slide p-4 p-md-5">
+												<div class="container-fluid">
+												<div class="row d-flex">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+															<h2 class="display-3 white d-block w-100">“Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths. They provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
+													</div>
+												</div>
+
+											</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination-two"></div>
+								</div>
 								</div>
 
 
+										</div>
+									</div>
+
+
+
+
+							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 							</div>
-						</div>
-						</div>
-						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+
 
 
 					<div class="row white pricing--section" id="pricing" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
@@ -301,12 +480,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						</div>
-						<div class="container d-none d-xl-block" style="padding-bottom:200px">
-							<div class="card-deck text-center">
-				        <div class="card box-shadow" style="border-radius: 4px 0px 0px 4px;">
+
+						<div class="container d-none d-md-block mx-auto" style="padding-bottom:200px; width:100%;">
+							<div class="card-deck text-center mx-auto">
+				        <div class="card box-shadow mx-auto" style="border-radius: 4px 0px 0px 4px;">
 				          <div>
 				            <h4 class="my-0 display-4">Consultation</h4>
-										<h1 class="card-title display-3 "><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>0</h1>
+										<div class="card-title display-3 ">Free</div>
 				          </div>
 
 				          <div class="card-body justify-content-center">
@@ -317,13 +497,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 				              <li>Career Advice</li>
 				            </ul>
 				          </div>
-									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-				        </div>
 
-				        <div class="card box-shadow" style="border-radius: 0px 0px 0px 0px;">
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+								</div>
+								</div>
+
+				        <div class="card box-shadow" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
 				          <div>
+										<div class="badge badge-light mb-4">Recommended</div>
 				            <h4 class="my-0 display-4">Starter</h4>
-										<h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</h1>
+										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
 				          </div>
 
 				          <div class="card-body">
@@ -337,59 +521,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            </ul>
 
 				          </div>
-									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-				        </div>
-
-								<div class="card box-shadow align-items-center" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
-								 <div>
-									 <div class="badge badge-light mb-4">Recommended</div>
-									 <h4 class="my-0 display-4">Pro</h4>
-									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</h1>
-									 <h5 class="my-0 text-muted display-5">10% Discount</h5>
-								 </div>
-
-								 <div class="card-body">
-
-
-									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>3 sessions (50 min each)</li>
-										 <li>Career Advice</li>
-										 <li>High Level Portfolio Review</li>
-										 <li>Interview Prep</li>
-									 </ul>
-
-								 </div>
-								 <div><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-
-							 </div>
-
-								<div class="card box-shadow" style="border-radius: 0px 4px 4px 0px;">
-								 <div>
-									 <h4 class="my-0 display-4">Expert</h4>
-									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>780</h1>
-								 </div>
-
-								 <div class="card-body">
-
-									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
-										 <li>6 sessions (50 min each)</li>
-										 <li>Career Advice</li>
-										 <li>Detailed Portfolio Review</li>
-										 <li>Interview Prep</li>
-									 </ul>
-
-								 </div>
-								 <div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-							 </div>
-				      </div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+								</div>
+							</div>
 						</div>
 
-						<div class="container d-block d-xl-none" style="padding-bottom:200px">
-							<div class="card-deck text-center">
+						</div>
+
+
+						<div class="container d-block d-md-none mx-auto" style="padding-bottom:200px; width:100%;">
+							<div class="card-deck text-center mx-auto">
 								<div class="card box-shadow mb-4" style="border-radius: 4px;">
 									<div>
 										<h4 class="my-0 display-4">Consultation</h4>
-										<h1 class="card-title display-3 "><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>0</h1>
+										<div class="card-title display-3 ">Free</div>
 									</div>
 
 									<div class="card-body justify-content-center">
@@ -400,13 +546,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<li>Career Advice</li>
 										</ul>
 									</div>
-									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-								</div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+ 								 </a>
+ 								 </div>
+								 </div>
 
-								<div class="card box-shadow mb-4" style="border-radius: 4px;">
+								<div class="card box-shadow mb-4 mt-2" style="border:1px solid white; border-radius:4px; margin-top:-25px; margin-bottom:-25px;">
 									<div>
+										<div class="badge badge-light mb-4">Recommended</div>
 										<h4 class="my-0 display-4">Starter</h4>
-										<h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</h1>
+										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
 									</div>
 
 									<div class="card-body">
@@ -420,14 +569,66 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</ul>
 
 									</div>
-									<div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+									</div>
+									</div>
+
+						</div>
+						</div>
+
+
+<!-- Old pricing template -->
+
+						<!-- <div class="container d-none d-md-block" style="padding-bottom:200px">
+							<div class="card-deck text-center">
+				        <div class="card box-shadow" style="border-radius: 4px 0px 0px 4px;">
+				          <div>
+				            <h4 class="my-0 display-4">Consultation</h4>
+										<div class="card-title display-3 ">Free</div>
+				          </div>
+
+				          <div class="card-body justify-content-center">
+
+				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+				              <li>1 session (20 Min)</li>
+				              <li>Career Stage Assessment</li>
+				              <li>Career Advice</li>
+				            </ul>
+				          </div>
+
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+								</div>
 								</div>
 
-								<div class="card box-shadow mb-4 mt-2 align-items-center" style="border:1px solid white; border-radius:4px; margin-top:-25px; margin-bottom:-25px;">
+				        <div class="card box-shadow" style="border-radius: 0px 0px 0px 0px;">
+				          <div>
+				            <h4 class="my-0 display-4">Starter</h4>
+										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
+				          </div>
+
+				          <div class="card-body">
+				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+				              <li>1 session (50 Min)</li>
+											<span class="text-muted display-5" style="padding:10px;">Choose:</span>
+											<li class="circle">Career Advice</li>
+				              <li class="circle">High Level Portfolio Review</li>
+											<li class="circle">Single Project Porfolio Review</li>
+											<li class="circle">Interview Prep</li>
+				            </ul>
+
+				          </div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+								</div>
+								</div>
+
+								<div class="card box-shadow align-items-center" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
 								 <div>
 									 <div class="badge badge-light mb-4">Recommended</div>
 									 <h4 class="my-0 display-4">Pro</h4>
-									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</h1>
+									 <div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</div>
 									 <h5 class="my-0 text-muted display-5">10% Discount</h5>
 								 </div>
 
@@ -442,14 +643,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 									 </ul>
 
 								 </div>
-								 <div><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
+								 <div class="card-button" style="margin-bottom: 44px;"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+								 </a>
+								 </div>
+								 </div>
 
-							 </div>
-
-								<div class="card box-shadow mb-4" style="border-radius: 0px 4px 4px 0px;">
+								<div class="card box-shadow" style="border-radius: 0px 4px 4px 0px;">
 								 <div>
 									 <h4 class="my-0 display-4">Expert</h4>
-									 <h1 class="card-title display-3"><span class="display-4" style="padding-right:.2em; border-radius:4px; vertical-align: middle;">$</span>780</h1>
+									 <div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>780</div>
+									 <h5 class="my-0 text-muted display-5">20% Discount</h5>
 								 </div>
 
 								 <div class="card-body">
@@ -462,15 +665,178 @@ $container = get_theme_mod( 'understrap_container_type' );
 									 </ul>
 
 								 </div>
-								 <div class="card-button"><button type="button" style="min-width:150px; width:150px" class="btn btn-sm btn-block btn-secondary">Sign Up</button></div>
-							 </div>
+								 <div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+								 </a>
+								 </div>
+				      </div>
+						</div>
+						</div>
+
+						<div class="container d-block d-md-none" style="padding-bottom:200px">
+							<div class="card-deck text-center">
+								<div class="card box-shadow mb-4" style="border-radius: 4px;">
+									<div>
+										<h4 class="my-0 display-4">Consultation</h4>
+										<div class="card-title display-3 ">Free</div>
+									</div>
+
+									<div class="card-body justify-content-center">
+
+										<ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+											<li>1 session (20 Min)</li>
+											<li>Career Stage Assessment</li>
+											<li>Career Advice</li>
+										</ul>
+									</div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+ 								 </a>
+ 								 </div>
+								 </div>
+
+								<div class="card box-shadow mb-4" style="border-radius: 4px;">
+									<div>
+										<h4 class="my-0 display-4">Starter</h4>
+										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
+									</div>
+
+									<div class="card-body">
+										<ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+											<li>1 session (50 Min)</li>
+											<span class="text-muted display-5" style="padding:10px;">Choose:</span>
+											<li class="circle">Career Advice</li>
+											<li class="circle">High Level Portfolio Review</li>
+											<li class="circle">Single Project Porfolio Review</li>
+											<li class="circle">Interview Prep</li>
+										</ul>
+
+									</div>
+									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									</a>
+									</div>
+									</div>
+
+								<div class="card box-shadow mb-4 mt-2 align-items-center" style="border:1px solid white; border-radius:4px; margin-top:-25px; margin-bottom:-25px;">
+								 <div>
+									 <div class="badge badge-light mb-4">Recommended</div>
+									 <h4 class="my-0 display-4">Pro</h4>
+									 <div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>405</div>
+									 <h5 class="my-0 text-muted display-5">10% Discount</h5>
+								 </div>
+
+								 <div class="card-body">
+
+
+									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+										 <li>3 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>High Level Portfolio Review</li>
+										 <li>Interview Prep</li>
+									 </ul>
+
+								 </div>
+								 <div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+								 </a>
+								 </div>
+								 </div>
+
+								<div class="card box-shadow mb-4" style="border-radius: 0px 4px 4px 0px;">
+								 <div>
+									 <h4 class="my-0 display-4">Expert</h4>
+									 <div class="card-title display-3"><span class="display-4" style="padding-right:.2em; border-radius:4px; vertical-align: middle;">$</span>780</div>
+								 </div>
+
+								 <div class="card-body">
+
+									 <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
+										 <li>6 sessions (50 min each)</li>
+										 <li>Career Advice</li>
+										 <li>Detailed Portfolio Review</li>
+										 <li>Interview Prep</li>
+									 </ul>
+
+								 </div>
+								 <div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+								 </a>
+								 </div>
 							</div>
 						</div>
-						</div>
+						</div> -->
 						<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 					</div>
 				</div>
 
+				<div class="row white refunds--coaching" id="refund" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+					<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+					<div class="container mb-5">
+						<div class="row">
+
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
+
+							<div class="col-12 col-sm-6 d-block center-block mx-auto">
+								<h3 class="display-3 white text-center">Refunds</h3>
+							</div>
+							<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
+								<p class="white text-center ">Unhappy with our service? We will give you a full refund.</p>
+								<a class="white" href="/contact-us"><p class="display-5 job-post">Contact Us</p></a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+					</div>
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+				</div>
+				</div>
+
+
+			<script>
+		    var swiper = new Swiper('.swiper-one', {
+					slidesPerView:4,
+					breakpoints: {
+				    // when window width is >= 320px
+				    320: {
+				      slidesPerView: 1,
+				      spaceBetween: 8,
+				    },
+				    // when window width is >= 480px
+				    480: {
+				      slidesPerView: 2,
+				      spaceBetween: 10
+				    },
+				    // when window width is >= 640px
+				    640: {
+				      slidesPerView: 2,
+				      spaceBetween: 10
+				    },
+						900: {
+						 slidesPerView: 4,
+						 spaceBetween: 10
+					 },
+						1200: {
+						 slidesPerView: 4,
+						 spaceBetween: 10
+					 },
+				  },
+					centeredSlides:true,
+					spaceBetween:10,
+					pagination: {
+        		el: '.swiper-pagination',
+						clickable:true,
+      		},
+					initialSlide: 0,
+		    });
+
+				var swiper2 = new Swiper('.swiper-two', {
+				 pagination: {
+					 el: '.swiper-pagination-two',
+					 clickable:true,
+				 },
+			 });
+
+
+		  </script>
 
 
 

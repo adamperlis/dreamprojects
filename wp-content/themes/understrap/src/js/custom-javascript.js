@@ -1,16 +1,5 @@
 
 ///Swiper Library
-var swiper = new Swiper('.swiper-container', {
-      scrollbar: {
-        el: '.swiper-scrollbar',
-        hide: false,
-      },
-			navigation: {
-			 nextEl: '.swiper-button-next',
-			 prevEl: '.swiper-button-prev',
-		  },
-			speed:750,
-    });
 
 //Menu
 	var bars = $('.menu-bar');
