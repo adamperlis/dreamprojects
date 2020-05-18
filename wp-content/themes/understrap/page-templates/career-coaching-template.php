@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="row">
 
 										<div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-sm-0 pt-0 pb-0 pb-sm-0">
-											<h1 class="display-1 white">Get Your <br>Dream Job</h1>
+											<h1 class="display-1 white">Make your dream <br>Your reality</h1>
 										</div>
 									</div>
 
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<div class="col-11 col-sm-11 col-md-11 col-lg-11 mt-5 mt-sm-5">
 
 												<div class="text-grid">
-													<p class="white">Finding a mentor, coach or expert to help you get to your Dream Job can be tough. Nobody wants to put their careers to chance or in the hands of someone they don’t trust. Learn to build self-confidence, and ensure that the time and money you have spent on your career development, isn’t wasted.</p>
+													<p class="white">When it comes to landing your Dream Job, the right coach or mentor can make all the difference. You want a professional you can trust, feedback you can use, and expert advice from someone who's been there. At Dream Projects, we take the time to understand your unique needs and goals, and connect you with someone who can help you develop the skills to achieve the career you’ve been dreaming of.</p>
 												</div>
 
 									</div>
@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="row">
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-sm-8">
-										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches and mentors work, and where our students have gone on to work</div>
+										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches and mentors work, and where our cleints have gone on to work</div>
 									</div>
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 								</div>
@@ -185,8 +185,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 									</div>
 									<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-lg-4 d-flex mb-5 flex-column justify-content-center text-center text-md-left">
-										<h4 class="display-4 d-block">Feedback from the pro’s</h4>
-										<p class="d-block">We will provide direct unfiltered feedback to shape you into a standout canidate.</p>
+										<h4 class="display-4 d-block">Feedback from the Pros</h4>
+										<p class="d-block">We will provide direct unfiltered feedback to shape you into a standout candidate.</p>
 									</div>
 							</div>
 						</div>
@@ -215,7 +215,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
 							<div class="col-12 col-lg-4 d-flex mb-5 flex-column justify-content-center text-center text-md-left">
 								<h4 class="display-4 d-block">Interview Prep</h4>
-								<p class="d-block">We will prepare you for your next interview. Our expert team will utlize our collective industry knowledge to generate question and help you develop answers so that you can expect the unexpected.</p>
+								<p class="d-block">We will prepare you for your next interview. Our expert team will utilize our collective industry knowledge to generate questions and help you develop answers so that you can expect the unexpected.</p>
 							</div>
 						</div>
 					</div>
@@ -223,7 +223,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="row">
 								<div class="col-12 col-lg-4 d-flex mb-5 flex-column justify-content-center text-center text-md-left">
 									<h4 class="display-4 d-block">Career Advice</h4>
-									<p class="d-block">Learn how to write a great LinkedIn introduction or cover letter, what that proper etiquette is when introducing yourself in any scenario, advice on different ways to boost your personal brand, network with amazing people or how to build a freelance career.</p>
+									<p class="d-block">Learn how to write a great LinkedIn introduction or cover letter, the proper etiquette for introducing yourself in any scenario, techniques to boost your personal brand, how to make the most of networking opportunities, how to build an amazing freelance career or how to negotiate the salary you deserve.</p>
 								</div>
 
 							<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
@@ -248,7 +248,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<h3 class="display-3 white text-center">Who this is for</h3>
 									</div>
 									<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
-										<p class="white text-center ">Our trained staff will work with you to develop your strategy to get you to your next career milestone.</p>
+										<p class="white text-center ">Our coaches and mentors are trained to help jobseekers at every level.</p>
 									</div>
 
 
@@ -264,13 +264,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<ul class="how-grid">
 
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/career-switcher.svg" /><h2 class="display-4 white">Career Switchers</h2>
-										Each month we create a fictional brief based around the design needs of a major real world company or organization.</li>
+										Are you debating between what programs to choose from? What skills to learn? Where your passions lie or what career path you should take? We can help with all of that.</li>
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/recent-grad.svg" /><h2 class="display-4 white">Recent Graduates</h2>
-										Along with our brief, we give you a guide to help you develop a design that you’ll be proud to show to potential employers.</li>
+										Did you just graduate from a program and are now struggling to find your first job? We can help you standout from a crowded marketplace.</li>
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/experienced-practicioner.svg" /><h2 class="display-4 white">Experienced Practicioners</h2>
-										Every submission is carefully reviewed by our panel of leading professionals from the design and UX fields.</li>
+										Have you been in the field for a while and are now thinking about your next move or how to get a promotion? Our team can help you learn how to position yourself for your next big move.</li>
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/managers.svg" /><h2 class="display-4 white">Managers</h2>
-										Winners can receive a one-on-one meeting with a world class company like Google, AirBnB, Nike, and many others.</li>
+										Are you managing team and ready for your next challenge at the director level? We can help you prep for your interviews, advise on how to build your personal brand and provide insider tips on specifc roles.</li>
 									</ul>
 							</div>
 						</div>
@@ -306,12 +306,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="row d-flex">
 													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/assesment.svg"/>
-														<span class="display-3 d-block" style="font-size:24px">Assessment</p>
+														<span class="display-3 d-block" style="font-size:24px">Assessment & Planning</p>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex flex-column">
-														<p>Some Text</p>
+														<p>We will assess your career goals, passions, skillset, and experience. Then, we'll work together to formulate a clear, customized plan of action designed to get you closer to your dream job.</p>
 														<span class="display-5 text-muted d-flex align-items-end">20 Min Session</span>
 													</div>
 												</div>
@@ -323,55 +323,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200">
 													<div class="row d-flex">
 														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/planning.svg"/>
-															<span class="display-3 d-block" style="font-size:24px">Planning</p>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-12 d-flex flex-column">
-															<p>Some Text</p>
-															<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
-														</div>
-													</div>
-
-												</div>
-
-											</div>
-
-												<div class="swiper-slide align-items-start p-4 p-md-5">
-													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
-													<div class="row d-flex">
-														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/focus.svg"/>
-															<span class="display-3 d-block" style="font-size:24px">Focus</p>
+															<span class="display-3 d-block" style="font-size:24px">Focus & Execution</p>
 														</div>
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex flex-column">
 															<p>Some Text</p>
-															<span class="display-5 text-muted d-flex align-items-end">Varies</span>
+															<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
 														</div>
 													</div>
 
 												</div>
-											</div>
 
-												<div class="swiper-slide align-items-start p-4 p-md-5">
-													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="0" data-aos-delay="400">
-													<div class="row d-flex">
-														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/execution.svg"/>
-															<span class="display-3 d-block" style="font-size:24px">Execution</p>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-12 d-flex flex-column">
-															<p>Some Text</p>
-															<span class="display-5 text-muted d-flex align-items-end">Varies</span>
-														</div>
-													</div>
-
-												</div>
 											</div>
 
 												<div class="swiper-slide align-items-start p-4 p-md-5">
@@ -384,18 +348,73 @@ $container = get_theme_mod( 'understrap_container_type' );
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex flex-column">
-															<p>Some Text</p>
-															<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
+															<p>We will match you with a mentor with specific expertise that aligns with your skillset and style. Our mentors come from the top companies in the world and will advise you on the specifics of what to expect in an interview and how to tell a great story.</p>
 														</div>
 													</div>
 												</div>
 
 											</div>
+
+											<div class="swiper-slide align-items-start p-4 p-md-5">
+												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
+												<div class="row d-flex">
+													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.svg"/>
+														<span class="display-3 d-block" style="font-size:24px">Interview Prep</p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12 d-flex flex-column">
+														<p>We will help you prep for an interview by grilling with you questions.  Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
+														<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+
+											<div class="swiper-slide align-items-start p-4 p-md-5">
+												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
+												<div class="row d-flex">
+													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/finance-person.svg"/>
+														<span class="display-3 d-block" style="font-size:24px">Salary Negotiations</p>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-12 d-flex flex-column">
+														<p>Our expert coaches have negotiated salaries from the other side of the table at some of the biggest companies in the world. They will teach you how to navigate complex negotations and get what you deserve.</p>
+														<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
 										</div>
 									</div>
 									<div class="swiper-pagination"></div>
 
 								</div>
+
+								<div class="container pt-5">
+									<div class="row justify-content-center flex-wrap pt-5 ">
+										<div class="col-1 col-sm-12 col-md-12 col-lg-12"></div>
+										<div class="col-10 col-sm-12 d-flex justify-content-center flex-wrap">
+
+
+												<div class="pb-5 col-12 col-sm-4 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0">
+												<h2 class="display-4 white">Coach</h2>
+												Coaches, follow a structured and formal approach to help you achieve your career goals. They will be your guide throughout the process and help you understand your passions, identify your strengths and weaknesses, give you ideas of different careers paths to follow and provide you with a clear plan of actionable steps to improve your chances of getting a job. Your coach will help match you with a mentor who fits perfectly with your career goals and learning style.</div>
+												<div class="pb-5 col-12 col-sm-2 white justify-content-center align-items-center d-flex" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="50"><span class="display-4">VS</span></div>
+												<div class="pb-5 col-12 col-sm-4 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
+												<h2 class="display-4 white">Mentor</h2>
+												Mentors are experienced industry professionals who are focused on providing you with specific, individually-tailored guidance, motivation, and emotional support. They will provide clear and direct feedback with actionable next steps based on their own personal, real-life experiences in your desired field.  </div>
+
+									</div>
+									<div class="col-1 col-sm-12 col-md-12 col-lg-12"></div>
+								</div>
+							</div>
 
 						</div>
 
@@ -417,7 +436,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100">“Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths. They provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left"  style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths.”</h2>
 													</div>
 												</div>
 
@@ -427,7 +446,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100">“The Dream Projects Team gave me a wonderful guide on how to not only solve a design problem but also explore my creativity in building something I hoped people would enjoy. They challenged me as a designer and as someone pursuing a career transition into UX/UI design and provided me with great, advice, guidance and tasks to hone my skills and represent myself in the most attractive manner possible.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team gave me a wonderful guide on how to not only solve a design problem but also explore my creativity in building something I hoped people would enjoy. They challenged me as a designer and as someone pursuing a career transition into UX/UI design and provided me with great, advice, guidance and tasks to hone my skills and represent myself in the most attractive manner possible.”</h2>
 													</div>
 												</div>
 
@@ -437,7 +456,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100">“Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths. They provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
 													</div>
 												</div>
 
@@ -494,11 +513,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            <ul class="list-unstyled text-left align-items-center d-flex flex-column mt-3 mb-4">
 				              <li>1 session (20 Min)</li>
 				              <li>Career Stage Assessment</li>
-				              <li>Career Advice</li>
+											<li>Career Advice</li>
+				              <li>Customized Plan of Action</li>
 				            </ul>
 				          </div>
 
-									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 								</div>
@@ -515,13 +535,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 				              <li>1 session (50 Min)</li>
 											<span class="text-muted display-5" style="padding:10px;">Choose:</span>
 											<li class="circle">Career Advice</li>
-				              <li class="circle">High Level Portfolio Review</li>
+				              <li class="circle">High-Level Portfolio Review</li>
 											<li class="circle">Single Project Porfolio Review</li>
 											<li class="circle">Interview Prep</li>
 				            </ul>
 
 				          </div>
-									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 							</div>
@@ -544,9 +564,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<li>1 session (20 Min)</li>
 											<li>Career Stage Assessment</li>
 											<li>Career Advice</li>
+											<li>Customized Plan of Action</li>
 										</ul>
 									</div>
-									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
  								 </a>
  								 </div>
 								 </div>
@@ -569,7 +590,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</ul>
 
 									</div>
-									<div class="card-button"><a target="_blank" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 									</div>
 									</div>
@@ -779,6 +800,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
 								<p class="white text-center ">Unhappy with our service? We will give you a full refund.</p>
 								<a class="white" href="/contact-us"><p class="display-5 job-post">Contact Us</p></a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+					</div>
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+				</div>
+
+				<div class="row white mentor--coaching" id="refund" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
+					<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+					<div class="container mb-5">
+						<div class="row">
+
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
+
+							<div class="col-12 col-sm-8 d-block center-block mx-auto">
+								<h3 class="display-3 white text-center black">Want to become a coach or mentor?</h3>
+							</div>
+							<div class="col-12 col-lg-4 d-block center-block text-center mx-auto mt-5">
+								<p class="black text-center">We are always looking for talented coaches and mentors. Click the link below to apply.</p>
+								<a class="pt-3" target="_blank" href="https://forms.gle/j6Zud5H85759iSTx9"><button class="btn btn-tertiary">Apply</button></a>
 							</div>
 
 
