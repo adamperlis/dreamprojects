@@ -465,6 +465,10 @@ p{
   color:black;
 }
 
+.orange{
+  color:#F1542B;
+}
+
 .subtitle{
   margin-top: 7.5rem!important;
 }
@@ -758,17 +762,17 @@ p{
   flex-direction: column;
   justify-content: center;
 
-  .display-1{
-    font-size: 4em;
-    letter-spacing: -4px;
-  }
+  // .display-1{
+  //   font-size: 4em;
+  //   letter-spacing: -4px;
+  // }
 
-  @media (min-width: 1441px) {
+  @media (max-width: 900px) {
 
 
     .display-1{
-      font-size: 5em;
-      letter-spacing: -4px;
+      font-size: 2.5em;
+      letter-spacing: -1px;
     }
   }
 }
@@ -1549,6 +1553,18 @@ span{
   padding-bottom: 40px;
 }
 
+.career-coaching--section{
+  background: black;
+  height:auto;
+  padding-bottom: 300px;
+  padding-top: 300px;
+
+  @media (max-width: 1024px) {
+    padding-bottom: 200px;
+    padding-top: 100px;
+  }
+}
+
 .about--section{
   height:auto;
   padding-bottom: 300px;
@@ -1591,6 +1607,13 @@ span{
       margin-top: -300px;
     }
   }
+
+  @media (max-width: 900px) {
+    .display-2{
+      font-size: calc(22px + 2vw);
+    }
+  }
+
 }
 
 .flex-item{

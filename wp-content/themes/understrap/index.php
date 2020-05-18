@@ -111,7 +111,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-6 hero-component-three">
 								<div class="text-grid">
-									<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies—all while creating a portfolio that blows employers away.</p>
+									<p>Dream Projects is a free monthly design challenge where you get to reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies. Get honest feedback and career coaching from industry experts while creating a portfolio that blows employers away.</p>
 								</div>
 						</div>
 						<div class="col-sm-1 col-md-1 hero-component-two">
@@ -159,6 +159,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 											Build your portfolio.
 											<br>
 											Win amazing interviews.
+											<br>
+											Get honest feedback.
 										</span></h2>
 
 								</div>
@@ -251,6 +253,47 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 
+					</div>
+					</div>
+
+					<div class="container-fluid career-coaching--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+
+
+						<div class="row">
+
+							<div class="col-1"></div>
+							<div class="col-10">
+								<div class="row justify-content-center justify-content-sm-start">
+
+
+										<div class="col-10 col-sm-6 d-flex pb-3 flex-column">
+											<h2 class="display-2 white text-sm-left text-center pb-4	">Hire a coach. <br>Find a mentor.<br>Realize dreams.</h2>
+											<div class="container-fluid">
+												<div class="row">
+													<div class="col-12 col-sm-12 col-lg-6">
+														<p class="white pb-3 text-sm-left text-center">Our trained coaches will help you navigate your career, build a best-in-class portfolio, prep you for an interview and match you with an amazing mentor who will help you stand out in your desired field.</p>
+													</div>
+												</div>
+											</div>
+											<div class="container-fluid d-sm-inline-flex d-flex flex-wrap align-items-center justify-content-center justify-content-sm-start">
+												<a class="mr-0 mr-sm-5 pb-4 pb-md-0" href="/career-coaching"><button class="btn btn-tertiary" style="background:#F1542B">Free Consultation</button></a>
+												<a class="link white display-6 nav" href="/career-coaching"><p>See Details <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></p></a>
+											</div>
+										</div>
+
+
+
+
+										<div class="col-10 col-sm-6 d-flex pt-5 pt-sm-0 justify-content-center">
+											<div class="justify-content-center align-items-start d-flex">
+													<img style="max-width:50%; height:auto; align-items:flex-start" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.png" />
+											</div>
+									</div>
+
+
+							</div>
+						</div>
+						<div class="col-1"></div>
 					</div>
 					</div>
 

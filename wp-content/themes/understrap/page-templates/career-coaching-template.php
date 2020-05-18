@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="row">
 
 										<div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-sm-0 pt-0 pb-0 pb-sm-0">
-											<h1 class="display-1 white">Make your dream <br>Your reality</h1>
+											<h1 class="display-1 white">Make your dream. <br>Your reality.</h1>
 										</div>
 									</div>
 
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<div class="col-11 col-sm-11 col-md-11 col-lg-11 mt-5 mt-sm-5">
 
 												<div class="text-grid">
-													<p class="white">When it comes to landing your Dream Job, the right coach or mentor can make all the difference. You want a professional you can trust, feedback you can use, and expert advice from someone who's been there. At Dream Projects, we take the time to understand your unique needs and goals, and connect you with someone who can help you develop the skills to achieve the career you’ve been dreaming of.</p>
+													<p class="white">When it comes to landing your Dream Job, the right coach or mentor can make all the difference. You want a professional you can trust, feedback you can use, and expert advice from someone who's been there. <br><br> At Dream Projects, we take the time to understand your unique needs and goals, and connect you with someone who can help you develop the skills to achieve the career you’ve been dreaming of.</p>
 												</div>
 
 									</div>
@@ -311,7 +311,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex flex-column">
-														<p>We will assess your career goals, passions, skillset, and experience. Then, we'll work together to formulate a clear, customized plan of action designed to get you closer to your dream job.</p>
+														<p>Our coaches will assess your career goals, passions, skillset, and experience. Then, we'll work together to formulate a clear, customized plan of action designed to get you closer to your dream job.</p>
 														<span class="display-5 text-muted d-flex align-items-end">20 Min Session</span>
 													</div>
 												</div>
@@ -348,7 +348,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex flex-column">
-															<p>We will match you with a mentor with specific expertise that aligns with your skillset and style. Our mentors come from the top companies in the world and will advise you on the specifics of what to expect in an interview and how to tell a great story.</p>
+															<p>Our coaches will match you with a mentor with specific expertise that aligns with your skillset and style. Our mentors come from the top companies in the world and will advise you on the specifics of what to expect in an interview and how to tell a great story.</p>
 														</div>
 													</div>
 												</div>
@@ -421,7 +421,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="row white success-stories--coaching" style="padding-bottom:10rem; padding-top:10rem" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 							<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 							<div class="col-10 col-sm-10 col-md-10 col-lg-10">
-							<div class="container mb-5">
+							<div class="container-fluid mb-5">
 								<div class="row">
 
 									<div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 mt-sm-0" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-1000">
@@ -430,13 +430,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<img src="<?php echo get_template_directory_uri() ?>/img/success-stories.svg" />
 									</div>
 
-									<div class="swiper-container swiper-two">
+									<div class="swiper-container swiper-two pt-5">
 										<div class="swiper-wrapper d-flex">
 											<div class="swiper-slide mt-4">
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100 text-left"  style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left"  style="margin-left:.75em; padding-right:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>Coming out of a UX Bootcamp, I knew there would be gaps in my skill and career development. The Dream Projects Team has helped me fill in those gaps and improve as a designer, recognizing areas of weakness, and providing actionable steps I could take to turn them into strengths.”</h2>
 													</div>
 												</div>
 
@@ -446,7 +446,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team gave me a wonderful guide on how to not only solve a design problem but also explore my creativity in building something I hoped people would enjoy. They challenged me as a designer and as someone pursuing a career transition into UX/UI design and provided me with great, advice, guidance and tasks to hone my skills and represent myself in the most attractive manner possible.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em; padding-right:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team gave me a wonderful guide on how to not only solve a design problem but also explore my creativity in building something I hoped people would enjoy. They challenged me as a designer and as someone pursuing a career transition into UX/UI design and provided me with great, advice, guidance and tasks to hone my skills and represent myself in the most attractive manner possible.”</h2>
 													</div>
 												</div>
 
@@ -456,7 +456,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="container-fluid">
 												<div class="row d-flex">
 													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
+															<h2 class="display-3 white d-block w-100 text-left" style="margin-left:.75em; padding-right:.75em;"><em style="margin-left:-.75em; position:absolute;">“</em>The Dream Projects Team provided me with direction in my career and how best to pair skills from my previous career with my new UX skillset. Together, we have refined my portfolio and my job search, allowing me to feel more confident moving forward. They have been available for me whenever I needed them and are always thorough and thoughtful with their feedback.”</h2>
 													</div>
 												</div>
 
@@ -843,7 +843,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				    // when window width is >= 320px
 				    320: {
 				      slidesPerView: 1,
-				      spaceBetween: 8,
+				      spaceBetween: 10,
 				    },
 				    // when window width is >= 480px
 				    480: {
