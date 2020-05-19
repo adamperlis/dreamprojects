@@ -346,9 +346,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			    <ul class="swiper-wrapper">
 						<?php
 							$args = array(
-							'numberposts'=> 2,
 							'post_type'=> 'brief',
-							'posts_per_page'=> 2,
+							'posts_per_page'=> -1,
 							'orderby' => 'publish_date',
 							);
 							$my_query = new WP_Query($args);
@@ -365,6 +364,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="row">
 
 								<div class="col-10 col-sm-6 text-left p-0">
+
 									<h5 class="section-title display-5 black">Sponsored by <img class="sponsor-image p-2" src="<?php the_field('sponsor_image'); ?>" /></h5>
 									<h2 class="display-2 black"><?php the_title(); ?></h2>
 									<div class="container-fluid project-btn">
@@ -376,9 +376,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</div>
 									</div>
 
-									<a <?php echo $i == 2 ? 'onclick="return false;"' : '' ?> href="<?php the_permalink(); ?>"><button <?php echo $i == 2 ? 'disabled' : '' ?> class="<?php echo $i == 2 ? 'btn btn-disabled' : 'btn btn-tertiary' ?>"><?php echo $i == 2 ? 'Coming Soon' : 'See Project Brief' ?></button></a>
+									<a href="<?php the_permalink(); ?>"><button class="btn btn-tertiary">See Project Brief</button></a>
 
-									<h5 class="display-5 black project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></h5>
+								<h5 class="display-5 black project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></h5>
+								<?php echo $i > 1 ? '<span class="display-5 badge badge-warning p-2 mb-2">Deadline Past</span>' : '' ?>
 								</div>
 								</div>
 

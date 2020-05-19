@@ -186,7 +186,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="col-12 col-sm-2 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-lg-4 d-flex mb-5 flex-column justify-content-center text-center text-md-left">
 										<h4 class="display-4 d-block">Feedback from the Pros</h4>
-										<p class="d-block">We will provide direct unfiltered feedback to shape you into a standout candidate.</p>
+										<p class="d-block">We will provide direct unfiltered feedback to shape you into a stand out candidate.</p>
 									</div>
 							</div>
 						</div>
@@ -270,7 +270,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/experienced-practicioner.svg" /><h2 class="display-4 white">Experienced Practicioners</h2>
 										Have you been in the field for a while and are now thinking about your next move or how to get a promotion? Our team can help you learn how to position yourself for your next big move.</li>
 										<li class="pb-5 col-12 col-sm-6 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/managers.svg" /><h2 class="display-4 white">Managers</h2>
-										Are you managing team and ready for your next challenge at the director level? We can help you prep for your interviews, advise on how to build your personal brand and provide insider tips on specifc roles.</li>
+										Are you managing a team and ready for your next challenge at the director level? We can help you prep for your interviews, advise on how to build your personal brand and provide insider tips on specifc roles.</li>
 									</ul>
 							</div>
 						</div>
@@ -365,7 +365,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												</div>
 												<div class="row">
 													<div class="col-12 d-flex flex-column">
-														<p>We will help you prep for an interview by grilling with you questions.  Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
+														<p>Coaches will help you prep for an interview by grilling with you questions. Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
 														<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
 													</div>
 												</div>
@@ -405,7 +405,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 												<div class="pb-5 col-12 col-sm-4 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0">
 												<h2 class="display-4 white">Coach</h2>
-												Coaches, follow a structured and formal approach to help you achieve your career goals. They will be your guide throughout the process and help you understand your passions, identify your strengths and weaknesses, give you ideas of different careers paths to follow and provide you with a clear plan of actionable steps to improve your chances of getting a job. Your coach will help match you with a mentor who fits perfectly with your career goals and learning style.</div>
+												Coaches follow a structured and formal approach to help you achieve your career goals. They will be your guide throughout the process and help you understand your passions, identify your strengths and weaknesses, give you ideas of different careers paths to follow and provide you with a clear plan of actionable steps to improve your chances of getting a job. Your coach will help match you with a mentor who fits perfectly with your career goals and learning style.</div>
 												<div class="pb-5 col-12 col-sm-2 white justify-content-center align-items-center d-flex" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="50"><span class="display-4">VS</span></div>
 												<div class="pb-5 col-12 col-sm-4 white" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
 												<h2 class="display-4 white">Mentor</h2>
@@ -492,7 +492,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<h3 class="display-3 white text-center">Pricing</h3>
 								</div>
 								<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
-									<p class="white text-center ">Sign up in less than 30 seconds. Try out our risk free consultation, upgrade services at anytime, no questions, no hassle.</p>
+									<p class="white text-center ">Coming Soon. We are currently testing this in Beta. If you are interested in our service please:</p>
+									<a class="white" href="/contact-us"><p class="display-5 job-post">Contact Us</p></a>
 								</div>
 
 
@@ -500,7 +501,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						</div>
 
-						<div class="container d-none d-md-block mx-auto" style="padding-bottom:200px; width:100%;">
+						<div class="container d-none d-md-block mx-auto" style="padding-bottom:200px; width:100%; opacity:.45;">
 							<div class="card-deck text-center mx-auto">
 				        <div class="card box-shadow mx-auto" style="border-radius: 4px 0px 0px 4px;">
 				          <div>
@@ -518,15 +519,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            </ul>
 				          </div>
 
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 								</div>
 
 				        <div class="card box-shadow" style="border:1px solid white; margin-top:-25px; margin-bottom:-25px;">
 				          <div>
-										<div class="badge badge-light mb-4">Recommended</div>
-				            <h4 class="my-0 display-4">Starter</h4>
+										<!-- <div class="badge badge-light mb-4">Recommended</div> -->
+				            <h4 class="my-0 display-4">Session</h4>
 										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
 				          </div>
 
@@ -541,7 +542,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            </ul>
 
 				          </div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 							</div>
@@ -550,7 +551,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 
 
-						<div class="container d-block d-md-none mx-auto" style="padding-bottom:200px; width:100%;">
+						<div class="container d-block d-md-none mx-auto" style="padding-bottom:200px; width:100%; opacity:.45;">
 							<div class="card-deck text-center mx-auto">
 								<div class="card box-shadow mb-4" style="border-radius: 4px;">
 									<div>
@@ -567,15 +568,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<li>Customized Plan of Action</li>
 										</ul>
 									</div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
  								 </a>
  								 </div>
 								 </div>
 
 								<div class="card box-shadow mb-4 mt-2" style="border:1px solid white; border-radius:4px; margin-top:-25px; margin-bottom:-25px;">
 									<div>
-										<div class="badge badge-light mb-4">Recommended</div>
-										<h4 class="my-0 display-4">Starter</h4>
+										<!-- <div class="badge badge-light mb-4">Recommended</div> -->
+										<h4 class="my-0 display-4">Session</h4>
 										<div class="card-title display-3"><span class="display-4" style="padding-right:.2em; vertical-align: middle;">$</span>150</div>
 									</div>
 
@@ -590,7 +591,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</ul>
 
 									</div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 									</div>
 									</div>
