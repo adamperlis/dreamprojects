@@ -256,7 +256,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 																		<div class="col-12 nominees--project">
 																			<a style="text-decoration:none" href="<?php the_permalink(); ?>">
 																				<div class="reveal pb-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><img class="img-fluid" src="<?php the_field('hero_image'); ?>" /></div>
-																				<h2 class="display-4 black" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50"><span><?php echo $project_id->post_title ?></span></h2>
+																				<h2 class="display-4 black" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50"><span><?php echo $project_id->post_title ? 'Sample Project' : '' ?><?php echo $project_id->post_title ?></span></h2>
 																				<p class="display-5 black" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></p>
 																			</a>
 																		</div>
