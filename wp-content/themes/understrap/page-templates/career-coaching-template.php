@@ -298,7 +298,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 							</div>
 
-								<div class="container-fluid">
+								<div class="container-fluid pb-5">
 									<div class="swiper-container swiper-one">
 										<div class="swiper-wrapper d-flex">
 											<div class="swiper-slide align-items-start p-4 p-md-5">
@@ -395,7 +395,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 
 								<div class="container pt-5">
-									<div class="row justify-content-center flex-wrap pt-5 ">
+									<div class="row justify-content-center flex-wrap pt-5">
 										<div class="col-1 col-sm-12 col-md-12 col-lg-12"></div>
 										<div class="col-10 col-sm-12 d-flex justify-content-center flex-wrap">
 
