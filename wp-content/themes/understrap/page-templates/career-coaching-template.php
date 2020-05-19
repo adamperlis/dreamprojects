@@ -329,7 +329,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 													</div>
 													<div class="row">
 														<div class="col-12 d-flex flex-column">
-															<p>Some Text</p>
+															<p>We help you identify and address the biggest roadblocks standing in the way of the career you want. From perfecting your portfolio to writing a killer LinkedIn bio, to learning how to approach hiring managers, our coaches will give you the uniquely tailored attention, feedback, and support you need to stand out in a crowded field.</p>
 															<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
 														</div>
 													</div>

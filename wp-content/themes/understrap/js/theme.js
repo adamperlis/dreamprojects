@@ -7047,8 +7047,6 @@
 })();
 
 
-///Swiper Library
-
 //Menu
 	var bars = $('.menu-bar');
   var menu = $('#menu');

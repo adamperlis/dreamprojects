@@ -43,13 +43,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+
 
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
-<div class="site" id="page">
+<main class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
@@ -92,9 +95,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<!-- <a class="link p-2 d-none d-sm-block" href="/about"><p class="display-6">About</p></a> -->
 					<a class="link p-2 d-none d-md-block black display-6 nav" href="/#projects">Projects</a>
 					<a class="link p-2 d-none d-md-block black display-6 nav" href="/rules">Rules</a>
-					<a class="link p-2 d-none d-md-block black display-6 nav" href="/winners">Winners</a>
-					<a class="link p-2 d-none d-md-block black display-6 nav" href="/runners-up">Runners Up</a>
-					<a class="link p-2 d-none d-md-block black display-6 nav" href="/nominees">Nominees</a>
+					<a class="link p-2 d-none d-md-block black display-6 nav" href="/submissions">Submissions</a>
 					<a class="link p-2 d-none d-md-block orange display-6 nav" href="/career-coaching">Career Coaching</a>
 					<a class="link p-2 d-none d-md-block black display-6 nav" href="/sign-up"><button class="btn-sm btn-tertiary">Sign Up</button></a>
 
@@ -114,9 +115,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- <li><a class="link" href="/about"><p class="display-6 white">About</p></a></li> -->
 			<li><a class="link white display-6" href="/#projects">Projects</a></li>
 			<li><a class="link white display-6" href="/rules">Rules</a></li>
-			<li><a class="link white display-6" href="/winners">Winners</a></li>
-			<li><a class="link white display-6" href="/runners-up">Runners Up</a></li>
-			<li><a class="link white display-6" href="/nominees">Nominees</a></li>
+			<li><a class="link white display-6" href="/submissions">Submissions</a></li>
 			<li><a class="link white display-6" href="/career-coaching">Career Coaching</a></li>
 			<!-- <li><a class="link white display-6" href="/sponsors">Sponsors</a></li> -->
 			<li><a class="link white display-6" href="/contact-us">Contact Us</a></li>
