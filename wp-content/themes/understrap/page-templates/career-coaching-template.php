@@ -298,39 +298,40 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 							</div>
 
-								<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="container-fluid">
 									<div class="swiper-container swiper-one">
-										<div class="swiper-wrapper d-flex justify-content-start justify-content-lg-end">
+										<div class="swiper-wrapper d-flex">
 											<div class="swiper-slide align-items-start p-4 p-md-5">
-												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
-												<div class="row d-flex">
-													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+												<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
+												<div class="row" style="flex-grow: 1;">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/assesment.svg"/>
-														<span class="display-3 d-block" style="font-size:24px">Assessment & Planning</p>
+														<span class="display-3 d-block pb-2" style="font-size:24px">Assessment & Planning</span>
+														<p>Our coaches will assess your career goals, passions, skillset, and experience. Then, we'll work together to formulate a clear, customized plan of action designed to get you closer to your dream job.</p>
 													</div>
 												</div>
-												<div class="row">
-													<div class="col-12 d-flex flex-column">
-														<p>Our coaches will assess your career goals, passions, skillset, and experience. Then, we'll work together to formulate a clear, customized plan of action designed to get you closer to your dream job.</p>
+
+												<div class="row" style="flex-grow: 2;">
+													<div class="col-12 d-flex">
 														<span class="display-5 text-muted d-flex align-items-end">20 Min Session</span>
 													</div>
 												</div>
-
 											</div>
 											</div>
 
 												<div class="swiper-slide align-items-start p-4 p-md-5">
-													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200">
-													<div class="row d-flex">
-														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+													<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200">
+													<div class="row">
+														<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/focus.svg"/>
-															<span class="display-3 d-block" style="font-size:24px">Focus & Execution</p>
+															<span class="display-3 d-block pb-2" style="font-size:24px">Focus & Execution</span>
+															<p>Our coaches help you identify and address the biggest roadblocks standing in the way of the career you want. From perfecting your portfolio to writing a killer LinkedIn bio, to learning how to approach hiring managers, our coaches will give you the uniquely tailored attention, feedback, and support you need to stand out in a crowded field.</p>
 														</div>
 													</div>
-													<div class="row">
-														<div class="col-12 d-flex flex-column">
-															<p>We help you identify and address the biggest roadblocks standing in the way of the career you want. From perfecting your portfolio to writing a killer LinkedIn bio, to learning how to approach hiring managers, our coaches will give you the uniquely tailored attention, feedback, and support you need to stand out in a crowded field.</p>
-															<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
+
+													<div class="row" style="flex-grow: 1;">
+														<div class="col-12 d-flex">
+																<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
 														</div>
 													</div>
 
@@ -339,34 +340,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 											</div>
 
 												<div class="swiper-slide align-items-start p-4 p-md-5">
-													<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
-													<div class="row d-flex">
+													<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
+													<div class="row">
 														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/mentor-matching.svg"/>
-															<span class="display-3 d-block" style="font-size:24px">Mentor Matching</p>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-12 d-flex flex-column">
+															<span class="display-3 d-block pb-2" style="font-size:24px">Mentor Matching</span>
 															<p>Our coaches will match you with a mentor with specific expertise that aligns with your skillset and style. Our mentors come from the top companies in the world and will advise you on the specifics of what to expect in an interview and how to tell a great story.</p>
 														</div>
 													</div>
 												</div>
-
 											</div>
 
 											<div class="swiper-slide align-items-start p-4 p-md-5">
-												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
-												<div class="row d-flex">
+												<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
+												<div class="row">
 													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.svg"/>
-														<span class="display-3 d-block" style="font-size:24px">Interview Prep</p>
+														<span class="display-3 d-block" style="font-size:24px">Interview Prep</span>
+														<p>Coaches will help you prep for an interview by grilling with you questions. Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
 													</div>
 												</div>
-												<div class="row">
-													<div class="col-12 d-flex flex-column">
-														<p>Coaches will help you prep for an interview by grilling with you questions. Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
-														<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
+
+												<div class="row" style="flex-grow: 1;">
+													<div class="col-12 d-flex">
+															<span class="display-5 text-muted d-flex align-items-end">50 Min Session(s)</span>
 													</div>
 												</div>
 
@@ -375,16 +372,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 											<div class="swiper-slide align-items-start p-4 p-md-5">
-												<div class="container-fluid" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
-												<div class="row d-flex">
+												<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
+												<div class="row">
 													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/finance-person.svg"/>
-														<span class="display-3 d-block" style="font-size:24px">Salary Negotiations</p>
+														<span class="display-3 d-block" style="font-size:24px">Salary Negotiations</span>
+														<p>Our expert coaches have negotiated salaries from the other side of the table at some of the biggest companies in the world. They will teach you how to navigate complex negotations and get what you deserve.</p>
 													</div>
 												</div>
-												<div class="row">
-													<div class="col-12 d-flex flex-column">
-														<p>Our expert coaches have negotiated salaries from the other side of the table at some of the biggest companies in the world. They will teach you how to navigate complex negotations and get what you deserve.</p>
+												<div class="row" style="flex-grow: 1;">
+													<div class="col-12 d-flex">
 														<span class="display-5 text-muted d-flex align-items-end">50 Min Session</span>
 													</div>
 												</div>
@@ -492,7 +489,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<h3 class="display-3 white text-center">Pricing</h3>
 								</div>
 								<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
-									<p class="white text-center ">Coming Soon. We are currently testing this in Beta. If you are interested in our service please:</p>
+									<p class="white text-center ">Coming Soon. We are currently testing this in Beta. If you are interested in participating in our Beta Program please:</p>
 									<a class="white" href="/contact-us"><p class="display-5 job-post">Contact Us</p></a>
 								</div>
 
@@ -839,31 +836,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<script>
 		    var swiper = new Swiper('.swiper-one', {
-					slidesPerView:4,
 					breakpoints: {
 				    // when window width is >= 320px
 				    320: {
 				      slidesPerView: 1,
 				      spaceBetween: 10,
 				    },
-				    // when window width is >= 480px
-				    480: {
-				      slidesPerView: 2,
-				      spaceBetween: 10
-				    },
-				    // when window width is >= 640px
-				    640: {
-				      slidesPerView: 2,
-				      spaceBetween: 10
-				    },
-						900: {
-						 slidesPerView: 4,
-						 spaceBetween: 10
-					 },
-						1200: {
-						 slidesPerView: 4,
-						 spaceBetween: 10
-					 },
+					 1400: {
+						slidesPerView: 4,
+						spaceBetween: 10,
+					},
 				  },
 					centeredSlides:true,
 					spaceBetween:10,
@@ -871,7 +853,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         		el: '.swiper-pagination',
 						clickable:true,
       		},
-					initialSlide: 0,
+
 		    });
 
 				var swiper2 = new Swiper('.swiper-two', {
