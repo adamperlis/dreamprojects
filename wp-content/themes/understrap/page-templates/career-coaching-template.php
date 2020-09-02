@@ -489,8 +489,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<h3 class="display-3 white text-center">Pricing</h3>
 								</div>
 								<div class="col-12 col-lg-6 d-block center-block text-center mx-auto mt-5">
-									<p class="white text-center ">Coming Soon. We are currently testing this in Beta. If you are interested in participating in our Beta Program please:</p>
-									<a class="white" href="/contact-us"><p class="display-5 job-post">Contact Us</p></a>
+									<p class="white text-center ">Book an appointment with one of our career coaches.</p>
 								</div>
 
 

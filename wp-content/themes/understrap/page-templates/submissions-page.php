@@ -32,8 +32,8 @@
 					<?php while ( have_posts() ) : the_post(); ?>
 					<?php echo $project_id ?>
 
-					<div class="submissions-page">
-						<div data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+					<div class="row m-0 submissions-page">
+
 							<!-- Swiper -->
 							<div class="container-fluid submissions--hero" style="background:#FFFDFA;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
 
@@ -82,7 +82,7 @@
 
 																	<a style="text-decoration:none" href="<?php the_permalink(); ?>">
 																	<div class="row">
-																	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 blue-btn ca-btn" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50">
+																	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 blue-btn ca-btn" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50">
 
 																			<h2 class="display-2 black"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></h2>
 																			<div class="row">
@@ -95,6 +95,8 @@
 
 
 																	</div>
+
+																	<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
 
 																	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-end">
 																			<div class="reveal pb-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><img class="img-fluid" src="<?php the_field('hero_image'); ?>" /></div>
@@ -124,15 +126,15 @@
 									</div>
 										<div class="col-1 col-sm-1"></div>
 									</div>
+								</div>
 
-
-							<div class="pt-5 pb-5 mb-5 mt-5 container-fluid">
+							<div class="container-fluid">
 								<div class="row">
 									<div class="col-1 col-sm-1"></div>
 									<div class="col-10 col-sm-10 col-md-10 col-lg-10 p-0">
 										<div class="container-fluid">
 										<div class="row">
-											<div class="col-12 col-sm-12 col-md-12 col-lg-12 p-0">
+											<div class="col-12 col-sm-12 col-md-12 col-lg-12 p-0" style="margin-bottom: 100%;">
 
 												<?php
 
@@ -150,23 +152,20 @@
 
 												?>
 												<?php if( $the_query->have_posts() ): ?>
-													<div class="container-fluid nominees--section">
-														<div class="row">
 
-															<div class="col-12 col-lg-12">
-															<ul class="grid">
+															<ul class="nominees--section">
 
 													<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 														<?php $project_id = get_field('project_id'); ?>
 
 
 
-																	<li class="rellax" data-rellax-speed="1" data-rellax-percentage="0.1">
+																	<li>
 																		<div class="col-12 nominees--project">
 																			<a style="text-decoration:none" href="<?php the_permalink(); ?>">
-																				<div class="reveal pb-3" data-aos="fade-up"  data-aos-offset="-100" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><img class="img-fluid" src="<?php the_field('hero_image'); ?>" /></div>
-																				<h2 class="display-4 black" data-aos="fade-up"  data-aos-offset="-100" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50"><span><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></span></h2>
-																				<p class="display-5 black" data-aos="fade-up"  data-aos-offset="-100" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100"><?php echo $project_id->post_title ?></p>
+																				<div class="reveal pb-3" data-aos="fade-up"  data-aos-offset="0" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="0"><div style="background-image:url(<?php the_field('hero_image'); ?>); background-size: cover; height: 288px; width: 100%; margin-bottom: 20px; background-position: center center; background-repeat: no-repeat;"></div></div>
+																				<h2 class="display-4 black" data-aos="fade-up"  data-aos-offset="0" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="50"><span><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></span></h2>
+																				<p class="display-5 black" data-aos="fade-up"  data-aos-offset="0" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-delay="100"><?php echo $project_id->post_title ?></p>
 																			</a>
 																		</div>
 																	</li>
@@ -176,11 +175,7 @@
 
 													<?php endwhile; ?>
 													</ul>
-												</div>
 
-												</div>
-
-											</div>
 
 												<?php endif; ?>
 
@@ -194,9 +189,9 @@
 
 								</div>
 							</div>
-						</div>
 
-					</div>
+
+
 
 				<?php endwhile; // end of the loop. ?>
 

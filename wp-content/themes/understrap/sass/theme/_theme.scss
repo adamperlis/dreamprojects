@@ -13,6 +13,11 @@ html, body {
     background-color: #FFFDFA;
 }
 
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #f26a49;
+    color: white;
+}
+
 a{
   color: black;
   font-weight: bold;
@@ -885,9 +890,8 @@ p{
 }
 
 .submissions-page{
-  min-height: 810px;
+  min-height: auto;
   width: 100%;
-  padding-bottom:190px;
   margin-top: -6px;
 
   .ca-btn {
@@ -1040,6 +1044,7 @@ p{
 .arrows{
     padding-bottom:20px;
 }
+
 
 }
 
@@ -1549,7 +1554,7 @@ p{
   }
 
 .hero--winners-nominees{
-  height: 710px;
+  height: 810px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1945,11 +1950,12 @@ overflow: hidden;
   z-index: 999;
 }
 
-.nominees--section{
-  height:auto;
-  width: 100%;
 
-  .grid {
+
+
+  .nominees--section {
+    height:auto;
+    width: 100%;
     opacity:1;
   	position: relative;
   	display: grid;
@@ -1973,11 +1979,11 @@ overflow: hidden;
     @media screen and (max-width: 1024px) {
       grid-template-columns: 1fr 1fr;
     	grid-column-gap: 0%;
-      grid-row-gap: 1%;
+      grid-row-gap: .5%;
     }
 
   }
-}
+
 
 .nominees--project a img{
   transition: 1s all cubic-bezier(.55,0,.1,1);
@@ -2459,6 +2465,7 @@ footer {
     background-color: #fffdfa;
     display: flex;
     align-items: center;
+    position: relative;
 
     img {
       width:120px;
