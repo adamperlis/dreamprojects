@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="row">
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 									<div class="col-12 col-sm-8">
-										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches and mentors work, and where our cleints have gone on to work</div>
+										<div class="display-4 white text-center" style="font-size:1.2em">Where our coaches and mentors work, and where our clients have gone on to work</div>
 									</div>
 									<div class="col-1 col-sm-1 col-md-2 col-lg-2"></div>
 								</div>
@@ -342,7 +342,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 												<div class="swiper-slide align-items-start p-4 p-md-5">
 													<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
 													<div class="row">
-														<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+														<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 															<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/mentor-matching.svg"/>
 															<span class="display-3 d-block pb-2" style="font-size:24px">Mentor Matching</span>
 															<p>Our coaches will match you with a mentor with specific expertise that aligns with your skillset and style. Our mentors come from the top companies in the world and will advise you on the specifics of what to expect in an interview and how to tell a great story.</p>
@@ -354,7 +354,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<div class="swiper-slide align-items-start p-4 p-md-5">
 												<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300">
 												<div class="row">
-													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/interview-prep.svg"/>
 														<span class="display-3 d-block" style="font-size:24px">Interview Prep</span>
 														<p>Coaches will help you prep for an interview by grilling with you questions. Our expert coaches will work with you to formulate strong responses and how to expect the unexepcted. In some cases we will provide insider tips on what a particular company’s interview process is like.</p>
@@ -374,7 +374,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<div class="swiper-slide align-items-start p-4 p-md-5">
 												<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500">
 												<div class="row">
-													<div class="col-8 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+													<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 														<img class="mb-4 d-block" style="width:64px" src="<?php echo get_template_directory_uri() ?>/img/finance-person.svg"/>
 														<span class="display-3 d-block" style="font-size:24px">Salary Negotiations</span>
 														<p>Our expert coaches have negotiated salaries from the other side of the table at some of the biggest companies in the world. They will teach you how to navigate complex negotations and get what you deserve.</p>
@@ -498,7 +498,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						</div>
 
-						<div class="container d-none d-md-block mx-auto" style="padding-bottom:200px; width:100%; opacity:.45;">
+						<div class="container d-none d-md-block mx-auto" style="padding-bottom:200px; width:100%;">
 							<div class="card-deck text-center mx-auto">
 				        <div class="card box-shadow mx-auto" style="border-radius: 4px 0px 0px 4px;">
 				          <div>
@@ -516,7 +516,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            </ul>
 				          </div>
 
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 								</div>
@@ -539,7 +539,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				            </ul>
 
 				          </div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 								</div>
 							</div>
@@ -548,7 +548,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 
 
-						<div class="container d-block d-md-none mx-auto" style="padding-bottom:200px; width:100%; opacity:.45;">
+						<div class="container d-block d-md-none mx-auto" style="padding-bottom:200px; width:100%;">
 							<div class="card-deck text-center mx-auto">
 								<div class="card box-shadow mb-4" style="border-radius: 4px;">
 									<div>
@@ -565,7 +565,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<li>Customized Plan of Action</li>
 										</ul>
 									</div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
  								 </a>
  								 </div>
 								 </div>
@@ -588,7 +588,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 										</ul>
 
 									</div>
-									<div class="card-button"><a target="_blank" class="btn btn-tertiary disabled" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
+									<div class="card-button"><a target="_blank" class="btn btn-tertiary" style="min-width:150px; width:150px; border:2px solid white; border-radius:100px !important; text-decoration: none; padding: 5px !important; background-color: transparent; color: white; height: 50px; text-transform: none; font-family: 'aktiv-grotesk', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 0px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/XZ3JWP3QQPMJ3/dream-projects-brooklyn-ny" rel="nofollow">Sign Up
 									</a>
 									</div>
 									</div>

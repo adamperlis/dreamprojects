@@ -71,7 +71,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="col-5">
 								<div class="container-fluid d-flex flex-column align-items-end">
 									<span class="display-5">Sponsored by:</span>
-									<a href="https://squarespace.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></a>
+									<a href="https://academyux.com"><img class="sponsor" src="<?php echo get_template_directory_uri() ?>/img/academy-logo-black.svg" /></a>
 								</div>
 							</div>
 						</div>
@@ -111,7 +111,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-6 hero-component-three">
 								<div class="text-grid">
-									<p>Dream Projects is a free monthly design challenge where you get to reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills—even win interviews at top companies. Get honest feedback and career coaching from industry experts while creating a portfolio that blows employers away.</p>
+									<p>Even the best designers struggle to create great portfolios. Dream Projects’ free monthly challenges give you the inspiration you need to build the portfolio you deserve. Reimagine digital experiences for the brands you’ve always dreamed of working on. Gain recognition, learn new skills, and get amazing career coaching, all while creating a portfolio that blows employers away.</p>
 								</div>
 						</div>
 						<div class="col-sm-1 col-md-1 hero-component-two">
@@ -158,9 +158,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<br>
 											Build your portfolio.
 											<br>
-											Win amazing interviews.
-											<br>
-											Get honest feedback.
+											Learn from experts.
 										</span></h2>
 
 								</div>
@@ -187,52 +185,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div>
 
-					<div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
-						<div class="container">
-							<div class="row">
-								<div class="col-10 col-sm-8 d-block center-block text-center mx-auto">
-									<h2 class="display-2 black">Win an Interview</h2>
-								</div>
-							</div>
-						</div>
-						<div class="container pb-5">
-							<div class="row">
-								<div class="col-10 col-lg-4 d-block center-block text-center mx-auto">
-									<p class="black">Dream Projects is meant to prepare you for your next role. Winners will receive an interview with a top tier company.</p>
-								</div>
-							</div>
-						</div>
-						<div class="container">
-							<div class="row">
-								<div class="col-10 col-lg-4 d-block center-block text-center mx-auto">
-									<ul class="logo-grid">
-										<li class="d-flex align-items-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img src="<?php echo get_template_directory_uri() ?>/img/squarespace-logo-horizontal-black-new.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img src="<?php echo get_template_directory_uri() ?>/img/Google_2015_logo.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img src="<?php echo get_template_directory_uri() ?>/img/invision-logo-vector-1.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img src="<?php echo get_template_directory_uri() ?>/img/Philips_logo_new.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="400"><img src="<?php echo get_template_directory_uri() ?>/img/Logo_NIKE.svg" /></li>
-										<li data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="500"><img src="<?php echo get_template_directory_uri() ?>/img/Airbnb_Logo.svg" /></li>
-									</ul>
-							</div>
-						</div>
 
-					</div>
-					</div>
 
-					<div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+					<div id="how-it-works" class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
 						<div class="container">
 							<div class="row">
 								<div class="col-10 col-sm-8 d-block center-block text-center mx-auto pb-3">
-									<h2 class="display-2 black">How It Works</h2>
+									<h3 class="display-3 black">How It Works</h3>
 								</div>
 							</div>
 						</div>
 						<div class="container">
 							<div class="row">
 								<div class="col-10 col-lg-6 d-block center-block text-center mx-auto">
-									<p class="black pb-3">Win or lose, just by participating in Dream Projects’ free monthly challenges, you’ll be honing your skills and creating an array of compelling designs that will become centerpieces of your portfolio and bring you closer to landing your next big job.</p>
-									<a href="/rules"><button class="btn btn-tertiary">See Rules <img src="<?php echo get_template_directory_uri() ?>/img/Arrow-white.svg"/></button></a>
+									<p class="black pb-3">With Dream Projects’ free challenges, you’ll be honing your skills and creating an array of compelling designs that will become centerpieces of your portfolio and bring you closer to landing your next big job.</p>
 								</div>
 							</div>
 						</div>
@@ -241,14 +208,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="col-10 col-lg-10 d-block center-block mx-auto pt-5">
 									<ul class="how-grid">
 
-										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/storage.svg" /><h2 class="display-4 black">New challenge every month</h2>
+										<li class="pb-5 col-12 col-sm-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/storage.svg" /><h2 class="display-4 black">New challenge every month</h2>
 										Each month we create a fictional brief based around the design needs of a major real world company or organization.</li>
-										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/skills.svg" /><h2 class="display-4 black">Skill-building guides</h2>
+										<li class="col-12 col-sm-1"></li>
+										<li class="pb-5 col-12 col-sm-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/skills.svg" /><h2 class="display-4 black">Portfolio-building guides</h2>
 										Along with our brief, we give you a guide to help you develop a design that you’ll be proud to show to potential employers.</li>
-										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/judges.svg" /><h2 class="display-4 black">Expert judges</h2>
-										Every submission is carefully reviewed by our panel of leading professionals from the design and UX fields.</li>
-										<li class="pb-5 col-12 col-sm-6" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="300"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/interview.svg" /><h2 class="display-4 black">Career-changing prizes</h2>
-										Winners can receive a one-on-one meeting with a world class company like Google, AirBnB, Nike, and many others.</li>
+										<li class="col-12 col-sm-1"></li>
+										<li class="pb-5 col-12 col-sm-3" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="200"><img class="pb-3" src="<?php echo get_template_directory_uri() ?>/img/judges.svg" /><h2 class="display-4 black">Expert coaches</h2>
+										Sign up for a free consultation with one of our career coaches to get guidance, feedback or mentorship.</li>
 									</ul>
 							</div>
 						</div>
@@ -256,7 +223,96 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div>
 
-					<div class="container-fluid career-coaching--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
+					<div id="projects" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+						<!-- Swiper -->
+						<div class="container-fluid projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
+
+
+
+							<div class="row">
+								<div class="col-1 col-sm-1"></div>
+								<div class="col-10 col-sm-10">
+
+									<div class="container-fluid d-flex align-items-center">
+
+										<div class="col-6 p-0 d-flex align-items-center">
+											<h4 class="black display-4 m-0 text-sm-left">Projects</h4>
+										</div>
+										<div class="col-6 p-0 d-flex justify-content-end">
+												<a href="/projects"><button class="btn-sm btn-tertiary">See All</button></a>
+									</div>
+									</div>
+									<hr style="border-top:1px solid black; padding-bottom: 80px; padding-top: 40px;"></hr>
+
+									<div class="swiper-one">
+										 <ul class="swiper-wrapper">
+
+
+								<?php
+									$args = array(
+									'post_type'=> 'brief',
+									'posts_per_page'=> 5,
+									'orderby' => 'publish_date',
+									);
+									$my_query = new WP_Query($args);
+									$i = 1;
+									if( $my_query->have_posts() ) :
+									while ($my_query->have_posts()) : $my_query->the_post();
+									?>
+
+
+									<li class="swiper-slide text-left align-items-start">
+
+										<div class="container-fluid d-flex flex-column justify-content-start align-items-stretch" style="height: 100%;" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="100">
+										<div class="row" style="flex-grow: 1;">
+											<div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-6">
+													<a href="<?php the_permalink(); ?>" class="blue-btn ca-btn">
+														<span class="display-2 d-block pb-5"><?php the_title(); ?></span>
+														<p class="display-4">See Project Brief</p>
+														<svg xmlns="http://www.w3.org/2000/svg" class="arrow_btn" width="25.5" height="5" viewBox="0 0 25.5 4.62"><g data-name="Calque 2"><path d="M0 1.83v1h23.48l-1.06 1.02.77.77 2.31-2.31L23.19 0l-.77.77 1.06 1.06z" fill-rule="evenodd" data-name="Calque 1"></path></g></svg>
+												</a>
+											</div>
+										</div>
+
+										</div>
+
+								</li>
+
+									<?php
+									$i++;
+									endwhile; echo '</ul>';
+									endif; wp_reset_query(); ?>
+
+									</div>
+
+									<!-- Add Arrows -->
+									<div class="arrows">
+									 <div class="d-none d-sm-block swiper-button-next"></div>
+									 <div class="d-none d-sm-block swiper-button-prev"></div>
+								 </div>
+									<!-- Add Scrollbar -->
+									<div class="swiper-scrollbar"></div>
+								</div>
+
+							</div>
+
+					    </div>
+
+						</div>
+						<div class="col-1 col-sm-1"></div>
+
+					  </div>
+
+					</div>
+						</div>
+
+
+
+
+					</div>
+
+
+					<div class="container-fluid career-coaching--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100">
 
 
 						<div class="row">
@@ -267,7 +323,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 										<div class="col-10 col-sm-6 d-flex pb-3 flex-column">
-											<h2 class="display-2 white text-sm-left text-center pb-4	">Hire a coach. <br>Find a mentor.<br>Realize dreams.</h2>
+											<h2 class="display-2 white text-sm-left text-center pb-4">Hire a coach. <br>Find a mentor.<br>Realize dreams.</h2>
 											<div class="container-fluid">
 												<div class="row">
 													<div class="col-12 col-sm-12 col-lg-6">
@@ -296,6 +352,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="col-1"></div>
 					</div>
 					</div>
+
+
 
 					<!-- <div class="row about--section text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
@@ -334,84 +392,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					</div> -->
 
-			<div id="projects" class="projects--section" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
-				<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10">
-
-
-				<!-- Swiper -->
-				<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="200">
-			  <div class="swiper-container">
-			    <ul class="swiper-wrapper">
-						<?php
-							$args = array(
-							'post_type'=> 'brief',
-							'posts_per_page'=> -1,
-							'orderby' => 'publish_date',
-							);
-							$my_query = new WP_Query($args);
-							$i = 1;
-							if( $my_query->have_posts() ) :
-							while ($my_query->have_posts()) : $my_query->the_post();
-							?>
-
-
-
-							<li class="projects--project swiper-slide">
-								<!-- <img class="brief_featured_image" src="<?php the_field('brief_featured_image'); ?>" /> -->
-
-								<div class="row">
-
-								<div class="col-10 col-sm-6 text-left p-0">
-
-									<h5 class="section-title display-5 black">Sponsored by <img class="sponsor-image p-2" src="<?php the_field('sponsor_image'); ?>" /></h5>
-									<h2 class="display-2 black"><?php the_title(); ?></h2>
-									<div class="container-fluid project-btn">
-										<div class="row">
-										<div class="col-lg-6"></div>
-										<div class="col-lg-6">
-											<!-- <div class="project--description"><?php the_content(); ?></div> -->
-										</div>
-										</div>
-									</div>
-
-									<a href="<?php the_permalink(); ?>"><button class="btn btn-tertiary">See Project Brief</button></a>
-
-								<h5 class="display-5 black project--deadline">Submission Deadline <?php the_field('submission_deadline'); ?></h5>
-								<?php echo $i > 1 ? '<span class="display-5 badge badge-warning p-2 mb-2">Deadline Past</span>' : '' ?>
-								</div>
-								</div>
-
-							</li>
-
-
-							<?php
-							$i++;
-							endwhile; echo '</ul>';
-							endif; wp_reset_query(); ?>
-
-			    </ul>
-					<div class="swiper-scrollbar"></div>
-			  </div>
-
-
-
-				</div>
-			</div>
-			<div class="col-1"></div>
-
-			</div>
-			</div>
 
 			<script>
-			var swiper = new Swiper('.swiper-container', {
-			      scrollbar: {
-			        el: '.swiper-scrollbar',
-			        hide: false,
-			      },
-						speed:750,
-			    });
+			var swiper = new Swiper('.swiper-one', {
+				slidesPerView: 'auto',
+				centeredSlides: true,
+				centeredSlidesBounds: true,
+				speed:500,
+				navigation: {
+	    		nextEl: '.swiper-button-next',
+	    		prevEl: '.swiper-button-prev',
+	  		},
+				scrollbar: {
+			 el: '.swiper-scrollbar',
+			 hide: false,
+		 	},
+
+
+			});
 			</script>
 
 

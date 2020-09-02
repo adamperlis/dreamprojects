@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="row">
 
 					<div class="col-11 col-sm-11 col-md-12 col-lg-12 pb-5">
-						<h1 class="display-0"><?php echo $award['label']; ?></h1>
+						<h1 class="display-2"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></h1>
 					</div>
 
 				</div>
@@ -41,8 +41,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 							</div>
 							<div class="col-12 col-sm-12 col-md col-lg-2"></div>
 							<div class="col-5 col-sm-5 col-md-2 col-lg-2">
-								<h4 class="display-4">Designer</h4>
-								<p class="display-5"><?php the_field('first_name'); echo '&nbsp;'; the_field('last_name'); ?></p>
+								<h4 class="display-4">Contact</h4>
+								<p class="display-5"></p>
 								<ul class="social">
 									<?php if( get_field('linkedin') ): ?>
 										<li><a href="https://www.linkedin.com/in/<?php echo the_field('linkedin'); ?>"><i class="fa fa-linkedin"></i></a></li>

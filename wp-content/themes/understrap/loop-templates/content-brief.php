@@ -19,99 +19,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="row hero--brief pt-5 pt-sm-5 pb-sm-4" <?php post_class(); ?> id="post-<?php the_ID(); ?>" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="400">
 
-		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-		<div class="col-10 col-sm-10 col-md-10 col-lg-10">
+			<div class="container-fluid d-flex">
+				<div class="col-1 col-sm-1"></div>
+				<div class="col-10 col-sm-10">
 
-			<div class="row pb-sm-5">
-				<div class="col-8 col-sm-8 col-md-8 col-lg-8 pb-4">
-					<h2 class="display-1"><?php the_title(); ?></h2>
-				</div>
-			</div>
+					<div class="container-fluid d-flex">
 
-			<div class="row">
-				<div class="col-12 col-sm-5 col-md-3 col-lg-4 pb-2 pb-sm-4">
-					<h4 class="display-4">Submission Deadline</h4>
-					<p><?php the_field('submission_deadline'); ?></p>
-					<br>
-					<h4 class="display-4 pb-3">Prize</h4>
-					<span data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="-100" data-aos-delay="0">
-						<img height="45px" class="pb-3 sponsor-image" src="<?php the_field('sponsor_image'); ?>"/>
-					</span>
-			 		<p class="display-5"><?php the_field('sponsor_prize'); ?></p>
-					<a class="black" target="blank" href="<?php the_field('link'); ?>"><p class="display-5 job-post">View Job</p></a>
-
-
-				</div>
-
-					<div class="col-12 col-sm-12 col-md-12 col-lg-7 pb-4">
-						<div class="container-fluid project-brief--section pt-4 pt-sm-0">
-							<h4 class="display-4">Project Brief</h4>
-							<?php the_field('project_brief'); ?>
+						<div class="col-6 p-0 d-flex align-items-center">
+							<h4 class="black display-4 m-0 text-sm-left">Brief</h4>
 						</div>
-					</div>
 
+						<div class="col-6 p-0 d-flex align-items-center justify-content-end">
+								<a class="link black display-6 nav" href="javascript:javascript:history.go(-1)"><p><img style="transform: rotate(180deg);" src="<?php echo get_template_directory_uri() ?>/img/Arrow-black.svg"/> Back</p></a>
+						</div>
+
+					</div>
+					<hr style="border-top:1px solid black; padding-bottom: 80px; padding-top: 40px;"></hr>
+
+
+				<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 pb-4">
+					<h2 class="display-3"><?php the_title(); ?></h2>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-8 pb-4">
+					<h4 class="display-4">Project Brief</h4>
+					<?php the_field('project_brief'); ?>
+				</div>
 			</div>
 
 		</div>
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
 
+	</div>
 	</div> <!-- end of Hero Content-->
-
-	<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
-		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-		<div class="col-10">
-			<hr></hr>
-		</div>
-		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-	</div>
-
-
-	<div class="row project-eligibility--section pt-5 pt-sm-5 pb-5 pb-sm-5" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
-	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-	<div class="col-10 col-sm-10 col-md-10 col-lg-10">
-		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4">
-				<div class="container-fluid">
-					<h4 class="display-4 pb-3">Eligibility</h4>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-6">
-
-									<p class="display-5 m-0"><strong>Location</strong></p>
-									<p class="display-5"><?php the_field('eligibility_location'); ?></p>
-							</div>
-							<div class="col-6">
-
-								<p class="display-5 m-0"><strong>Work Authorization</strong></p>
-								<p class="display-5">Eligible to work in <?php the_field('eligibility_workauthorization'); ?></p>
-							</div>
-							<div class="col-6">
-
-								<p class="display-5 m-0"><strong>Visa Sponsorship</strong></p>
-								<p class="display-5"><?php the_field('eligibility_visa'); ?></p>
-							</div>
-							<div class="col-6">
-
-								<p class="display-5 m-0"><strong>Remote</strong></p>
-								<p class="display-5"><?php the_field('eligibility_remote'); ?></p>
-							</div>
-					</div>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-12 col-sm-12 col-md-12 col-lg-8 pt-4 pt-lg-0">
-				<h4 class="display-4">Terms & Conditions</h4>
-				<div class="container-fluid">
-					<p class="pb-4">Dream Projects strives to be achieve equal opportunity with all our projects. At times employers have specific requirements for candidates that are applying for a fulltime role which we must adhere to. In cases such as these <strong>we still encourage people to submit</strong> their work as they will enjoy the benefit of practicing their craft, building a great portfolio piece and receiving a score card about their performance based on our selection criteria. In order to be eligble for a prize with Dream Projects you must meet the eligibility requirements.
-</p>
-				</div>
-			</div>
-			<div class="col-12 col-sm-1 col-md-1 col-lg-1"></div>
-		</div>
-	</div>
-	<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
-	</div>
 
 	<div class="row" data-aos="fade-up" data-aos-easing="ease" data-aos-mirror="true" data-aos-duration="1500" data-aos-offset="100">
 		<div class="col-1 col-sm-1 col-md-1 col-lg-1"></div>
