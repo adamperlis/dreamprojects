@@ -54,7 +54,7 @@
     "node-sass": "^4.12.0",
     "rellax": "^1.9.1",
     "run-sequence": "^2.2.1",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "tar": ">=4.4.2",
     "undescores-for-npm": "^1.0.0"
   },
